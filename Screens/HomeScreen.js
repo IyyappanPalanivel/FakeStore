@@ -24,7 +24,6 @@ const HomeScreen = ({ navigation }) => {
   // const {products} = useSelector(state => state.userReducer);
   // const dispatch = useDispatch();
 
-
   const [search, setSearch] = useState('');
   const [products, setProducts] = useState([]);
   const [category, setCategory] = useState([]);
