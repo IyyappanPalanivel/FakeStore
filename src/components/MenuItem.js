@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text,Image,TouchableOpacity} from 'react-native';
-import { COLORS, FONTS, SIZES } from '../../Utils/Theme';
+import { COLORS, FONTS, SIZES } from '../utils/Theme';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const MenuItem = ({ onPress, title }) => (

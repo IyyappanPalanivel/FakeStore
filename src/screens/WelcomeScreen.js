@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View,Image,TouchableOpacity } from 'react-native';
-import Images from '../Utils/Images';
-import { COLORS } from '../Utils/Theme';
+import Images from '../utils/Images';
+import { COLORS } from '../utils/Theme';
 
 const WelcomeScreen = ({ navigation }) => {
 

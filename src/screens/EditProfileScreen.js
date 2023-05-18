@@ -5,18 +5,15 @@ import {
   View,
   TextInput,
   SafeAreaView,
-  FlatList,
   Image,
   ScrollView,
   TouchableOpacity,
-  Alert,
 } from 'react-native';
-import { COLORS, FONTS, SIZES } from '../Utils/Theme';
+import { COLORS, FONTS, SIZES } from '../utils/Theme';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { STRINGS } from '../Utils/Constant';
-import MenuItem from './Components/MenuItem';
-import Helper from '../Utils/Helper';
-import Loader from './Components/Loader';
+import { STRINGS } from '../utils/Constant';
+import Helper from '../utils/Helper';
+import Loader from '../components/Loader';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import GetLocation from 'react-native-get-location';
 import * as ImagePicker from "react-native-image-picker"

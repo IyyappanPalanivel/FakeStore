@@ -9,10 +9,10 @@ import {
   Image,
   ScrollView, 
 } from 'react-native';
-import { COLORS, FONTS, SIZES } from '../Utils/Theme';
+import { COLORS, FONTS, SIZES } from '../utils/Theme';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { STRINGS } from '../Utils/Constant';
-import MenuItem from './Components/MenuItem';
+import { STRINGS } from '../utils/Constant';
+import MenuItem from '../components/MenuItem';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 

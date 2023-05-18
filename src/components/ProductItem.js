@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text,Image} from 'react-native';
-import { COLORS, FONTS, SIZES } from '../../Utils/Theme';
+import { COLORS, FONTS, SIZES } from '../utils/Theme';
 
 const ProductItem = ({item}) => {
 

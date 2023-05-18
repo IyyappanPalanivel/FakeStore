@@ -1,4 +1,4 @@
-import { API_CONSTANTS, STRINGS } from "../Utils/Constant";
+import { API_CONSTANTS, STRINGS } from "../utils/Constant";
 
 export const GET_PRODUCTS = 'GET_PRODUCTS';
 

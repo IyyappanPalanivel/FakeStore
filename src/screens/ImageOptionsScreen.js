@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
   PermissionsAndroid,
 } from 'react-native';
-import { COLORS,SIZES } from '../Utils/Theme';
+import { COLORS,SIZES } from '../utils/Theme';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import * as ImagePicker from "react-native-image-picker"
 

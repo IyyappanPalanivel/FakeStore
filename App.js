@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import SplashScreen from './Screens/SplashScreen';
-import AuthStack from './Stacks/AuthStack';
-import MyBottomTab from './Stacks/BottomTab';
-import MenuStack from './Stacks/MenuStack';
-import EditProfileScreen from './Screens/EditProfileScreen';
+
+import AuthStack from './src/stacks/AuthStack';
+import MyBottomTab from './src/stacks/BottomTab';
+import MenuStack from './src/stacks/MenuStack';
+import EditProfileScreen from './src/screens/EditProfileScreen';
 import { Provider } from 'react-redux';
-import { Store } from './redux/store';
+import { Store } from './src/redux/store';
+import SplashScreen from './src/screens/SplashScreen';
 
 const Stack = createNativeStackNavigator();
 

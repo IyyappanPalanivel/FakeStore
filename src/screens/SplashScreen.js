@@ -6,9 +6,9 @@ import {
   View,
   ImageStore,
 } from 'react-native';
-import { STRINGS } from '../Utils/Constant';
-import Images from '../Utils/Images';
-import { COLORS } from '../Utils/Theme';
+import { STRINGS } from '../utils/Constant';
+import Images from '../utils/Images';
+import { COLORS } from '../utils/Theme';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 

@@ -8,12 +8,12 @@ import {
   FlatList,
   ScrollView, 
 } from 'react-native';
-import { COLORS, FONTS, SIZES } from '../Utils/Theme';
+import { COLORS, FONTS, SIZES } from '../utils/Theme';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { API_CONSTANTS, CATEGORY_LIST, STRINGS } from '../Utils/Constant';
-import ProductItem from './Components/ProductItem';
-import Loader from './Components/Loader';
-import CategoryItem from './Components/CategoryItem';
+import { API_CONSTANTS, CATEGORY_LIST, STRINGS } from '../utils/Constant';
+import ProductItem from '../components/ProductItem';
+import Loader from '../components/Loader';
+import CategoryItem from '../components/CategoryItem';
 
 import { useSelector, useDispatch } from 'react-redux';
 import { getProducts } from '../redux/actions';

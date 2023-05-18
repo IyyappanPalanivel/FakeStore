@@ -1,9 +1,9 @@
 import React from 'react';
-import ProfileScreen from '../Screens/ProfileScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { COLORS } from '../Utils/Theme';
+import { COLORS } from '../utils/Theme';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
-import HomeScreen from '../Screens/HomeScreen';
+import HomeScreen from '../screens/HomeScreen';
 
 const Tab = createBottomTabNavigator();
 

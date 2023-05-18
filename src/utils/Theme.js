@@ -20,6 +20,7 @@ export const COLORS = {
     linkColor: "#5956E9",
     transparentWhite: 'rgba(255, 255, 255, 0.2)',
     transparentBlack: 'rgba(0, 0, 0, 0.4)',
+    placeholderColor: '#868686'
 };
 
 export const SIZES = {
