@@ -67,13 +67,14 @@ const EditProfileScreen = ({ navigation }) => {
   function getProfileDatas() {
     AsyncStorage.getItem(STRINGS.USER_PROFILE, (err, result) => {
       console.log(result);
-
-      var user_profile = JSON.parse(result);
-      setName(user_profile.name);
-      setEmail(user_profile.email);
-      setPhone(user_profile.phone);
-      setAddress(user_profile.address);
-      setImageUri(user_profile.profileImage);
+      if(result!=null){
+        var user_profile = JSON.parse(result);
+        setName(user_profile.name);
+        setEmail(user_profile.email);
+        setPhone(user_profile.phone);
+        setAddress(user_profile.address);
+        setImageUri(user_profile.profileImage);
+      }
     });
   }
 

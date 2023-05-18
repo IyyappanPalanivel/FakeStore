@@ -25,11 +25,12 @@ const ProfileScreen = ({ navigation }) => {
   function getProfileDatas() {
     AsyncStorage.getItem(STRINGS.USER_PROFILE, (err, result) => {
       console.log(result);
-
-      var user_profile = JSON.parse(result);
-      setName(user_profile.name);
-      setAddress(user_profile.address);
-      setImageUri(user_profile.profileImage);
+      if(result!=null){
+        var user_profile = JSON.parse(result);
+        setName(user_profile.name);
+        setAddress(user_profile.address);
+        setImageUri(user_profile.profileImage);
+      }     
     });
   }
 

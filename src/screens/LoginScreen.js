@@ -9,8 +9,11 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const LoginScreen = ({ navigation }) => {
 
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  // Sample Login
+  // username = johnd , password = m38rmF$
+
+  const [username, setUsername] = useState('johnd');
+  const [password, setPassword] = useState('m38rmF$');
   const [loading, setLoading] = useState(false);
 
   const handleSubmitPress = () => {
