@@ -1,0 +1,90 @@
+--------- beginning of main
+05-19 12:12:09.408 13608 13801 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 12:12:09.409 13608 13801 D SoLoader: libimagepipeline.so found on /data/app/~~4rwwiVw_lPnYhPscG9E6Pg==/com.fakestore-zLUVMRnJRkvBsrLvC-V7OA==/lib/arm64
+05-19 12:12:09.409 13608 13801 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 12:12:09.493 13608 13690 D DetoxWSClient: Received action 'reactNativeReload' (ID #-1000, params={})
+05-19 12:12:09.494 13608 13688 I DetoxDispatcher: Handling action 'reactNativeReload' (ID #-1000)...
+05-19 12:12:09.785 13608 13688 I DetoxRNExt: Reloading React Native
+--------- beginning of system
+05-19 12:12:09.909 13608 13608 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+05-19 12:12:09.909 13608 13608 D ColorViewRootUtil: mScreenHeight 2400, mScreenWidth 1080
+05-19 12:12:09.910 13608 13608 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{a365523 V.E...... R.....I. 0,0-0,0},pkg= com.fakestore
+05-19 12:12:14.773 13608 13608 W unknown:ReactNative: Packager connection already open, nooping.
+05-19 12:12:14.775 13608 13742 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by DeviceInfo
+05-19 12:12:14.775 13608 13742 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by AppState
+05-19 12:12:14.775 13608 13742 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by NativeAnimatedModule
+05-19 12:12:14.775 13608 13742 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by FrescoModule
+05-19 12:12:14.778 13608 13608 E unknown:ReactInstanceManager: destroyRootView called
+05-19 12:12:14.778 13608 13608 E unknown:ReactInstanceManager: destroyRootView called, unmountReactApplication
+05-19 12:12:14.806 13608 13822 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-19 12:12:14.809 13608 13608 W unknown:ReactNative: Packager connection already open, nooping.
+05-19 12:12:14.811 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+05-19 12:12:14.814 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+05-19 12:12:14.816 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+05-19 12:12:14.817 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+05-19 12:12:14.821 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+05-19 12:12:14.822 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+05-19 12:12:14.822 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+05-19 12:12:14.824 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+05-19 12:12:14.825 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+05-19 12:12:14.825 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+05-19 12:12:14.826 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+05-19 12:12:14.826 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+05-19 12:12:14.827 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+05-19 12:12:14.828 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+05-19 12:12:14.828 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+05-19 12:12:14.830 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+05-19 12:12:14.832 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+05-19 12:12:14.833 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+05-19 12:12:14.834 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+05-19 12:12:14.834 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+05-19 12:12:14.837 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+05-19 12:12:14.838 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+05-19 12:12:14.839 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+05-19 12:12:14.840 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+05-19 12:12:14.841 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+05-19 12:12:14.841 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+05-19 12:12:14.842 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+05-19 12:12:14.842 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.reactnative.maskedview.RNCMaskedViewManager
+05-19 12:12:14.843 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+05-19 12:12:14.843 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+05-19 12:12:14.844 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+05-19 12:12:14.844 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+05-19 12:12:14.845 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+05-19 12:12:14.846 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+05-19 12:12:14.846 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+05-19 12:12:14.847 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+05-19 12:12:14.847 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+05-19 12:12:14.848 13608 13824 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-19 12:12:14.851 13608 13608 D DetoxRNLoading: Listener-proxy method called: onReactContextInitialized
+05-19 12:12:14.851 13608 13608 I DetoxRNLoading: Got new RN-context async'ly through listener
+05-19 12:12:14.854 13608 13608 D DetoxRNLoading: Listener-proxy method called: equals
+05-19 12:12:14.855 13608 13688 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+05-19 12:12:14.861 13608 13688 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+05-19 12:12:14.861 13608 13688 D AsyncStorageIR: IR for Async-Storage is required! (legacy=false)
+05-19 12:12:14.862 13608 13688 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+05-19 12:12:14.862 13608 13688 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+05-19 12:12:14.864 13608 13608 D AsyncStorageIR: Async-storage is busy!
+05-19 12:12:14.864 13608 13608 D AsyncStorageIRLegacy: Async-storage is busy!
+05-19 12:12:14.865 13608 13688 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 12:12:14.866 13608 13688 I DetoxDispatcher: Done with action 'reactNativeReload'
+05-19 12:12:14.883 13608 13690 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+05-19 12:12:14.883 13608 13688 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+05-19 12:12:14.886 13608 13688 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 12:12:14.891 13608 13688 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 12:12:14.892 13608 13688 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 12:12:14.893 13608 13688 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@62f7b2b, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+05-19 12:12:15.369 13608 13823 I ReactNativeJS: Running "FakeStore" with {"rootTag":11}
+05-19 12:12:15.526 13608 13824 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 12:12:15.570 13608 13608 I Detox   : UIManagerModule is busy
+05-19 12:12:15.590 13608 13608 I Detox   : UIManagerModule is busy
+05-19 12:12:15.593 13608 13793 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by WebSocketModule
+05-19 12:12:15.603 13608 13793 I chatty  : uid=11013(com.fakestore) alhost:8081/... identical 1 line
+05-19 12:12:15.607 13608 13793 W unknown:ReactContextBaseJavaModule: Catalyst Instance has already disappeared: requested by WebSocketModule
+05-19 12:12:15.653 13608 13608 I Detox   : UIManagerModule is busy
+05-19 12:12:15.660 13608 13608 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 12:12:15.660 13608 13608 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 12:12:15.660 13608 13608 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 12:12:15.663 13608 13608 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 12:12:15.664 13608 13688 I DetoxWSClient: Sending out action 'invokeResult' (ID #2)
+05-19 12:12:15.665 13608 13688 I DetoxDispatcher: Done with action 'invoke'

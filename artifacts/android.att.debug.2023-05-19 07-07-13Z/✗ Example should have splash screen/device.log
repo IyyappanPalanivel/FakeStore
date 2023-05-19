@@ -1,0 +1,27 @@
+--------- beginning of main
+05-19 12:37:38.047 26010 26104 I ReactNativeJS: Running "FakeStore" with {"rootTag":1}
+05-19 12:37:38.210 26010 26105 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 12:37:38.412 26010 26010 I Detox   : Wait is over: App is now idle!
+05-19 12:37:38.412 26010 26083 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 12:37:38.413 26010 26083 I DetoxDispatcher: Done with action 'isReady'
+05-19 12:37:38.413 26010 26083 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 12:37:38.413 26010 26083 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 12:37:38.413 26010 26083 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 12:37:38.416 26010 26010 I Detox   : Wait is over: App is now idle!
+05-19 12:37:38.417 26010 26083 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 12:37:38.417 26010 26083 I DetoxDispatcher: Done with action 'isReady'
+05-19 12:37:38.419 26010 26131 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 12:37:38.419 26010 26131 D SoLoader: libimagepipeline.so found on /data/app/~~sMMDnEdDrj7N2_An6K4WLQ==/com.fakestore-a6fUXcPdDMVS-JZYw6Dqlg==/lib/arm64
+05-19 12:37:38.419 26010 26131 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 12:37:38.604 26010 26085 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]})
+05-19 12:37:38.609 26010 26083 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+05-19 12:37:38.624 26010 26083 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 12:37:38.637 26010 26083 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 12:37:38.639 26010 26083 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 12:37:38.641 26010 26083 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@3fe4da1, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 10.0]
+05-19 12:37:38.781 26010 26010 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 12:37:38.781 26010 26010 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 12:37:38.781 26010 26010 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 12:37:38.787 26010 26010 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 12:37:38.791 26010 26083 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+05-19 12:37:38.792 26010 26083 I DetoxDispatcher: Done with action 'invoke'

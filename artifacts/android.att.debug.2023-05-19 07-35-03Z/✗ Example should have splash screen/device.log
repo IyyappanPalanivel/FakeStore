@@ -1,0 +1,99 @@
+--------- beginning of main
+05-19 13:05:19.006 32106 32194 I WebViewFactory: Loading com.google.android.webview version 110.0.5481.153 (code 548115333)
+05-19 13:05:19.021 32106 32194 W linker  : Warning: "/data/app/~~ZS9E27XFUMq_UEOJpzgrAw==/com.google.android.webview-1F4-Y8gMX6Rl1iWbcmwEbQ==/base.apk!/lib/arm64-v8a/libmonochrome.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+05-19 13:05:19.066 32106 32194 W com.fakestore: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+05-19 13:05:19.066 32106 32194 W com.fakestore: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+05-19 13:05:19.066 32106 32194 W com.fakestore: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+05-19 13:05:19.067 32106 32194 W com.fakestore: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+05-19 13:05:19.067 32106 32194 W com.fakestore: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+05-19 13:05:19.070 32106 32194 I cr_WVCFactoryProvider: Loaded version=110.0.5481.153 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+05-19 13:05:19.095 32106 32194 I cr_LibraryLoader: Successfully loaded native library
+05-19 13:05:19.096 32106 32194 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+05-19 13:05:19.148 32106 32194 I flipper : flipper: FlipperClient::addPlugin Fresco
+05-19 13:05:19.342 32106 32193 I ReactNativeJS: Running "FakeStore" with {"rootTag":1}
+05-19 13:05:19.550 32106 32194 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 13:05:19.711 32106 32106 I Detox   : UIManagerModule is busy
+05-19 13:05:19.730 32106 32263 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 13:05:19.731 32106 32263 D SoLoader: libimagepipeline.so found on /data/app/~~7tRmsiagWnKJDmfKukCitw==/com.fakestore-bcgAJr1bRBDysfMzJFMgKw==/lib/arm64
+05-19 13:05:19.731 32106 32263 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 13:05:19.739 32106 32106 I Detox   : Wait is over: App is now idle!
+05-19 13:05:19.740 32106 32179 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:05:19.741 32106 32179 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:05:19.741 32106 32179 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 13:05:19.741 32106 32179 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 13:05:19.742 32106 32179 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 13:05:19.746 32106 32106 I Detox   : Wait is over: App is now idle!
+05-19 13:05:19.747 32106 32179 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:05:19.747 32106 32179 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:05:19.849 32106 32181 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]})
+05-19 13:05:19.850 32106 32179 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+05-19 13:05:19.856 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 13:05:19.864 32106 32179 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 13:05:19.864 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:05:19.866 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@4595e52, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 10.0]
+05-19 13:05:20.112 32106 32106 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 13:05:20.112 32106 32106 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:05:20.112 32106 32106 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:05:20.116 32106 32106 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 13:05:20.119 32106 32179 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+05-19 13:05:20.119 32106 32179 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:05:20.134 32106 32181 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+05-19 13:05:20.134 32106 32179 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+05-19 13:05:20.135 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Find your Gadget]
+05-19 13:05:20.135 32106 32179 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)]
+05-19 13:05:20.136 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:05:20.136 32106 32179 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@3251a20, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+05-19 13:05:20.155 32106 32106 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: Test exception
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: java.lang.reflect.InvocationTargetException
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:443)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:405)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.invoke.types.ClassTarget.execute(ClassTarget.java:23)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.invoke.types.Target.invoke(Target.java:59)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:35)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:26)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:20)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.InvokeActionHandler.handle(DetoxActionHandlers.kt:54)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.executeAction$lambda-2$lambda-1(DetoxActionsDispatcher.kt:64)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$nk3cF8ntnfFqbJOcVqd04vjb5nY(Unknown Source:0)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda1.run(Unknown Source:8)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:254)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor._init_$lambda-0(DetoxActionsDispatcher.kt:50)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$Hi5vyewqQiQqk57AkJy_cHqNGKY(Unknown Source:0)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda0.run(Unknown Source:4)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at java.lang.Thread.run(Thread.java:923)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: Caused by: androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers:      Got: was null
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at java.lang.Thread.getStackTrace(Thread.java:1736)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.espresso.DetoxAssertion.assertMatcher(DetoxAssertion.java:32)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	... 19 more
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: Caused by: junit.framework.AssertionFailedError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers:      Got: was null
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.wix.detox.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:52)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:254)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at android.app.ActivityThread.main(ActivityThread.java:8243)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:612)
+05-19 13:05:20.158 32106 32179 I DetoxActionHandlers: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1006)
+05-19 13:05:20.158 32106 32179 I DetoxWSClient: Sending out action 'testFailed' (ID #2)
+05-19 13:05:20.158 32106 32179 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:05:20.273 32106 32193 I ReactNativeJNI: Memory warning (pressure level: TRIM_MEMORY_RUNNING_MODERATE) received by JS VM, ignoring because it's non-severe

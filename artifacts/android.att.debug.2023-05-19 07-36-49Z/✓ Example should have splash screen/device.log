@@ -1,0 +1,64 @@
+--------- beginning of main
+05-19 13:07:03.144  4477  4683 I ReactNativeJS: Running "FakeStore" with {"rootTag":1}
+05-19 13:07:03.329  4477  4684 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 13:07:03.398  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:03.470  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:03.536  4477  4941 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 13:07:03.536  4477  4941 D SoLoader: libimagepipeline.so found on /data/app/~~Y-G7amfDXyMf3p3EKFMd6w==/com.fakestore-5RgVkok1PEFn9IwrOCWdlw==/lib/arm64
+05-19 13:07:03.536  4477  4941 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 13:07:03.539  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:03.546  4477  4477 I Detox   : Wait is over: App is now idle!
+05-19 13:07:03.547  4477  4658 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:07:03.547  4477  4658 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:07:03.547  4477  4658 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 13:07:03.547  4477  4658 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 13:07:03.547  4477  4658 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 13:07:03.551  4477  4477 I Detox   : Wait is over: App is now idle!
+05-19 13:07:03.554  4477  4658 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:07:03.555  4477  4658 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:07:03.677  4477  4661 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":50}]})
+05-19 13:07:03.678  4477  4658 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+05-19 13:07:03.681  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 13:07:03.696  4477  4658 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 13:07:03.696  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:07:03.698  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@29122dd, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 50.0]
+05-19 13:07:03.903  4477  4477 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 13:07:03.903  4477  4477 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:07:03.903  4477  4477 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:07:03.909  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 13:07:03.910  4477  4658 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+05-19 13:07:03.910  4477  4658 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:07:03.923  4477  4661 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":2}]})
+05-19 13:07:03.924  4477  4658 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+05-19 13:07:03.924  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Find your Gadget]
+05-19 13:07:03.924  4477  4658 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)]
+05-19 13:07:03.925  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:07:03.925  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@a365523, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 2.0]
+05-19 13:07:03.943  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:04.351  4477  4477 I chatty  : uid=11035(com.fakestore) identical 11 lines
+05-19 13:07:04.384  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:04.418  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:04.884  4477  4477 I chatty  : uid=11035(com.fakestore) identical 14 lines
+05-19 13:07:04.918  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:04.955  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:04.990  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:05.019  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:05.234  4477  4477 I chatty  : uid=11035(com.fakestore) identical 7 lines
+05-19 13:07:05.267  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:05.289  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:05.292  4477  4477 D AsyncStorageIR: Async-storage is busy!
+05-19 13:07:05.368  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:05.416  4477  4477 I Detox   : UIManagerModule is busy
+05-19 13:07:05.600  4477  4503 I com.fakestore: ProcessProfilingInfo new_methods=6957 is saved saved_to_disk=1 resolve_classes_delay=5000
+05-19 13:07:05.615  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:05.617  4477  4658 I DetoxWSClient: Sending out action 'invokeResult' (ID #2)
+05-19 13:07:05.617  4477  4658 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:07:05.631  4477  4661 D DetoxWSClient: Received action 'invoke' (ID #3, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+05-19 13:07:05.633  4477  4658 I DetoxDispatcher: Handling action 'invoke' (ID #3)...
+05-19 13:07:05.633  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Find your Gadget]
+05-19 13:07:05.634  4477  4658 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)]
+05-19 13:07:05.634  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:07:05.634  4477  4658 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@d90217, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+05-19 13:07:05.642  4477  4477 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:07:05.644  4477  4658 I DetoxWSClient: Sending out action 'invokeResult' (ID #3)
+05-19 13:07:05.644  4477  4658 I DetoxDispatcher: Done with action 'invoke'

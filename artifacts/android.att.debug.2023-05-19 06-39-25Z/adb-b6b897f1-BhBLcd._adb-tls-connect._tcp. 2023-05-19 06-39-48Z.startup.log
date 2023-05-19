@@ -1,0 +1,152 @@
+--------- beginning of main
+05-19 12:09:44.842 12467 12467 I com.fakestore: Late-enabling -Xcheck:jni
+05-19 12:09:44.868 12467 12467 I com.fakestore: Unquickening 21 vdex files!
+05-19 12:09:44.868 12467 12467 E com.fakestore: Unknown bits set in runtime_flags: 0x40000000
+05-19 12:09:44.883 12467 12467 E RefClass: java.lang.reflect.InvocationTargetException
+05-19 12:09:44.939 12467 12467 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusScreenModeFeature
+05-19 12:09:44.939 12467 12467 I oplus.android.OplusFrameworkFactoryImpl: getOplusScreenModeFeature
+05-19 12:09:44.950 12467 12467 E libc    : Access denied finding property "ro.odm.prev.product.name"
+--------- beginning of system
+05-19 12:09:44.952 12467 12467 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.fakestore]: arm64-v8a, null instrumentation[com.fakestore.test]: null, null
+05-19 12:09:44.959 12467 12467 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:09:44.960 12467 12467 I chatty  : uid=11011(com.fakestore) identical 1 line
+05-19 12:09:44.961 12467 12467 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:09:45.179 12467 12467 I Perf    : Connecting to perf service.
+05-19 12:09:45.192 12467 12467 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:09:45.192 12467 12467 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:09:45.193 12467 12467 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:09:45.198 12467 12467 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:09:45.198 12467 12467 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:09:45.199 12467 12467 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:09:45.206 12467 12467 I chatty  : uid=11011(com.fakestore) identical 2 lines
+05-19 12:09:45.207 12467 12467 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:09:45.420 12467 12467 W com.fakestore: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+05-19 12:09:45.420 12467 12467 W com.fakestore: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+05-19 12:09:45.425 12467 12467 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-19 12:09:45.426 12467 12467 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+05-19 12:09:45.426 12467 12467 I MonitoringInstr: newApplication called!
+05-19 12:09:45.443 12467 12467 I MonitoringInstr: Instrumentation started!
+05-19 12:09:45.449 12467 12467 I AndroidJUnitRunner: onCreate Bundle[{debug=false, detoxServer=ws://localhost:49955, detoxSessionId=c536de44-e9d5-6b8a-d62d-58a7e856f4de}]
+05-19 12:09:45.451 12467 12467 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+05-19 12:09:45.453 12467 12498 D AndroidJUnitRunner: onStart is called.
+05-19 12:09:45.459 12467 12467 V fb-UnpackingSoSource: locked dso store /data/user/0/com.fakestore/lib-main
+05-19 12:09:45.460 12467 12467 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+05-19 12:09:45.461 12467 12467 V fb-UnpackingSoSource: so store dirty: regenerating
+05-19 12:09:45.660 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libc++_shared.so: deferring to libdir
+05-19 12:09:45.660 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent-2.1.so: deferring to libdir
+05-19 12:09:45.660 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_core-2.1.so: deferring to libdir
+05-19 12:09:45.660 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_extra-2.1.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfabricjni.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfb.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfbjni.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libflipper.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfolly_runtime.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog_init.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libimagepipeline.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsc.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjscexecutor.so: deferring to libdir
+05-19 12:09:45.661 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsi.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsijniprofiler.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsinspector.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/liblogger.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libmapbufferjni.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-filters.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-imagetranscoder.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_codegen_rncore.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_config.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_debug.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_nativemodule_core.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_animations.so: deferring to libdir
+05-19 12:09:45.662 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_attributedstring.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_componentregistry.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_core.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_debug.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_graphics.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_imagemanager.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_leakchecker.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mapbuffer.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mounting.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_runtimescheduler.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_scheduler.so: deferring to libdir
+05-19 12:09:45.663 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_telemetry.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_templateprocessor.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_textlayoutmanager.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_uimanager.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_utils.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativeblob.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativejni.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativeutilsjni.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactperfloggerjni.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_image.so: deferring to libdir
+05-19 12:09:45.664 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_root.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_scrollview.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_text.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_textinput.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_unimplementedview.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_view.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libruntimeexecutor.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libturbomodulejsijni.so: deferring to libdir
+05-19 12:09:45.665 12467 12467 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libyoga.so: deferring to libdir
+05-19 12:09:45.666 12467 12467 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+05-19 12:09:45.666 12467 12467 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+05-19 12:09:45.666 12467 12467 V fb-UnpackingSoSource: starting syncer worker
+05-19 12:09:45.670 12467 12467 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.fakestore/lib-main (from syncer thread)
+05-19 12:09:45.670 12467 12467 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.fakestore/lib-main (syncer thread started)
+05-19 12:09:45.682 12467 12467 D SoLoader: libjscexecutor.so not found on /data/data/com.fakestore/lib-main
+05-19 12:09:45.682 12467 12467 D SoLoader: libjscexecutor.so found on /data/app/~~ngpTkCSmMwQ634K3o1MXmQ==/com.fakestore-EhFOYDU-_xOUxL24NC2YpQ==/lib/arm64
+05-19 12:09:45.682 12467 12467 D SoLoader: Not resolving dependencies for libjscexecutor.so
+05-19 12:09:45.697 12467 12467 D JavaScriptCore.Version: 250230.2.1
+05-19 12:09:45.787 12467 12467 E Parcel  : Reading a NULL string not supported here.
+05-19 12:09:45.789 12467 12467 I chatty  : uid=11011(com.fakestore) identical 16 lines
+05-19 12:09:45.789 12467 12467 E Parcel  : Reading a NULL string not supported here.
+05-19 12:09:45.789 12467 12467 E Parcel  : Reading a NULL string not supported here.
+05-19 12:09:45.790 12467 12467 I chatty  : uid=11011(com.fakestore) identical 8 lines
+05-19 12:09:45.790 12467 12467 E Parcel  : Reading a NULL string not supported here.
+05-19 12:09:45.791 12467 12467 V SensorManager: RegisterListener bmi160 Accelerometer Non-wakeup type:1 delay:66667us by com.facebook.react.common.ShakeDetector
+05-19 12:09:45.791 12467 12467 E Parcel  : Reading a NULL string not supported here.
+05-19 12:09:45.825 12467 12515 D SoLoader: libfbjni.so not found on /data/data/com.fakestore/lib-main
+05-19 12:09:45.826 12467 12515 D SoLoader: libfbjni.so found on /data/app/~~ngpTkCSmMwQ634K3o1MXmQ==/com.fakestore-EhFOYDU-_xOUxL24NC2YpQ==/lib/arm64
+05-19 12:09:45.826 12467 12515 D SoLoader: Not resolving dependencies for libfbjni.so
+05-19 12:09:45.829 12467 12515 D SoLoader: libflipper.so not found on /data/data/com.fakestore/lib-main
+05-19 12:09:45.830 12467 12515 D SoLoader: libflipper.so found on /data/app/~~ngpTkCSmMwQ634K3o1MXmQ==/com.fakestore-EhFOYDU-_xOUxL24NC2YpQ==/lib/arm64
+05-19 12:09:45.830 12467 12515 D SoLoader: Not resolving dependencies for libflipper.so
+05-19 12:09:45.909 12467 12467 W com.fakestore: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (greylist, reflection, allowed)
+05-19 12:09:45.909 12467 12467 W com.fakestore: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (greylist, reflection, allowed)
+05-19 12:09:45.909 12467 12467 W com.fakestore: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (greylist, reflection, allowed)
+05-19 12:09:45.918 12467 12467 I flipper : flipper: FlipperClient::addPlugin Inspector
+05-19 12:09:45.918 12467 12467 I flipper : flipper: FlipperClient::addPlugin React
+05-19 12:09:45.921 12467 12467 I flipper : flipper: FlipperClient::addPlugin Databases
+05-19 12:09:45.922 12467 12467 I flipper : flipper: FlipperClient::addPlugin Preferences
+05-19 12:09:45.923 12467 12467 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+05-19 12:09:45.926 12467 12467 I flipper : flipper: FlipperClient::addPlugin Network
+05-19 12:09:45.962 12467 12515 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+05-19 12:09:45.962 12467 12515 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+05-19 12:09:45.962 12467 12515 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+05-19 12:09:45.963 12467 12498 D TestRequestBuilder: Using class path scanning to discover tests
+05-19 12:09:45.964 12467 12498 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~InmLaEGJFlf8coxqEuhO-g==/com.fakestore.test-k1tazBQLw-ZJOx6zLj4M7Q==/base.apk]
+05-19 12:09:45.965 12467 12498 I System  : Opening DexFile: /data/app/~~InmLaEGJFlf8coxqEuhO-g==/com.fakestore.test-k1tazBQLw-ZJOx6zLj4M7Q==/base.apk
+05-19 12:09:45.967 12467 12498 W com.fakestore: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+05-19 12:09:46.204 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityHierarchyCheckResult; annotation class 5201
+05-19 12:09:46.206 12467 12498 I chatty  : uid=11011(com.fakestore) roidJUnitRunner identical 2 lines
+05-19 12:09:46.206 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityHierarchyCheckResult; annotation class 5201
+05-19 12:09:46.206 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityViewCheckResult; annotation class 5201
+05-19 12:09:46.208 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/ClusteringUtils; annotation class 5201
+05-19 12:09:46.210 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/Question; annotation class 5201
+05-19 12:09:46.216 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/replacements/TextUtils; annotation class 5200
+05-19 12:09:46.219 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:09:46.220 12467 12498 I chatty  : uid=11011(com.fakestore) roidJUnitRunner identical 2 lines
+05-19 12:09:46.220 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:09:46.221 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElementAndroid; annotation class 5201
+05-19 12:09:46.221 12467 12498 I chatty  : uid=11011(com.fakestore) roidJUnitRunner identical 1 line
+05-19 12:09:46.221 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElementAndroid; annotation class 5201
+05-19 12:09:46.222 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElementAndroid; annotation class 5201
+05-19 12:09:46.222 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:09:46.222 12467 12498 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:09:46.410 12467 12498 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
+05-19 12:09:46.413 12467 12498 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+05-19 12:09:46.413 12467 12498 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+05-19 12:09:46.413 12467 12498 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+05-19 12:09:46.413 12467 12498 D TestExecutor: Adding listener androidx.test.internal.runner.listener.TraceRunListener
+05-19 12:09:46.414 12467 12498 I TestRunner: run started: 1 tests
+05-19 12:09:46.415 12467 12498 I TestRunner: run finished: 0 tests, 0 failed, 0 ignored

@@ -1,0 +1,1019 @@
+12:30:08.329 detox[2538] [90mB[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all
+  data: {
+    "id": "2423ef46-6153-596d-0670-e02bef80282b",
+    "detoxConfig": {
+      "configurationName": "android.att.debug",
+      "apps": {
+        "default": {
+          "type": "android.apk",
+          "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+          "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug",
+          "reversePorts": [
+            8081
+          ]
+        }
+      },
+      "artifacts": {
+        "rootDir": "artifacts/android.att.debug.2023-05-19 07-00-08Z",
+        "plugins": {
+          "log": {
+            "enabled": true,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "screenshot": {
+            "enabled": true,
+            "shouldTakeAutomaticSnapshots": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "video": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "instruments": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "uiHierarchy": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          }
+        }
+      },
+      "behavior": {
+        "init": {
+          "keepLockFile": false,
+          "reinstallApp": true,
+          "exposeGlobals": true
+        },
+        "cleanup": {
+          "shutdownDevice": false
+        },
+        "launchApp": "auto"
+      },
+      "cli": {
+        "recordLogs": "all",
+        "configuration": "android.att.debug",
+        "start": true
+      },
+      "device": {
+        "type": "android.attached",
+        "device": {
+          "adbName": ".*"
+        }
+      },
+      "logger": {
+        "level": "info",
+        "overrideConsole": true,
+        "options": {
+          "showLoggerName": true,
+          "showPid": true,
+          "showLevel": false,
+          "showMetadata": false,
+          "basepath": "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/detox/src",
+          "prefixers": {},
+          "stringifiers": {}
+        }
+      },
+      "testRunner": {
+        "retries": 0,
+        "forwardEnv": false,
+        "bail": false,
+        "jest": {
+          "setupTimeout": 120000,
+          "teardownTimeout": 30000,
+          "retryAfterCircusRetries": false,
+          "reportWorkerAssign": true
+        },
+        "args": {
+          "$0": "jest",
+          "_": [],
+          "config": "e2e/jest.config.js",
+          "--": []
+        }
+      },
+      "session": {
+        "autoStart": true,
+        "debugSynchronization": 10000
+      }
+    },
+    "detoxIPCServer": "primary-2538",
+    "testResults": [],
+    "testSessionIndex": 0,
+    "workersCount": 0
+  }
+12:30:08.334 detox[2538] [90mi[39m Server path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + ipc.config.id /tmp/detox.primary-2538
+12:30:08.336 detox[2538] [90mi[39m starting server on  /tmp/detox.primary-2538 
+12:30:08.336 detox[2538] [90mi[39m starting TLS server false
+12:30:08.336 detox[2538] [90mi[39m starting server as Unix || Windows Socket
+12:30:08.341 detox[2538] [90mi[39m Detox server listening on localhost:50711...
+12:30:08.346 detox[2538] [90mi[39m Serialized the session state at: /private/var/folders/nh/qgcf94bd36j7y52qsksxp38r0000gn/T/2423ef46-6153-596d-0670-e02bef80282b.detox.json
+12:30:08.347 detox[2538] [90mB[39m jest --config e2e/jest.config.js
+12:30:08.900 detox[2539] [90mi[39m Service path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + id 
+12:30:08.900 detox[2539] [90mi[39m requested connection to  primary-2538 /tmp/detox.primary-2538
+12:30:08.900 detox[2539] [90mi[39m Connecting client on Unix Socket : /tmp/detox.primary-2538
+12:30:08.901 detox[2538] [90mi[39m ## socket connection to server detected ##
+12:30:08.901 detox[2539] [90mi[39m retrying reset
+12:30:08.902 detox[2539] [90mi[39m dispatching event to  primary-2538 /tmp/detox.primary-2538  :  registerContext , { id: 'secondary-2539' }
+12:30:08.904 detox[2538] [90mi[39m received event of :  registerContext { id: 'secondary-2539' }
+12:30:08.904 detox[2538] [90mi[39m dispatching event to socket  :  registerContextDone { testResults: [], testSessionIndex: 0 }
+12:30:08.905 detox[2539] [90mi[39m ## received events ##
+12:30:08.905 detox[2539] [90mi[39m detected event registerContextDone { testResults: [], testSessionIndex: 0 }
+12:30:08.963 detox[2539] [90mB[39m e2e/starter.test.js
+12:30:08.973 detox[2539] [90mB[39m set up environment
+12:30:08.974 detox[2538] [90mi[39m received event of :  registerWorker { workerId: 'w1' }
+12:30:08.974 detox[2539] [90mi[39m dispatching event to  primary-2538 /tmp/detox.primary-2538  :  registerWorker , { workerId: 'w1' }
+12:30:08.975 detox[2538] [90mi[39m dispatching event to socket  :  registerWorkerDone { workersCount: 1 }
+12:30:08.975 detox[2538] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-2538  :   sessionStateUpdate { workersCount: 1 }
+12:30:08.975 detox[2539] [90mi[39m ## received events ##
+12:30:08.975 detox[2539] [90mi[39m detected event registerWorkerDone { workersCount: 1 }
+12:30:09.086 detox[2539] [90mi[39m ## received events ##
+12:30:09.086 detox[2539] [90mi[39m detected event sessionStateUpdate { workersCount: 1 }
+12:30:09.091 detox[2538] [90mB[39m connection :50711<->:50712
+12:30:09.093 detox[2539] [90mi[39m opened web socket to: ws://localhost:50711
+12:30:09.095 detox[2539] [90mi[39m send message
+  data: {"type":"login","params":{"sessionId":"bb08ff0d-3dec-05a8-3a53-26ad9e8b1463","role":"tester"},"messageId":0}
+12:30:09.096 detox[2538] [90mi[39m get
+  data: {"type":"login","params":{"sessionId":"bb08ff0d-3dec-05a8-3a53-26ad9e8b1463","role":"tester"},"messageId":0}
+12:30:09.096 detox[2538] [90mi[39m created session bb08ff0d-3dec-05a8-3a53-26ad9e8b1463
+12:30:09.096 detox[2538] [90mi[39m send
+  data: {
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": false
+    },
+    "messageId": 0
+  }
+12:30:09.097 detox[2538] [90mi[39m tester joined session bb08ff0d-3dec-05a8-3a53-26ad9e8b1463
+12:30:09.097 detox[2539] [90mi[39m get message
+  data: {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+   
+12:30:09.127 detox[2539] [90mB[39m allocate
+  args: ({"type":"android.attached","device":{"adbName":".*"}})
+12:30:09.128 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  devices
+12:30:09.161 detox[2539] [90mi[39m List of devices attached
+adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.	device
+
+
+12:30:09.163 detox[2539] [90mi[39m Found a matching & free device adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.
+12:30:09.163 detox[2539] [90mE[39m allocate
+12:30:09.164 detox[2539] [90mB[39m postAllocate
+  args: ({"adbName":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp."})
+12:30:09.164 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "getprop ro.build.version.sdk"
+12:30:09.298 detox[2539] [90mi[39m 30
+
+12:30:09.298 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+12:30:09.528 detox[2539] [90mi[39m   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x1
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mUserId=0
+
+12:30:09.529 detox[2539] [90mB[39m onBootDevice
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","type":"device","coldBoot":false})
+12:30:09.530 detox[2539] [90mE[39m onBootDevice
+12:30:09.530 detox[2539] [90mE[39m postAllocate
+12:30:09.567 detox[2539] [90mB[39m installUtilBinaries
+  args: ()
+12:30:09.567 detox[2539] [90mE[39m installUtilBinaries
+12:30:09.568 detox[2539] [90mB[39m selectApp
+  args: ("default")
+12:30:09.570 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump badging "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk"
+12:30:09.604 detox[2539] [90mi[39m package: name='com.fakestore' versionCode='1' versionName='1.0' platformBuildVersionName='12' platformBuildVersionCode='31' compileSdkVersion='31' compileSdkVersionCodename='12'
+sdkVersion:'21'
+targetSdkVersion:'31'
+uses-permission: name='android.permission.SYSTEM_ALERT_WINDOW'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+application-label:'FakeStore'
+application-label-af:'FakeStore'
+application-label-am:'FakeStore'
+application-label-ar:'FakeStore'
+application-label-as:'FakeStore'
+application-label-az:'FakeStore'
+application-label-be:'FakeStore'
+application-label-bg:'FakeStore'
+application-label-bn:'FakeStore'
+application-label-bs:'FakeStore'
+application-label-ca:'FakeStore'
+application-label-cs:'FakeStore'
+application-label-da:'FakeStore'
+application-label-de:'FakeStore'
+application-label-el:'FakeStore'
+application-label-en-AU:'FakeStore'
+application-label-en-CA:'FakeStore'
+application-label-en-GB:'FakeStore'
+application-label-en-IN:'FakeStore'
+application-label-en-XC:'FakeStore'
+application-label-es:'FakeStore'
+application-label-es-US:'FakeStore'
+application-label-et:'FakeStore'
+application-label-eu:'FakeStore'
+application-label-fa:'FakeStore'
+application-label-fi:'FakeStore'
+application-label-fr:'FakeStore'
+application-label-fr-CA:'FakeStore'
+application-label-gl:'FakeStore'
+application-label-gu:'FakeStore'
+application-label-hi:'FakeStore'
+application-label-hr:'FakeStore'
+application-label-hu:'FakeStore'
+application-label-hy:'FakeStore'
+application-label-in:'FakeStore'
+application-label-is:'FakeStore'
+application-label-it:'FakeStore'
+application-label-iw:'FakeStore'
+application-label-ja:'FakeStore'
+application-label-ka:'FakeStore'
+application-label-kk:'FakeStore'
+application-label-km:'FakeStore'
+application-label-kn:'FakeStore'
+application-label-ko:'FakeStore'
+application-label-ky:'FakeStore'
+application-label-lo:'FakeStore'
+application-label-lt:'FakeStore'
+application-label-lv:'FakeStore'
+application-label-mk:'FakeStore'
+application-label-ml:'FakeStore'
+application-label-mn:'FakeStore'
+application-label-mr:'FakeStore'
+application-label-ms:'FakeStore'
+application-label-my:'FakeStore'
+application-label-nb:'FakeStore'
+application-label-ne:'FakeStore'
+application-label-nl:'FakeStore'
+application-label-or:'FakeStore'
+application-label-pa:'FakeStore'
+application-label-pl:'FakeStore'
+application-label-pt:'FakeStore'
+application-label-pt-BR:'FakeStore'
+application-label-pt-PT:'FakeStore'
+application-label-ro:'FakeStore'
+application-label-ru:'FakeStore'
+application-label-si:'FakeStore'
+application-label-sk:'FakeStore'
+application-label-sl:'FakeStore'
+application-label-sq:'FakeStore'
+application-label-sr:'FakeStore'
+application-label-sr-Latn:'FakeStore'
+application-label-sv:'FakeStore'
+application-label-sw:'FakeStore'
+application-label-ta:'FakeStore'
+application-label-te:'FakeStore'
+application-label-th:'FakeStore'
+application-label-tl:'FakeStore'
+application-label-tr:'FakeStore'
+application-label-uk:'FakeStore'
+application-label-ur:'FakeStore'
+application-label-uz:'FakeStore'
+application-label-vi:'FakeStore'
+application-label-zh-CN:'FakeStore'
+application-label-zh-HK:'FakeStore'
+application-label-zh-TW:'FakeStore'
+application-label-zu:'FakeStore'
+application-icon-160:'res/mipmap-mdpi-v4/ic_launcher.png'
+application-icon-240:'res/mipmap-hdpi-v4/ic_launcher.png'
+application-icon-320:'res/mipmap-xhdpi-v4/ic_launcher.png'
+application-icon-480:'res/mipmap-xxhdpi-v4/ic_launcher.png'
+application-icon-640:'res/mipmap-xxxhdpi-v4/ic_launcher.png'
+application-icon-65534:'res/mipmap-mdpi-v4/ic_launcher.png'
+application: label='FakeStore' icon='res/mipmap-mdpi-v4/ic_launcher.png'
+application-debuggable
+launchable-activity: name='com.fakestore.MainActivity'  label='FakeStore' icon=''
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-implied-permission: name='android.permission.READ_EXTERNAL_STORAGE' reason='requested WRITE_EXTERNAL_STORAGE'
+feature-group: label=''
+  uses-feature: name='android.hardware.camera'
+  uses-implied-feature: name='android.hardware.camera' reason='requested android.permission.CAMERA permission'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640' '65534'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'
+
+12:30:09.605 detox[2539] [90mE[39m selectApp
+12:30:09.605 detox[2539] [90mB[39m uninstallApp
+  args: ()
+12:30:09.606 detox[2539] [90mB[39m onBeforeUninstallApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:09.606 detox[2539] [90mE[39m onBeforeUninstallApp
+12:30:09.606 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "pm list packages com.fakestore"
+12:30:09.775 detox[2539] [90mi[39m package:com.fakestore.test
+package:com.fakestore
+
+12:30:09.777 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. uninstall com.fakestore
+12:30:10.478 detox[2539] [90mi[39m Success
+
+12:30:10.479 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "pm list packages com.fakestore.test"
+12:30:10.695 detox[2539] [90mi[39m package:com.fakestore.test
+
+12:30:10.696 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. uninstall com.fakestore.test
+12:30:12.279 detox[2539] [90mi[39m Success
+
+12:30:12.279 detox[2539] [90mE[39m uninstallApp
+12:30:12.280 detox[2539] [90mB[39m selectApp
+  args: ("default")
+12:30:12.283 detox[2539] [90mB[39m terminateApp
+  args: ()
+12:30:12.283 detox[2539] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:12.283 detox[2539] [90mE[39m onBeforeTerminateApp
+12:30:12.284 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "am force-stop com.fakestore"
+12:30:12.478 detox[2539] [90mi[39m 
+12:30:12.478 detox[2539] [90mB[39m onTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:12.479 detox[2539] [90mE[39m onTerminateApp
+12:30:12.479 detox[2539] [90mE[39m terminateApp
+12:30:12.479 detox[2539] [90mE[39m selectApp
+12:30:12.480 detox[2539] [90mB[39m installApp
+  args: ()
+12:30:12.481 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk" AndroidManifest.xml
+12:30:12.530 detox[2539] [90mi[39m String pool of 63 unique UTF-16 non-sorted strings, 63 entries and 0 styles using 3000 bytes:
+String #0: theme
+String #1: label
+String #2: icon
+String #3: name
+String #4: debuggable
+String #5: exported
+String #6: authorities
+String #7: grantUriPermissions
+String #8: launchMode
+String #9: configChanges
+String #10: value
+String #11: resource
+String #12: minSdkVersion
+String #13: versionCode
+String #14: versionName
+String #15: windowSoftInputMode
+String #16: targetSdkVersion
+String #17: allowBackup
+String #18: usesCleartextTraffic
+String #19: networkSecurityConfig
+String #20: roundIcon
+String #21: compileSdkVersion
+String #22: compileSdkVersionCodename
+String #23: appComponentFactory
+String #24: 1.0
+String #25: 12
+String #26: action
+String #27: activity
+String #28: android
+String #29: android.intent.action.MAIN
+String #30: android.intent.category.LAUNCHER
+String #31: android.permission.ACCESS_COARSE_LOCATION
+String #32: android.permission.ACCESS_FINE_LOCATION
+String #33: android.permission.ACCESS_WIFI_STATE
+String #34: android.permission.CAMERA
+String #35: android.permission.INTERNET
+String #36: android.permission.SYSTEM_ALERT_WINDOW
+String #37: android.permission.WRITE_EXTERNAL_STORAGE
+String #38: android.support.FILE_PROVIDER_PATHS
+String #39: androidx.core.app.CoreComponentFactory
+String #40: androidx.emoji2.text.EmojiCompatInitializer
+String #41: androidx.lifecycle.ProcessLifecycleInitializer
+String #42: androidx.startup
+String #43: androidx.startup.InitializationProvider
+String #44: application
+String #45: category
+String #46: com.facebook.react.devsupport.DevSettingsActivity
+String #47: com.fakestore
+String #48: com.fakestore.MainActivity
+String #49: com.fakestore.MainApplication
+String #50: com.fakestore.androidx-startup
+String #51: com.fakestore.imagepickerprovider
+String #52: com.imagepicker.ImagePickerProvider
+String #53: http://schemas.android.com/apk/res/android
+String #54: intent-filter
+String #55: manifest
+String #56: meta-data
+String #57: package
+String #58: platformBuildVersionCode
+String #59: platformBuildVersionName
+String #60: provider
+String #61: uses-permission
+String #62: uses-sdk
+
+12:30:12.530 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" AndroidManifest.xml
+12:30:12.559 detox[2539] [90mi[39m String pool of 42 unique UTF-16 non-sorted strings, 42 entries and 0 styles using 2060 bytes:
+String #0: theme
+String #1: label
+String #2: name
+String #3: debuggable
+String #4: exported
+String #5: priority
+String #6: targetPackage
+String #7: handleProfiling
+String #8: functionalTest
+String #9: minSdkVersion
+String #10: targetSdkVersion
+String #11: compileSdkVersion
+String #12: compileSdkVersionCodename
+String #13: 12
+String #14: Tests for com.fakestore
+String #15: activity
+String #16: android
+String #17: android.intent.category.LAUNCHER
+String #18: android.permission.REORDER_TASKS
+String #19: android.test.runner
+String #20: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+String #21: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+String #22: androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+String #23: androidx.test.orchestrator
+String #24: androidx.test.runner.AndroidJUnitRunner
+String #25: androidx.test.services
+String #26: application
+String #27: category
+String #28: com.fakestore
+String #29: com.fakestore.test
+String #30: com.google.android.apps.common.testing.services
+String #31: http://schemas.android.com/apk/res/android
+String #32: instrumentation
+String #33: intent-filter
+String #34: manifest
+String #35: package
+String #36: platformBuildVersionCode
+String #37: platformBuildVersionName
+String #38: queries
+String #39: uses-library
+String #40: uses-permission
+String #41: uses-sdk
+
+12:30:12.566 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk
+12:30:44.328 detox[2539] [90mi[39m Performing Streamed Install
+Success
+
+12:30:44.332 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk exited with code #0
+12:30:44.350 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+12:30:51.960 detox[2539] [90mi[39m Performing Streamed Install
+Success
+
+12:30:51.967 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk exited with code #0
+12:30:51.969 detox[2539] [90mB[39m reverseTcpPort
+  args: (8081)
+12:30:51.970 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. reverse tcp:8081 tcp:8081
+12:30:52.044 detox[2539] [90mi[39m 
+12:30:52.044 detox[2539] [90mE[39m reverseTcpPort
+12:30:52.044 detox[2539] [90mE[39m installApp
+12:30:52.044 detox[2539] [90mB[39m selectApp
+  args: ("default")
+12:30:52.045 detox[2539] [90mB[39m terminateApp
+  args: ()
+12:30:52.045 detox[2539] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:52.045 detox[2539] [90mE[39m onBeforeTerminateApp
+12:30:52.045 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "am force-stop com.fakestore"
+12:30:52.435 detox[2539] [90mi[39m 
+12:30:52.435 detox[2539] [90mB[39m onTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:52.435 detox[2539] [90mE[39m onTerminateApp
+12:30:52.436 detox[2539] [90mE[39m terminateApp
+12:30:52.436 detox[2539] [90mE[39m selectApp
+12:30:52.438 detox[2539] [90mE[39m set up environment
+12:30:52.765 detox[2539] [90mi[39m starter.test.js is assigned to AttachedDevice:adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.
+12:30:52.766 detox[2539] [90mB[39m run the tests
+12:30:52.766 detox[2539] [90mB[39m onRunDescribeStart
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+12:30:52.767 detox[2539] [90mE[39m onRunDescribeStart
+12:30:52.768 detox[2539] [90mB[39m Example
+12:30:52.768 detox[2539] [90mB[39m onRunDescribeStart
+  args: ({"name":"Example"})
+12:30:52.768 detox[2539] [90mE[39m onRunDescribeStart
+12:30:52.768 detox[2539] [90mB[39m beforeAll
+12:30:52.772 detox[2539] [90mB[39m launchApp
+  args: ()
+12:30:52.773 detox[2539] [90mB[39m terminateApp
+  args: ("com.fakestore")
+12:30:52.773 detox[2539] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:52.773 detox[2539] [90mE[39m onBeforeTerminateApp
+12:30:52.773 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "am force-stop com.fakestore"
+12:30:52.942 detox[2539] [90mi[39m 
+12:30:52.942 detox[2539] [90mB[39m onTerminateApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore"})
+12:30:52.942 detox[2539] [90mE[39m onTerminateApp
+12:30:52.943 detox[2539] [90mE[39m terminateApp
+12:30:52.945 detox[2539] [90mB[39m onBeforeLaunchApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:50711","detoxSessionId":"bb08ff0d-3dec-05a8-3a53-26ad9e8b1463"}})
+12:30:52.945 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "date +\"%m-%d %T.000\""
+12:30:53.073 detox[2539] [90mi[39m 05-19 12:30:51.000
+
+12:30:53.073 detox[2539] [90mE[39m onBeforeLaunchApp
+12:30:53.074 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. reverse tcp:50711 tcp:50711
+12:30:53.128 detox[2539] [90mi[39m 50711
+
+12:30:53.129 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "pm list instrumentation"
+12:30:53.240 detox[2539] [90mi[39m instrumentation:com.fakestore.test/androidx.test.runner.AndroidJUnitRunner (target=com.fakestore)
+
+12:30:53.252 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell am instrument -w -r -e detoxServer ws://localhost:50711 -e detoxSessionId bb08ff0d-3dec-05a8-3a53-26ad9e8b1463 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+12:30:53.758 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "ps | grep \"com\.fakestore$\""
+12:30:54.060 detox[2539] [90mi[39m u0_a1025      23209    951 5837664 131488 0                   0 R com.fakestore
+
+12:30:54.060 detox[2539] [90mB[39m onLaunchApp
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:50711","detoxSessionId":"bb08ff0d-3dec-05a8-3a53-26ad9e8b1463"},"pid":23209})
+12:30:54.062 detox[2539] [90mi[39m starting ADBLogcatRecording
+12:30:54.078 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "logcat -T \"05-19 12:30:51.000\" --pid=23209 -f /sdcard/12309122_0.log"
+12:30:54.078 detox[2539] [90mE[39m onLaunchApp
+12:30:54.381 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell du /sdcard/12309122_0.log
+12:30:54.574 detox[2539] [90mi[39m 16	/sdcard/12309122_0.log
+
+12:30:55.221 detox[2539] [90mi[39m INSTRUMENTATION_STATUS: class=com.fakestore.DetoxTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.fakestore.DetoxTest:
+INSTRUMENTATION_STATUS: test=runDetoxTests
+INSTRUMENTATION_STATUS_CODE: 1
+
+12:30:56.023 detox[2538] [90mB[39m connection :50711<->:50776
+12:30:56.372 detox[2538] [90mi[39m get
+  data: {"messageId":0,"type":"login","params":{"role":"app","sessionId":"bb08ff0d-3dec-05a8-3a53-26ad9e8b1463"}}
+12:30:56.374 detox[2538] [90mi[39m send
+  data: {
+    "messageId": 0,
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": true
+    }
+  }
+12:30:56.375 detox[2538] [90mi[39m app joined session bb08ff0d-3dec-05a8-3a53-26ad9e8b1463
+12:30:56.375 detox[2538] [90mi[39m send
+  data: {
+    "type": "appConnected"
+  }
+12:30:56.379 detox[2539] [90mi[39m get message
+  data: {"type":"appConnected"}
+   
+12:30:56.384 detox[2539] [90mi[39m send message
+  data: {"type":"isReady","params":{},"messageId":-1000}
+12:30:56.386 detox[2538] [90mi[39m get
+  data: {"type":"isReady","params":{},"messageId":-1000}
+12:30:56.387 detox[2538] [90mi[39m send
+  data: {
+    "type": "isReady",
+    "params": {},
+    "messageId": -1000
+  }
+12:30:59.689 detox[2538] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+12:30:59.690 detox[2538] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+12:30:59.691 detox[2539] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+12:30:59.693 detox[2539] [90mB[39m onAppReady
+  args: ({"deviceId":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.","bundleId":"com.fakestore","pid":23209})
+12:30:59.694 detox[2539] [90mE[39m onAppReady
+12:30:59.694 detox[2539] [90mE[39m launchApp
+12:30:59.695 detox[2539] [90mE[39m beforeAll
+12:30:59.696 detox[2539] [90mB[39m should have splash screen
+12:30:59.697 detox[2539] [90mi[39m Example: should have splash screen
+12:30:59.699 detox[2539] [90mB[39m onTestStart
+  args: ({"title":"should have splash screen","fullName":"Example should have splash screen","status":"running","invocations":1})
+12:30:59.700 detox[2539] [90mi[39m stopping ADBLogcatRecording
+12:30:59.701 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "date +\"%m-%d %T.000\""
+12:30:59.709 detox[2538] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+12:30:59.709 detox[2538] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+12:30:59.720 detox[2539] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+12:30:59.826 detox[2539] [90mi[39m 05-19 12:30:58.000
+
+12:30:59.829 detox[2539] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell logcat -T "05-19 12:30:51.000" --pid=23209 -f /sdcard/12309122_0.log
+12:30:59.831 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "logcat -T \"05-19 12:30:51.000\" --pid=23209 -f /sdcard/12309122_0.log" terminated with SIGINT
+12:30:59.832 detox[2539] [90mi[39m starting ADBLogcatRecording
+12:30:59.845 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "logcat -T \"05-19 12:30:58.000\" --pid=23209 -f /sdcard/12309122_1.log"
+12:30:59.845 detox[2539] [90mE[39m onTestStart
+12:30:59.845 detox[2539] [90mB[39m beforeEach
+12:30:59.845 detox[2539] [90mE[39m beforeEach
+12:30:59.846 detox[2539] [90mB[39m test_fn
+12:30:59.850 detox[2539] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]},"messageId":1}
+12:30:59.851 detox[2538] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":10}]},"messageId":1}
+12:30:59.851 detox[2538] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "waitForAssertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Fake Store"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        },
+        {
+          "type": "Double",
+          "value": 10
+        }
+      ]
+    },
+    "messageId": 1
+  }
+12:30:59.852 detox[2539] [90mB[39m undefined with timeout (10000 ms)
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "waitForAssertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Fake Store"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      },
+      {
+        "type": "Double",
+        "value": 10
+      }
+    ]
+  }
+12:31:00.109 detox[2538] [90mi[39m get
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+12:31:00.110 detox[2538] [90mi[39m send
+  data: {
+    "messageId": 1,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+12:31:00.110 detox[2539] [90mi[39m get message
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+   
+12:31:00.111 detox[2539] [90mE[39m undefined with timeout (10000 ms)
+12:31:00.113 detox[2539] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":2}
+12:31:00.114 detox[2538] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":2}
+12:31:00.114 detox[2538] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "assertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Find your Gadget"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "messageId": 2
+  }
+12:31:00.114 detox[2539] [90mB[39m expect element to be visible
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "assertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Find your Gadget"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      }
+    ]
+  }
+12:31:00.146 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell du /sdcard/12309122_1.log
+12:31:00.170 detox[2538] [90mi[39m get
+  data: {"messageId":2,"type":"testFailed","params":{"details":"'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)\n     Got: was null\n"}}
+12:31:00.170 detox[2538] [90mi[39m send
+  data: {
+    "messageId": 2,
+    "type": "testFailed",
+    "params": {
+      "details": "'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)\n     Got: was null\n"
+    }
+  }
+12:31:00.171 detox[2539] [90mi[39m get message
+  data: {"messageId":2,"type":"testFailed","params":{"details":"'(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.\nExpected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)\n     Got: was null\n"}}
+   
+12:31:00.173 detox[2539] [90mE[39m expect element to be visible
+  error: Test Failed: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+  Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+       Got: was null
+  
+12:31:00.173 detox[2539] [90mB[39m onTestFnFailure
+  args: ({"error":{"name":"DetoxRuntimeError"}})
+12:31:00.174 detox[2539] [90mE[39m onTestFnFailure
+12:31:00.174 detox[2539] [90mE[39m test_fn
+  error: Test Failed: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+  Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+       Got: was null
+  
+12:31:00.176 detox[2539] [90mB[39m onTestDone
+  args: ({"title":"should have splash screen","fullName":"Example should have splash screen","status":"failed","invocations":1,"timedOut":false})
+12:31:00.176 detox[2539] [90mi[39m stopping ADBLogcatRecording
+12:31:00.265 detox[2539] [90mi[39m 16	/sdcard/12309122_1.log
+
+12:31:00.265 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "date +\"%m-%d %T.000\""
+12:31:00.390 detox[2539] [90mi[39m 05-19 12:30:58.000
+
+12:31:00.392 detox[2539] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell logcat -T "05-19 12:30:58.000" --pid=23209 -f /sdcard/12309122_1.log
+12:31:00.394 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "logcat -T \"05-19 12:30:58.000\" --pid=23209 -f /sdcard/12309122_1.log" terminated with SIGINT
+12:31:00.400 detox[2539] [90mE[39m onTestDone
+12:31:00.400 detox[2539] [90mE[39m should have splash screen
+12:31:00.400 detox[2539] [90mi[39m Example: should have splash screen [FAIL]
+12:31:00.405 detox[2539] [90mB[39m onRunDescribeFinish
+  args: ({"name":"Example"})
+12:31:00.406 detox[2539] [90mE[39m onRunDescribeFinish
+12:31:00.406 detox[2539] [90mE[39m Example
+12:31:00.406 detox[2539] [90mB[39m onRunDescribeFinish
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+12:31:00.406 detox[2539] [90mE[39m onRunDescribeFinish
+12:31:00.406 detox[2539] [90mE[39m run the tests
+12:31:00.467 detox[2539] [90mB[39m tear down environment
+12:31:00.467 detox[2539] [90mB[39m onBeforeCleanup
+  args: ()
+12:31:00.468 detox[2539] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 07-00-08Z/✗ Example should have splash screen/device.log
+12:31:00.468 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. pull "/sdcard/12309122_1.log" "artifacts/android.att.debug.2023-05-19 07-00-08Z/✗ Example should have splash screen/device.log"
+12:31:00.546 detox[2539] [90mi[39m /sdcard/12309122_1.log: 1 file pulled, 0 skipped. 0.5 MB/s (12436 bytes in 0.025s)
+
+12:31:00.546 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "rm  \"/sdcard/12309122_1.log\""
+12:31:00.673 detox[2539] [90mi[39m 
+12:31:00.676 detox[2539] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 07-00-08Z/adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. 2023-05-19 07-01-00Z.startup.log
+12:31:00.676 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. pull "/sdcard/12309122_0.log" "artifacts/android.att.debug.2023-05-19 07-00-08Z/adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. 2023-05-19 07-01-00Z.startup.log"
+12:31:00.785 detox[2539] [90mi[39m /sdcard/12309122_0.log: 1 file pulled, 0 skipped. 0.7 MB/s (37276 bytes in 0.051s)
+
+12:31:00.785 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell "rm  \"/sdcard/12309122_0.log\""
+12:31:00.892 detox[2539] [90mi[39m 
+12:31:00.894 detox[2539] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 07-00-08Z/detox_pid_2539.json.log { append: true }
+12:31:00.895 detox[2539] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 07-00-08Z/detox_pid_2539.log { append: true }
+12:31:00.895 detox[2539] [90mE[39m onBeforeCleanup
+12:31:00.897 detox[2538] [90mi[39m get
+  data: {"type":"cleanup","params":{"stopRunner":false},"messageId":-49642}
+12:31:00.897 detox[2538] [90mi[39m send
+  data: {
+    "type": "cleanup",
+    "params": {
+      "stopRunner": false
+    },
+    "messageId": -49642
+  }
+12:31:00.897 detox[2539] [90mi[39m send message
+  data: {"type":"cleanup","params":{"stopRunner":false},"messageId":-49642}
+12:31:00.915 detox[2538] [90mi[39m get
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+12:31:00.915 detox[2538] [90mi[39m send
+  data: {
+    "messageId": -49642,
+    "type": "cleanupDone",
+    "params": {}
+  }
+12:31:00.915 detox[2539] [90mi[39m get message
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+   
+12:31:00.920 detox[2538] [90mi[39m tester exited session bb08ff0d-3dec-05a8-3a53-26ad9e8b1463
+12:31:00.920 detox[2538] [90mi[39m send
+  data: {
+    "type": "testerDisconnected",
+    "messageId": -1
+  }
+12:31:00.921 detox[2538] [90mE[39m connection :50711<->:50712
+12:31:00.922 detox[2539] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell am instrument -w -r -e detoxServer ws://localhost:50711 -e detoxSessionId bb08ff0d-3dec-05a8-3a53-26ad9e8b1463 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+12:31:00.924 detox[2539] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. shell am instrument -w -r -e detoxServer ws://localhost:50711 -e detoxSessionId bb08ff0d-3dec-05a8-3a53-26ad9e8b1463 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner terminated with SIGINT
+12:31:00.924 detox[2539] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s adb-b6b897f1-BhBLcd._adb-tls-connect._tcp. reverse --remove tcp:50711
+12:31:00.935 detox[2539] [90mB[39m free
+  args: ({"adbName":"adb-b6b897f1-BhBLcd._adb-tls-connect._tcp."}, {"shutdown":false})
+12:31:00.938 detox[2539] [90mE[39m free
+12:31:00.938 detox[2539] [90mE[39m tear down environment
+12:31:00.938 detox[2539] [90mE[39m e2e/starter.test.js
+12:31:00.945 detox[2539] [90mi[39m dispatching event to  primary-2538 /tmp/detox.primary-2538  :  reportTestResults , {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: undefined,
+      isPermanentFailure: false
+    }
+  ]
+}
+12:31:00.946 detox[2538] [90mi[39m received event of :  reportTestResults {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+12:31:00.947 detox[2538] [90mi[39m dispatching event to socket  :  reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+12:31:00.947 detox[2538] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-2538  :   sessionStateUpdate {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+12:31:00.947 detox[2539] [90mi[39m ## received events ##
+12:31:00.948 detox[2539] [90mi[39m detected event reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+12:31:00.951 detox[2538] [90mi[39m socket disconnected secondary-2539
+12:31:00.951 detox[2539] [90mi[39m connection closed primary-2538 /tmp/detox.primary-2538 0 tries remaining of 0
+12:31:00.951 detox[2539] [90mi[39m secondary-2539 exceeded connection rety amount of  or stopRetrying flag set.
+12:31:00.970 detox[2539] [90mi[39m 
+12:31:01.056 detox[2538] [90mE[39m Command failed with exit code = 1:
+jest --config e2e/jest.config.js
+12:31:01.058 detox[2538] [90mi[39m Detox server has been closed gracefully
+12:31:01.059 detox[2538] [90mi[39m app exited session bb08ff0d-3dec-05a8-3a53-26ad9e8b1463
+12:31:01.059 detox[2538] [90mE[39m connection :50711<->:50776
+12:31:01.060 detox[2538] [90mE[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all

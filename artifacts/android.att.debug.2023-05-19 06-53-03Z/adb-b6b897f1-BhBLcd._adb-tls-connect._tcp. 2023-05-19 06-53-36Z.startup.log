@@ -1,0 +1,295 @@
+--------- beginning of main
+05-19 12:23:28.035 16169 16169 I com.fakestore: Late-enabling -Xcheck:jni
+05-19 12:23:28.052 16169 16169 I com.fakestore: Unquickening 21 vdex files!
+05-19 12:23:28.052 16169 16169 E com.fakestore: Unknown bits set in runtime_flags: 0x40000000
+05-19 12:23:28.074 16169 16169 E RefClass: java.lang.reflect.InvocationTargetException
+05-19 12:23:28.116 16169 16169 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusScreenModeFeature
+05-19 12:23:28.116 16169 16169 I oplus.android.OplusFrameworkFactoryImpl: getOplusScreenModeFeature
+05-19 12:23:28.132 16169 16169 E libc    : Access denied finding property "ro.odm.prev.product.name"
+--------- beginning of system
+05-19 12:23:28.134 16169 16169 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.fakestore]: arm64-v8a, null instrumentation[com.fakestore.test]: null, null
+05-19 12:23:28.141 16169 16169 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:23:28.144 16169 16169 I chatty  : uid=11015(com.fakestore) identical 1 line
+05-19 12:23:28.146 16169 16169 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:23:28.373 16169 16169 I Perf    : Connecting to perf service.
+05-19 12:23:28.387 16169 16169 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:23:28.387 16169 16169 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:23:28.388 16169 16169 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:23:28.392 16169 16169 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:23:28.392 16169 16169 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+05-19 12:23:28.394 16169 16169 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:23:28.400 16169 16169 I chatty  : uid=11015(com.fakestore) identical 2 lines
+05-19 12:23:28.402 16169 16169 I com.fakestore: The ClassLoaderContext is a special shared library.
+05-19 12:23:28.621 16169 16169 W com.fakestore: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+05-19 12:23:28.621 16169 16169 W com.fakestore: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+05-19 12:23:28.627 16169 16169 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+05-19 12:23:28.628 16169 16169 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: true
+05-19 12:23:28.629 16169 16169 I MonitoringInstr: newApplication called!
+05-19 12:23:28.646 16169 16169 I MonitoringInstr: Instrumentation started!
+05-19 12:23:28.653 16169 16169 I AndroidJUnitRunner: onCreate Bundle[{debug=false, detoxServer=ws://localhost:50231, detoxSessionId=992d94d4-62a8-77ed-1c9d-ba22a23becbe}]
+05-19 12:23:28.655 16169 16169 V TestEventClient: No service name argument was given (testDiscoveryService, testRunEventService or orchestratorService)
+05-19 12:23:28.657 16169 16199 D AndroidJUnitRunner: onStart is called.
+05-19 12:23:28.664 16169 16169 V fb-UnpackingSoSource: locked dso store /data/user/0/com.fakestore/lib-main
+05-19 12:23:28.666 16169 16169 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+05-19 12:23:28.666 16169 16169 V fb-UnpackingSoSource: so store dirty: regenerating
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libc++_shared.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent-2.1.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_core-2.1.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libevent_extra-2.1.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfabricjni.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfb.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfbjni.so: deferring to libdir
+05-19 12:23:28.721 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libflipper.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libfolly_runtime.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libglog_init.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libimagepipeline.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsc.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjscexecutor.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsi.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsijniprofiler.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libjsinspector.so: deferring to libdir
+05-19 12:23:28.722 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/liblogger.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libmapbufferjni.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-filters.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libnative-imagetranscoder.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_codegen_rncore.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_config.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_debug.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_nativemodule_core.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_animations.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_attributedstring.so: deferring to libdir
+05-19 12:23:28.723 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_componentregistry.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_core.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_debug.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_graphics.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_imagemanager.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_leakchecker.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mapbuffer.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_mounting.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_runtimescheduler.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_scheduler.so: deferring to libdir
+05-19 12:23:28.724 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_telemetry.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_templateprocessor.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_textlayoutmanager.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_render_uimanager.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreact_utils.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativeblob.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativejni.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactnativeutilsjni.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libreactperfloggerjni.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_image.so: deferring to libdir
+05-19 12:23:28.725 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_root.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_scrollview.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_text.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_textinput.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_unimplementedview.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/librrc_view.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libruntimeexecutor.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libturbomodulejsijni.so: deferring to libdir
+05-19 12:23:28.726 16169 16169 D ApkSoSource: not allowing consideration of lib/arm64-v8a/libyoga.so: deferring to libdir
+05-19 12:23:28.727 16169 16169 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+05-19 12:23:28.730 16169 16169 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+05-19 12:23:28.730 16169 16169 V fb-UnpackingSoSource: starting syncer worker
+05-19 12:23:28.734 16169 16169 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.fakestore/lib-main (from syncer thread)
+05-19 12:23:28.734 16169 16169 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.fakestore/lib-main (syncer thread started)
+05-19 12:23:28.748 16169 16169 D SoLoader: libjscexecutor.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:28.749 16169 16169 D SoLoader: libjscexecutor.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:28.749 16169 16169 D SoLoader: Not resolving dependencies for libjscexecutor.so
+05-19 12:23:28.770 16169 16169 D JavaScriptCore.Version: 250230.2.1
+05-19 12:23:28.862 16169 16169 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:28.863 16169 16169 I chatty  : uid=11015(com.fakestore) identical 11 lines
+05-19 12:23:28.864 16169 16169 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:28.864 16169 16169 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:28.865 16169 16169 I chatty  : uid=11015(com.fakestore) identical 13 lines
+05-19 12:23:28.865 16169 16169 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:28.866 16169 16169 V SensorManager: RegisterListener bmi160 Accelerometer Non-wakeup type:1 delay:66667us by com.facebook.react.common.ShakeDetector
+05-19 12:23:28.866 16169 16169 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:28.904 16169 16220 D SoLoader: libfbjni.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:28.904 16169 16220 D SoLoader: libfbjni.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:28.904 16169 16220 D SoLoader: Not resolving dependencies for libfbjni.so
+05-19 12:23:28.908 16169 16220 D SoLoader: libflipper.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:28.908 16169 16220 D SoLoader: libflipper.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:28.908 16169 16220 D SoLoader: Not resolving dependencies for libflipper.so
+05-19 12:23:28.969 16169 16169 W com.fakestore: Accessing hidden field Landroid/view/View;->mKeyedTags:Landroid/util/SparseArray; (greylist, reflection, allowed)
+05-19 12:23:28.969 16169 16169 W com.fakestore: Accessing hidden field Landroid/view/View;->mListenerInfo:Landroid/view/View$ListenerInfo; (greylist, reflection, allowed)
+05-19 12:23:28.969 16169 16169 W com.fakestore: Accessing hidden field Landroid/view/View$ListenerInfo;->mOnClickListener:Landroid/view/View$OnClickListener; (greylist, reflection, allowed)
+05-19 12:23:28.974 16169 16169 I flipper : flipper: FlipperClient::addPlugin Inspector
+05-19 12:23:28.974 16169 16169 I flipper : flipper: FlipperClient::addPlugin React
+05-19 12:23:28.976 16169 16169 I flipper : flipper: FlipperClient::addPlugin Databases
+05-19 12:23:28.977 16169 16169 I flipper : flipper: FlipperClient::addPlugin Preferences
+05-19 12:23:28.977 16169 16169 I flipper : flipper: FlipperClient::addPlugin CrashReporter
+05-19 12:23:28.979 16169 16169 I flipper : flipper: FlipperClient::addPlugin Network
+05-19 12:23:29.018 16169 16220 W System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+05-19 12:23:29.018 16169 16220 W System.err: SLF4J: Defaulting to no-operation (NOP) logger implementation
+05-19 12:23:29.018 16169 16220 W System.err: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+05-19 12:23:29.020 16169 16199 D TestRequestBuilder: Using class path scanning to discover tests
+05-19 12:23:29.020 16169 16199 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/~~f2cBZdpjNPPloVkD5XOPeQ==/com.fakestore.test-_usfZtfND4Wdu6lr54cXPA==/base.apk]
+05-19 12:23:29.022 16169 16199 I System  : Opening DexFile: /data/app/~~f2cBZdpjNPPloVkD5XOPeQ==/com.fakestore.test-_usfZtfND4Wdu6lr54cXPA==/base.apk
+05-19 12:23:29.023 16169 16199 W com.fakestore: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+05-19 12:23:29.289 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityHierarchyCheckResult; annotation class 5201
+05-19 12:23:29.291 16169 16199 I chatty  : uid=11015(com.fakestore) roidJUnitRunner identical 2 lines
+05-19 12:23:29.291 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityHierarchyCheckResult; annotation class 5201
+05-19 12:23:29.292 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/AccessibilityViewCheckResult; annotation class 5201
+05-19 12:23:29.293 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/ClusteringUtils; annotation class 5201
+05-19 12:23:29.296 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/Question; annotation class 5201
+05-19 12:23:29.304 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/replacements/TextUtils; annotation class 5200
+05-19 12:23:29.308 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:23:29.309 16169 16199 I chatty  : uid=11015(com.fakestore) roidJUnitRunner identical 2 lines
+05-19 12:23:29.309 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:23:29.310 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElementAndroid; annotation class 5201
+05-19 12:23:29.310 16169 16199 I chatty  : uid=11015(com.fakestore) roidJUnitRunner identical 2 lines
+05-19 12:23:29.311 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElementAndroid; annotation class 5201
+05-19 12:23:29.311 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:23:29.311 16169 16199 W com.fakestore: Unable to resolve Lcom/google/android/apps/common/testing/accessibility/framework/uielement/ViewHierarchyElement; annotation class 5201
+05-19 12:23:29.537 16169 16199 D AndroidJUnitRunner: Use the raw file system for managing file I/O.
+05-19 12:23:29.541 16169 16199 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+05-19 12:23:29.541 16169 16199 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+05-19 12:23:29.541 16169 16199 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+05-19 12:23:29.541 16169 16199 D TestExecutor: Adding listener androidx.test.internal.runner.listener.TraceRunListener
+05-19 12:23:29.544 16169 16199 I TestRunner: run started: 1 tests
+05-19 12:23:29.545 16169 16199 I TestRunner: started: runDetoxTests(com.fakestore.DetoxTest)
+05-19 12:23:29.566 16169 16199 D EventInjectionStrategy: Creating injection strategy with input manager.
+05-19 12:23:29.566 16169 16199 W com.fakestore: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+05-19 12:23:29.569 16169 16199 W com.fakestore: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+05-19 12:23:29.569 16169 16199 W com.fakestore: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+05-19 12:23:29.581 16169 16199 W com.fakestore: Accessing hidden field Ljava/lang/reflect/Field;->accessFlags:I (greylist, reflection, allowed)
+05-19 12:23:29.588 16169 16238 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:29.710 16169 16247 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.746 16169 16169 I oplus.android.OplusFrameworkFactoryImpl: getOplusRedPacketManager
+05-19 12:23:29.750 16169 16169 D LifecycleMonitor: Lifecycle status change: com.fakestore.MainActivity@87bb623 in: PRE_ON_CREATE
+05-19 12:23:29.815 16169 16169 W com.fakestore: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+05-19 12:23:29.816 16169 16169 W com.fakestore: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+05-19 12:23:29.821 16169 16169 D LifecycleMonitor: Lifecycle status change: com.fakestore.MainActivity@87bb623 in: CREATED
+05-19 12:23:29.824 16169 16169 D LifecycleMonitor: Lifecycle status change: com.fakestore.MainActivity@87bb623 in: STARTED
+05-19 12:23:29.829 16169 16169 D LifecycleMonitor: Lifecycle status change: com.fakestore.MainActivity@87bb623 in: RESUMED
+05-19 12:23:29.844 16169 16169 I OplusFeatureCache: Milliseconds spent on init(): 10
+05-19 12:23:29.847 16169 16169 D OplusSlideAnimOptHelper: scrollEffectOpt enable = false
+05-19 12:23:29.850 16169 16169 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+05-19 12:23:29.850 16169 16169 D ColorViewRootUtil: mScreenHeight 2400, mScreenWidth 1080
+05-19 12:23:29.854 16169 16169 D WindowManager: Add to mViews: DecorView@15d2c14[MainActivity],pkg= com.fakestore
+05-19 12:23:29.879 16169 16169 W unknown:ReactNative: Packager connection already open, nooping.
+05-19 12:23:29.896 16169 16169 V OplusZoomWindowDecorViewHelper: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.DecorView@15d2c14[MainActivity]
+05-19 12:23:29.898 16169 16245 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: QUALCOMM build                   : 3142bdd, I7afe4835b7
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Build Date                       : 09/16/20
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.00
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Local Branch                     : 
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Remote Branch                    : 
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Remote Branch                    : 
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Reconstruct Branch               : 
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+05-19 12:23:29.898 16169 16245 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+05-19 12:23:29.904 16169 16245 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+05-19 12:23:29.913 16169 16245 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.914 16169 16245 I chatty  : uid=11015(com.fakestore) RenderThread identical 5 lines
+05-19 12:23:29.914 16169 16245 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.916 16169 16245 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.918 16169 16245 I chatty  : uid=11015(com.fakestore) RenderThread identical 58 lines
+05-19 12:23:29.918 16169 16245 E libEGL  : Invalid file path for libcolorx-loader.so
+05-19 12:23:29.957 16169 16169 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+05-19 12:23:29.981 16169 16169 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+05-19 12:23:29.982 16169 16169 D ColorViewRootUtil: mScreenHeight 2400, mScreenWidth 1080
+05-19 12:23:29.982 16169 16169 D WindowManager: Add to mViews: android.widget.PopupWindow$PopupDecorView{f85ac62 V.E...... R.....I. 0,0-0,0},pkg= com.fakestore
+05-19 12:23:30.084 16169 16199 I Detox   : Detox server connection details: url=ws://localhost:50231, sessionId=992d94d4-62a8-77ed-1c9d-ba22a23becbe
+05-19 12:23:30.096 16169 16253 I DetoxDispatcher: Handling action '_init' (ID #0)...
+05-19 12:23:30.096 16169 16253 I Detox   : Connecting to server...
+05-19 12:23:30.096 16169 16253 I DetoxWSClient: At connectToServer
+05-19 12:23:30.140 16169 16227 D SoLoader: libreactnativejni.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:30.140 16169 16227 D SoLoader: libreactnativejni.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:30.140 16169 16227 D SoLoader: Not resolving dependencies for libreactnativejni.so
+05-19 12:23:30.308 16169 16255 D DetoxWSClient: At onOpen
+05-19 12:23:30.309 16169 16255 I DetoxWSClient: Sending out action 'login' (ID #0)
+05-19 12:23:30.309 16169 16255 I Detox   : Connected to server!
+05-19 12:23:30.342 16169 16266 E Parcel  : Reading a NULL string not supported here.
+05-19 12:23:30.439 16169 16255 D DetoxWSClient: Received action 'loginSuccess' (ID #0, params={"testerConnected":true,"appConnected":true})
+05-19 12:23:30.474 16169 16255 D DetoxWSClient: Received action 'isReady' (ID #-1000, params={})
+05-19 12:23:30.816 16169 16271 V AsyncStorageExpoMigration: No scoped database found
+05-19 12:23:30.829 16169 16271 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-19 12:23:30.838 16169 16169 W unknown:ReactNative: Packager connection already open, nooping.
+05-19 12:23:30.875 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+05-19 12:23:30.880 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+05-19 12:23:30.883 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+05-19 12:23:30.885 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+05-19 12:23:30.886 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+05-19 12:23:30.887 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+05-19 12:23:30.888 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+05-19 12:23:30.890 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+05-19 12:23:30.892 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+05-19 12:23:30.893 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+05-19 12:23:30.894 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+05-19 12:23:30.894 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+05-19 12:23:30.896 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+05-19 12:23:30.896 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+05-19 12:23:30.897 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+05-19 12:23:30.899 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+05-19 12:23:30.900 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+05-19 12:23:30.900 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+05-19 12:23:30.901 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+05-19 12:23:30.901 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+05-19 12:23:30.904 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+05-19 12:23:30.906 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+05-19 12:23:30.908 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+05-19 12:23:30.908 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+05-19 12:23:30.910 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+05-19 12:23:30.910 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+05-19 12:23:30.911 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+05-19 12:23:30.912 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.reactnative.maskedview.RNCMaskedViewManager
+05-19 12:23:30.913 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+05-19 12:23:30.913 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+05-19 12:23:30.914 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+05-19 12:23:30.915 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+05-19 12:23:30.916 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+05-19 12:23:30.917 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+05-19 12:23:30.917 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+05-19 12:23:30.918 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+05-19 12:23:30.919 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+05-19 12:23:30.927 16169 16273 W unknown:ReactContext: initializeMessageQueueThreads() is called.
+05-19 12:23:30.929 16169 16273 D SoLoader: libyoga.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:30.929 16169 16273 D SoLoader: libyoga.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:30.929 16169 16273 D SoLoader: Not resolving dependencies for libyoga.so
+05-19 12:23:30.936 16169 16169 D DetoxRNLoading: Listener-proxy method called: onReactContextInitialized
+05-19 12:23:30.936 16169 16169 I DetoxRNLoading: Got new RN-context async'ly through listener
+05-19 12:23:30.937 16169 16169 D DetoxRNLoading: Listener-proxy method called: equals
+05-19 12:23:30.939 16169 16253 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native
+05-19 12:23:30.949 16169 16253 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=false)
+05-19 12:23:30.949 16169 16253 D AsyncStorageIR: IR for Async-Storage is required! (legacy=false)
+05-19 12:23:30.950 16169 16253 D AsyncStorageIR: Checking whether a custom IR for Async-Storage is required... (legacy=true)
+05-19 12:23:30.952 16169 16253 D AsyncStorageIR: IR for Async-Storage is required! (legacy=true)
+05-19 12:23:30.954 16169 16169 D AsyncStorageIR: Async-storage is busy!
+05-19 12:23:30.954 16169 16169 D AsyncStorageIRLegacy: Async-storage is busy!
+05-19 12:23:30.959 16169 16253 I DetoxDispatcher: Done with action '_init'
+05-19 12:23:30.960 16169 16253 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 12:23:30.963 16169 16169 W com.fakestore: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+05-19 12:23:30.963 16169 16169 W com.fakestore: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+05-19 12:23:30.963 16169 16169 W com.fakestore: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+05-19 12:23:30.991 16169 16273 I flipper : flipper: FlipperClient::addPlugin Fresco
+05-19 12:23:31.028 16169 16272 D SoLoader: libreactnativeblob.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:31.028 16169 16272 D SoLoader: libreactnativeblob.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:31.028 16169 16272 D SoLoader: Not resolving dependencies for libreactnativeblob.so
+05-19 12:23:31.067 16169 16273 I WebViewFactory: Loading com.google.android.webview version 110.0.5481.153 (code 548115333)
+05-19 12:23:31.076 16169 16273 W linker  : Warning: "/data/app/~~ZS9E27XFUMq_UEOJpzgrAw==/com.google.android.webview-1F4-Y8gMX6Rl1iWbcmwEbQ==/base.apk!/lib/arm64-v8a/libmonochrome.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+05-19 12:23:31.086 16169 16273 W com.fakestore: Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+05-19 12:23:31.086 16169 16273 W com.fakestore: Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+05-19 12:23:31.086 16169 16273 W com.fakestore: Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+05-19 12:23:31.086 16169 16273 W com.fakestore: Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+05-19 12:23:31.086 16169 16273 W com.fakestore: Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+05-19 12:23:31.090 16169 16273 I cr_WVCFactoryProvider: Loaded version=110.0.5481.153 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+05-19 12:23:31.111 16169 16273 I cr_LibraryLoader: Successfully loaded native library
+05-19 12:23:31.112 16169 16273 I cr_CachingUmaRecorder: Flushed 8 samples from 8 histograms.
+05-19 12:23:31.487 16169 16272 I ReactNativeJS: Running "FakeStore" with {"rootTag":1}
+05-19 12:23:31.658 16169 16273 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 12:23:31.700 16169 16169 I Detox   : UIManagerModule is busy
+05-19 12:23:31.812 16169 16169 I Detox   : UIManagerModule is busy
+05-19 12:23:31.845 16169 16169 I Detox   : Wait is over: App is now idle!
+05-19 12:23:31.845 16169 16253 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 12:23:31.846 16169 16253 I DetoxDispatcher: Done with action 'isReady'
+05-19 12:23:31.846 16169 16253 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 12:23:31.846 16169 16253 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 12:23:31.846 16169 16253 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 12:23:31.848 16169 16328 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 12:23:31.848 16169 16328 D SoLoader: libimagepipeline.so found on /data/app/~~zCG48K3S_XV-kba-D9eDTw==/com.fakestore-jyAz3FNQQrmKZ2rYpdnvEA==/lib/arm64
+05-19 12:23:31.848 16169 16328 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 12:23:31.853 16169 16169 I Detox   : Wait is over: App is now idle!
+05-19 12:23:31.854 16169 16253 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 12:23:31.854 16169 16253 I DetoxDispatcher: Done with action 'isReady'

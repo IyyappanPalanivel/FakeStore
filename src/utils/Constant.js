@@ -1,4 +1,5 @@
 export const STRINGS = {
+    APP_NAME: 'Fake Store',
     SplashText: 'Find your Gadget',
     welcomeBack: 'Welcome Back',
     tagLine: 'Order online collect in store',

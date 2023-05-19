@@ -1,0 +1,331 @@
+12:39:08.309 detox[2778] [90mB[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all
+  data: {
+    "id": "11b50198-7a31-01db-129d-5125ea0c432c",
+    "detoxConfig": {
+      "configurationName": "android.att.debug",
+      "apps": {
+        "default": {
+          "type": "android.apk",
+          "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+          "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug",
+          "reversePorts": [
+            8081
+          ]
+        }
+      },
+      "artifacts": {
+        "rootDir": "artifacts/android.att.debug.2023-05-19 07-09-08Z",
+        "plugins": {
+          "log": {
+            "enabled": true,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "screenshot": {
+            "enabled": true,
+            "shouldTakeAutomaticSnapshots": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "video": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "instruments": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "uiHierarchy": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          }
+        }
+      },
+      "behavior": {
+        "init": {
+          "keepLockFile": false,
+          "reinstallApp": true,
+          "exposeGlobals": true
+        },
+        "cleanup": {
+          "shutdownDevice": false
+        },
+        "launchApp": "auto"
+      },
+      "cli": {
+        "recordLogs": "all",
+        "configuration": "android.att.debug",
+        "start": true
+      },
+      "device": {
+        "type": "android.attached",
+        "device": {
+          "adbName": ".*"
+        }
+      },
+      "logger": {
+        "level": "info",
+        "overrideConsole": true,
+        "options": {
+          "showLoggerName": true,
+          "showPid": true,
+          "showLevel": false,
+          "showMetadata": false,
+          "basepath": "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/detox/src",
+          "prefixers": {},
+          "stringifiers": {}
+        }
+      },
+      "testRunner": {
+        "retries": 0,
+        "forwardEnv": false,
+        "bail": false,
+        "jest": {
+          "setupTimeout": 120000,
+          "teardownTimeout": 30000,
+          "retryAfterCircusRetries": false,
+          "reportWorkerAssign": true
+        },
+        "args": {
+          "$0": "jest",
+          "_": [],
+          "config": "e2e/jest.config.js",
+          "--": []
+        }
+      },
+      "session": {
+        "autoStart": true,
+        "debugSynchronization": 10000
+      }
+    },
+    "detoxIPCServer": "primary-2778",
+    "testResults": [],
+    "testSessionIndex": 0,
+    "workersCount": 0
+  }
+12:39:08.314 detox[2778] [90mi[39m Server path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + ipc.config.id /tmp/detox.primary-2778
+12:39:08.316 detox[2778] [90mi[39m starting server on  /tmp/detox.primary-2778 
+12:39:08.317 detox[2778] [90mi[39m starting TLS server false
+12:39:08.317 detox[2778] [90mi[39m starting server as Unix || Windows Socket
+12:39:08.324 detox[2778] [90mi[39m Detox server listening on localhost:51086...
+12:39:08.330 detox[2778] [90mi[39m Serialized the session state at: /private/var/folders/nh/qgcf94bd36j7y52qsksxp38r0000gn/T/11b50198-7a31-01db-129d-5125ea0c432c.detox.json
+12:39:08.331 detox[2778] [90mB[39m jest --config e2e/jest.config.js
+12:39:08.899 detox[2781] [90mi[39m Service path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + id 
+12:39:08.899 detox[2781] [90mi[39m requested connection to  primary-2778 /tmp/detox.primary-2778
+12:39:08.899 detox[2781] [90mi[39m Connecting client on Unix Socket : /tmp/detox.primary-2778
+12:39:08.900 detox[2778] [90mi[39m ## socket connection to server detected ##
+12:39:08.900 detox[2781] [90mi[39m retrying reset
+12:39:08.901 detox[2781] [90mi[39m dispatching event to  primary-2778 /tmp/detox.primary-2778  :  registerContext , { id: 'secondary-2781' }
+12:39:08.903 detox[2778] [90mi[39m received event of :  registerContext { id: 'secondary-2781' }
+12:39:08.904 detox[2778] [90mi[39m dispatching event to socket  :  registerContextDone { testResults: [], testSessionIndex: 0 }
+12:39:08.904 detox[2781] [90mi[39m ## received events ##
+12:39:08.904 detox[2781] [90mi[39m detected event registerContextDone { testResults: [], testSessionIndex: 0 }
+12:39:08.964 detox[2781] [90mB[39m e2e/starter.test.js
+12:39:08.973 detox[2781] [90mB[39m set up environment
+12:39:08.974 detox[2781] [90mi[39m dispatching event to  primary-2778 /tmp/detox.primary-2778  :  registerWorker , { workerId: 'w1' }
+12:39:08.975 detox[2778] [90mi[39m received event of :  registerWorker { workerId: 'w1' }
+12:39:08.975 detox[2778] [90mi[39m dispatching event to socket  :  registerWorkerDone { workersCount: 1 }
+12:39:08.975 detox[2778] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-2778  :   sessionStateUpdate { workersCount: 1 }
+12:39:08.975 detox[2781] [90mi[39m ## received events ##
+12:39:08.975 detox[2781] [90mi[39m detected event registerWorkerDone { workersCount: 1 }
+12:39:09.087 detox[2781] [90mi[39m ## received events ##
+12:39:09.087 detox[2781] [90mi[39m detected event sessionStateUpdate { workersCount: 1 }
+12:39:09.092 detox[2778] [90mB[39m connection :51086<->:51087
+12:39:09.093 detox[2781] [90mi[39m opened web socket to: ws://localhost:51086
+12:39:09.095 detox[2781] [90mi[39m send message
+  data: {"type":"login","params":{"sessionId":"a3069a7f-ee37-3b61-45e6-867496643a5b","role":"tester"},"messageId":0}
+12:39:09.096 detox[2778] [90mi[39m get
+  data: {"type":"login","params":{"sessionId":"a3069a7f-ee37-3b61-45e6-867496643a5b","role":"tester"},"messageId":0}
+12:39:09.096 detox[2778] [90mi[39m created session a3069a7f-ee37-3b61-45e6-867496643a5b
+12:39:09.096 detox[2778] [90mi[39m send
+  data: {
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": false
+    },
+    "messageId": 0
+  }
+12:39:09.097 detox[2778] [90mi[39m tester joined session a3069a7f-ee37-3b61-45e6-867496643a5b
+12:39:09.097 detox[2781] [90mi[39m get message
+  data: {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+   
+12:39:09.125 detox[2781] [90mB[39m allocate
+  args: ({"type":"android.attached","device":{"adbName":".*"}})
+12:39:09.127 detox[2781] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  devices
+12:39:09.158 detox[2781] [90mi[39m List of devices attached
+
+
+12:39:09.160 detox[2781] [90mE[39m allocate
+12:39:09.160 detox[2781] [90mB[39m postAllocate
+  args: ({"adbName":null})
+12:39:09.160 detox[2781] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"
+12:39:24.556 detox[2781] [90mi[39m ""/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"" failed with error = ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"
+adb: no devices/emulators found
+ `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1) (code=1), stdout and stderr:
+
+12:39:24.558 detox[2781] [90mi[39m 
+12:39:24.559 detox[2781] [90mi[39m adb: no devices/emulators found
+
+12:39:24.559 detox[2781] [90mE[39m postAllocate
+  error: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"
+  adb: no devices/emulators found
+   `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)
+12:39:24.560 detox[2781] [90mE[39m set up environment
+  error: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"
+  adb: no devices/emulators found
+   `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)
+12:39:24.560 detox[2781] [90mB[39m tear down environment
+12:39:24.561 detox[2781] [90mB[39m onBeforeCleanup
+  args: ()
+12:39:24.564 detox[2781] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 07-09-08Z/detox_pid_2781.json.log { append: true }
+12:39:24.565 detox[2781] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 07-09-08Z/detox_pid_2781.log { append: true }
+12:39:24.565 detox[2781] [90mE[39m onBeforeCleanup
+12:39:24.569 detox[2778] [90mi[39m tester exited session a3069a7f-ee37-3b61-45e6-867496643a5b
+12:39:24.569 detox[2778] [90mE[39m connection :51086<->:51087
+12:39:24.569 detox[2781] [90mB[39m free
+  args: ({"adbName":null}, {"shutdown":false})
+12:39:24.569 detox[2781] [90mE[39m free
+12:39:24.570 detox[2781] [90mE[39m tear down environment
+12:39:24.570 detox[2781] [90mE[39m e2e/starter.test.js
+12:39:24.602 detox[2781] [90mi[39m dispatching event to  primary-2778 /tmp/detox.primary-2778  :  reportTestResults , {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: {
+        name: 'ChildProcessError',
+        code: 1,
+        childProcess: {},
+        stdout: '',
+        stderr: 'adb: no devices/emulators found\n',
+        message: 'Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)',
+        stack: 'ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)\n' +
+          '    at callback (/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/child-process-promise/lib/index.js:33:27)\n' +
+          '    at ChildProcess.exithandler (child_process.js:390:5)\n' +
+          '    at ChildProcess.emit (events.js:400:28)\n' +
+          '    at maybeClose (internal/child_process.js:1058:16)\n' +
+          '    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+12:39:24.603 detox[2778] [90mi[39m received event of :  reportTestResults {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: {
+        name: 'ChildProcessError',
+        code: 1,
+        childProcess: {},
+        stdout: '',
+        stderr: 'adb: no devices/emulators found\n',
+        message: 'Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)',
+        stack: 'ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)\n' +
+          '    at callback (/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/child-process-promise/lib/index.js:33:27)\n' +
+          '    at ChildProcess.exithandler (child_process.js:390:5)\n' +
+          '    at ChildProcess.emit (events.js:400:28)\n' +
+          '    at maybeClose (internal/child_process.js:1058:16)\n' +
+          '    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+12:39:24.603 detox[2778] [90mi[39m dispatching event to socket  :  reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: {
+        name: 'ChildProcessError',
+        code: 1,
+        childProcess: {},
+        stdout: '',
+        stderr: 'adb: no devices/emulators found\n',
+        message: 'Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)',
+        stack: 'ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)\n' +
+          '    at callback (/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/child-process-promise/lib/index.js:33:27)\n' +
+          '    at ChildProcess.exithandler (child_process.js:390:5)\n' +
+          '    at ChildProcess.emit (events.js:400:28)\n' +
+          '    at maybeClose (internal/child_process.js:1058:16)\n' +
+          '    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+12:39:24.603 detox[2778] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-2778  :   sessionStateUpdate {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: {
+        name: 'ChildProcessError',
+        code: 1,
+        childProcess: {},
+        stdout: '',
+        stderr: 'adb: no devices/emulators found\n',
+        message: 'Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)',
+        stack: 'ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)\n' +
+          '    at callback (/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/child-process-promise/lib/index.js:33:27)\n' +
+          '    at ChildProcess.exithandler (child_process.js:390:5)\n' +
+          '    at ChildProcess.emit (events.js:400:28)\n' +
+          '    at maybeClose (internal/child_process.js:1058:16)\n' +
+          '    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+12:39:24.603 detox[2781] [90mi[39m ## received events ##
+12:39:24.604 detox[2781] [90mi[39m detected event reportTestResultsDone {
+  testResults: [
+    {
+      success: false,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: {
+        name: 'ChildProcessError',
+        code: 1,
+        childProcess: {},
+        stdout: '',
+        stderr: 'adb: no devices/emulators found\n',
+        message: 'Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)',
+        stack: 'ChildProcessError: Command failed: "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"\n' +
+          'adb: no devices/emulators found\n' +
+          ' `"/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  shell "getprop ro.build.version.sdk"` (exited with error code 1)\n' +
+          '    at callback (/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/child-process-promise/lib/index.js:33:27)\n' +
+          '    at ChildProcess.exithandler (child_process.js:390:5)\n' +
+          '    at ChildProcess.emit (events.js:400:28)\n' +
+          '    at maybeClose (internal/child_process.js:1058:16)\n' +
+          '    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)'
+      },
+      isPermanentFailure: false
+    }
+  ]
+}
+12:39:24.605 detox[2778] [90mi[39m socket disconnected secondary-2781
+12:39:24.605 detox[2781] [90mi[39m connection closed primary-2778 /tmp/detox.primary-2778 0 tries remaining of 0
+12:39:24.605 detox[2781] [90mi[39m secondary-2781 exceeded connection rety amount of  or stopRetrying flag set.
+12:39:24.711 detox[2778] [90mE[39m Command failed with exit code = 1:
+jest --config e2e/jest.config.js
+12:39:24.713 detox[2778] [90mi[39m Detox server has been closed gracefully
+12:39:24.714 detox[2778] [90mE[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all

@@ -1,0 +1,98 @@
+--------- beginning of main
+05-19 13:08:23.261  5992  6130 I ReactNativeJS: Running "FakeStore" with {"rootTag":1}
+05-19 13:08:23.434  5992  6131 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 13:08:23.487  5992  5992 I Detox   : UIManagerModule is busy
+05-19 13:08:23.560  5992  5992 I Detox   : UIManagerModule is busy
+05-19 13:08:23.615  5992  6200 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 13:08:23.615  5992  6200 D SoLoader: libimagepipeline.so found on /data/app/~~h_hRayQnLtMZp3svdb0N7g==/com.fakestore-QnUSpu0YVMvE_7h5u81LSg==/lib/arm64
+05-19 13:08:23.615  5992  6200 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 13:08:23.634  5992  5992 I Detox   : UIManagerModule is busy
+05-19 13:08:23.640  5992  5992 I Detox   : Wait is over: App is now idle!
+05-19 13:08:23.641  5992  6124 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:08:23.641  5992  6124 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:08:23.641  5992  6124 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 13:08:23.641  5992  6124 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 13:08:23.641  5992  6124 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 13:08:23.645  5992  5992 I Detox   : Wait is over: App is now idle!
+05-19 13:08:23.645  5992  6124 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:08:23.645  5992  6124 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:08:23.742  5992  6126 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+05-19 13:08:23.743  5992  6124 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+05-19 13:08:23.749  5992  6124 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 13:08:23.760  5992  6124 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 13:08:23.762  5992  6124 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:08:23.763  5992  6124 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@8681208, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+05-19 13:08:23.976  5992  5992 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 13:08:23.976  5992  5992 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:08:23.976  5992  5992 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:08:23.978  5992  5992 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+05-19 13:08:23.991  5992  5992 D RootViewPicker: Root not ready - waiting: 25ms for one to appear.
+05-19 13:08:24.020  5992  5992 D RootViewPicker: Root not ready - waiting: 50ms for one to appear.
+05-19 13:08:24.076  5992  5992 D RootViewPicker: Root not ready - waiting: 100ms for one to appear.
+05-19 13:08:24.182  5992  5992 D RootViewPicker: Root not ready - waiting: 200ms for one to appear.
+05-19 13:08:24.388  5992  5992 D RootViewPicker: Root not ready - waiting: 400ms for one to appear.
+05-19 13:08:24.794  5992  5992 D RootViewPicker: Root not ready - waiting: 800ms for one to appear.
+05-19 13:08:25.738  5992  5992 D RootViewPicker: Root not ready - waiting: 1000ms for one to appear.
+05-19 13:08:26.418  5992  5992 W UiControllerImpl: Waiting for: DELAY_HAS_PAST for 100 iterations.
+05-19 13:08:26.792  5992  5992 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: Test exception
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: java.lang.reflect.InvocationTargetException
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:443)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at org.apache.commons.lang3.reflect.MethodUtils.invokeStaticMethod(MethodUtils.java:405)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.invoke.types.ClassTarget.execute(ClassTarget.java:23)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.invoke.types.Target.invoke(Target.java:59)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:35)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:26)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.invoke.MethodInvocation.invoke(MethodInvocation.java:20)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.InvokeActionHandler.handle(DetoxActionHandlers.kt:54)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.executeAction$lambda-2$lambda-1(DetoxActionsDispatcher.kt:64)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$nk3cF8ntnfFqbJOcVqd04vjb5nY(Unknown Source:0)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda1.run(Unknown Source:8)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:254)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor._init_$lambda-0(DetoxActionsDispatcher.kt:50)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor.$r8$lambda$Hi5vyewqQiQqk57AkJy_cHqNGKY(Unknown Source:0)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.adapters.server.ActionsExecutor$$ExternalSyntheticLambda0.run(Unknown Source:4)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at java.lang.Thread.run(Thread.java:923)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: Caused by: androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers:      Got: was null
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at java.lang.Thread.getStackTrace(Thread.java:1736)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.espresso.DetoxAssertion.assertMatcher(DetoxAssertion.java:32)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	... 19 more
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: Caused by: junit.framework.AssertionFailedError: '(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)' doesn't match the selected view.
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: Expected: (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers:      Got: was null
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.wix.detox.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:52)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Handler.handleCallback(Handler.java:938)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.os.Looper.loop(Looper.java:254)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at android.app.ActivityThread.main(ActivityThread.java:8243)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at java.lang.reflect.Method.invoke(Native Method)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:612)
+05-19 13:08:26.795  5992  6124 I DetoxActionHandlers: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1006)
+05-19 13:08:26.796  5992  5992 E ANR_LOG : >>> msg's executing time is too long
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Blocked msg = { when=-3s28ms what=0 target=android.os.Handler callback=androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFutureTask } , cost  = 3025 ms
+05-19 13:08:26.796  5992  5992 E ANR_LOG : >>>Current msg List is:
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Current msg <1> = { when=-44ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@10a9fda }
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Current msg <2> = { when=-44ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@ad6ac0b }
+05-19 13:08:26.796  5992  6124 I DetoxWSClient: Sending out action 'testFailed' (ID #1)
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Current msg <3> = { when=-42ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@154cae8 }
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Current msg <4> = { when=-42ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@e5d4501 }
+05-19 13:08:26.796  5992  5992 E ANR_LOG : Current msg <5> = { when=+2ms what=0 target=android.os.Handler callback=androidx.test.espresso.base.UiControllerImpl$6 }
+05-19 13:08:26.796  5992  5992 E ANR_LOG : >>>CURRENT MSG DUMP OVER<<<
+05-19 13:08:26.796  5992  6124 I DetoxDispatcher: Done with action 'invoke'
