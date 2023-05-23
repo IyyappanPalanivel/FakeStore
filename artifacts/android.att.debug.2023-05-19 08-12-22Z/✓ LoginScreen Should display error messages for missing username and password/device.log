@@ -1,0 +1,338 @@
+--------- beginning of main
+05-19 13:42:35.142 17638 17719 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreensShadowNode
+05-19 13:42:35.185 17638 17638 I Detox   : UIManagerModule is busy
+05-19 13:42:35.245 17638 17638 I Detox   : UIManagerModule is busy
+05-19 13:42:35.318 17638 17638 I Detox   : Wait is over: App is now idle!
+05-19 13:42:35.318 17638 17710 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:42:35.318 17638 17710 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:42:35.318 17638 17710 I DetoxDispatcher: Handling action 'loginSuccess' (ID #0)...
+05-19 13:42:35.318 17638 17710 I DetoxDispatcher: Done with action 'loginSuccess'
+05-19 13:42:35.319 17638 17710 I DetoxDispatcher: Handling action 'isReady' (ID #-1000)...
+05-19 13:42:35.324 17638 17638 I Detox   : Wait is over: App is now idle!
+05-19 13:42:35.324 17638 17710 I DetoxWSClient: Sending out action 'ready' (ID #-1000)
+05-19 13:42:35.325 17638 17710 I DetoxDispatcher: Done with action 'isReady'
+05-19 13:42:35.328 17638 17775 D SoLoader: libimagepipeline.so not found on /data/data/com.fakestore/lib-main
+05-19 13:42:35.328 17638 17775 D SoLoader: libimagepipeline.so found on /data/app/~~FAAgaVvGVrSLLKrsJlOywA==/com.fakestore-3lU-0Giaqstnp8yPuwGx3Q==/lib/arm64
+05-19 13:42:35.328 17638 17775 D SoLoader: Not resolving dependencies for libimagepipeline.so
+05-19 13:42:35.407 17638 17713 D DetoxWSClient: Received action 'invoke' (ID #1, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]})
+05-19 13:42:35.408 17638 17710 I DetoxDispatcher: Handling action 'invoke' (ID #1)...
+05-19 13:42:35.411 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Fake Store]
+05-19 13:42:35.433 17638 17710 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)]
+05-19 13:42:35.434 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:42:35.437 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@3fe4da1, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 3.0]
+05-19 13:42:35.695 17638 17638 W com.fakestore: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+05-19 13:42:35.696 17638 17638 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:42:35.696 17638 17638 W com.fakestore: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+05-19 13:42:35.700 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Fake Store" and view has effective visibility <VISIBLE>)
+05-19 13:42:35.702 17638 17710 I DetoxWSClient: Sending out action 'invokeResult' (ID #1)
+05-19 13:42:35.702 17638 17710 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:42:35.731 17638 17713 D DetoxWSClient: Received action 'invoke' (ID #2, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]})
+05-19 13:42:35.732 17638 17710 I DetoxDispatcher: Handling action 'invoke' (ID #2)...
+05-19 13:42:35.733 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Find your Gadget]
+05-19 13:42:35.734 17638 17710 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)]
+05-19 13:42:35.735 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:42:35.735 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxAssertion, waitForAssertMatcher, [androidx.test.espresso.ViewInteraction@3bec787, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area), 3.0]
+05-19 13:42:35.760 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.303 17638 17638 I chatty  : uid=11051(com.fakestore) identical 15 lines
+05-19 13:42:36.339 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.375 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.784 17638 17638 I chatty  : uid=11051(com.fakestore) identical 12 lines
+05-19 13:42:36.818 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.850 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.883 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:36.914 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:37.047 17638 17638 I chatty  : uid=11051(com.fakestore) identical 4 lines
+05-19 13:42:37.081 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:37.105 17638 17638 I Detox   : UIManagerModule is busy
+05-19 13:42:37.107 17638 17638 D AsyncStorageIR: Async-storage is busy!
+05-19 13:42:37.431 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Find your Gadget" and view has effective visibility <VISIBLE>)
+05-19 13:42:37.432 17638 17710 I DetoxWSClient: Sending out action 'invokeResult' (ID #2)
+05-19 13:42:37.433 17638 17710 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:42:37.446 17638 17713 D DetoxWSClient: Received action 'invoke' (ID #3, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Get Started"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+05-19 13:42:37.447 17638 17710 I DetoxDispatcher: Handling action 'invoke' (ID #3)...
+05-19 13:42:37.447 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Get Started]
+05-19 13:42:37.447 17638 17710 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Get Started" and view has effective visibility <VISIBLE>)]
+05-19 13:42:37.448 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+05-19 13:42:37.449 17638 17710 W com.fakestore: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+05-19 13:42:37.451 17638 17710 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [androidx.test.espresso.ViewInteraction@ff4cd3b, com.wix.detox.espresso.action.RNClickAction@8658c58]
+05-19 13:42:37.457 17638 17638 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@80fc1b1 click' action on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Get Started" and view has effective visibility <VISIBLE>)
+--------- beginning of system
+05-19 13:42:37.461 17638 17638 D ViewRootImpl: enqueueInputEventMotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1903.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105524557, downTime=105524557, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:37.461 17638 17638 D ViewRootImpl[MainActivity]: processMotionEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1903.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105524557, downTime=105524557, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:37.468 17638 17638 D ViewRootImpl[MainActivity]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1903.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105524557, downTime=105524557, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:37.494 17638 17638 D ViewRootImpl[MainActivity]: processMotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1903.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105524587, downTime=105524557, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:37.496 17638 17638 D ViewRootImpl[MainActivity]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=540.0, y[0]=1903.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105524587, downTime=105524557, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:37.614 17638 17664 I com.fakestore: Waiting for a blocking GC ProfileSaver
+05-19 13:42:37.617 17638 17719 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-19 13:42:37.617 17638 17719 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-19 13:42:37.642 17638 17664 I com.fakestore: ProcessProfilingInfo new_methods=7381 is saved saved_to_disk=1 resolve_classes_delay=5000
+05-19 13:42:38.083 17638 17710 I DetoxWSClient: Sending out action 'invokeResult' (ID #3)
+05-19 13:42:38.083 17638 17710 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:42:38.097 17638 17713 D DetoxWSClient: Received action 'invoke' (ID #4, params={"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Welcome Back"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]})
+05-19 13:42:38.098 17638 17710 I DetoxDispatcher: Handling action 'invoke' (ID #4)...
+05-19 13:42:38.099 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForText, [Welcome Back]
+05-19 13:42:38.100 17638 17710 D Detox   : class androidx.test.espresso.Espresso, onView, [(an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Welcome Back" and view has effective visibility <VISIBLE>)]
+05-19 13:42:38.101 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForSufficientlyVisible, [75]
+05-19 13:42:38.101 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxAssertion, assertMatcher, [androidx.test.espresso.ViewInteraction@2ccf423, (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)]
+05-19 13:42:38.117 17638 17638 I ViewInteraction: Checking 'MatchesViewAssertion(Detox){viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() covers at least <75> percent of the view's area)}' assertion on view (an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Welcome Back" and view has effective visibility <VISIBLE>)
+05-19 13:42:38.121 17638 17710 I DetoxWSClient: Sending out action 'invokeResult' (ID #4)
+05-19 13:42:38.122 17638 17710 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:42:38.134 17638 17713 D DetoxWSClient: Received action 'invoke' (ID #5, params={"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["loginbtn"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]})
+05-19 13:42:38.135 17638 17710 I DetoxDispatcher: Handling action 'invoke' (ID #5)...
+05-19 13:42:38.136 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [loginbtn]
+05-19 13:42:38.138 17638 17710 D Detox   : class androidx.test.espresso.Espresso, onView, [(view.getTag() is "loginbtn" and view has effective visibility <VISIBLE>)]
+05-19 13:42:38.139 17638 17710 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+05-19 13:42:38.140 17638 17710 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [androidx.test.espresso.ViewInteraction@9b8cd20, com.wix.detox.espresso.action.RNClickAction@8ef46d9]
+05-19 13:42:38.147 17638 17638 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@a4d789e click' action on view (view.getTag() is "loginbtn" and view has effective visibility <VISIBLE>)
+05-19 13:42:38.152 17638 17638 D ViewRootImpl: enqueueInputEventMotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1755.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105525246, downTime=105525246, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:38.152 17638 17638 D ViewRootImpl[MainActivity]: processMotionEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1755.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105525246, downTime=105525246, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:38.156 17638 17638 D ViewRootImpl[MainActivity]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1755.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=BUTTON_PRIMARY, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105525246, downTime=105525246, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:38.179 17638 17638 D ViewRootImpl[MainActivity]: processMotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1755.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105525276, downTime=105525246, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:38.181 17638 17638 D ViewRootImpl[MainActivity]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=539.5, y[0]=1755.5, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, classification=NONE, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=105525276, downTime=105525246, deviceId=-1, source=0x1002, displayId=0 }
+05-19 13:42:38.183 17638 17638 I Detox   : UIManagerModule is busy
+05-19 13:42:38.277 17638 17638 E unknown:ReactModalHost: Creating new dialog from context: com.fakestore.MainActivity@87bb623@142325283
+05-19 13:42:38.289 17638 17638 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+05-19 13:42:38.289 17638 17638 D ColorViewRootUtil: mScreenHeight 2400, mScreenWidth 1080
+05-19 13:42:38.290 17638 17638 D WindowManager: Add to mViews: DecorView@4f19557[MainActivity],pkg= com.fakestore
+05-19 13:42:38.315 17638 17638 V OplusZoomWindowDecorViewHelper: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.DecorView@4f19557[MainActivity]
+05-19 13:42:38.343 17638 17638 E unknown:ReactModalHost: Updating existing dialog with context: com.fakestore.MainActivity@87bb623@142325283
+05-19 13:42:38.356 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.372 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.388 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.405 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.423 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.439 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.455 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.471 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.488 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.505 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.522 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.538 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.704 17638 17638 I chatty  : uid=11051(com.fakestore) identical 10 lines
+05-19 13:42:38.723 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.738 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.821 17638 17638 I chatty  : uid=11051(com.fakestore) identical 5 lines
+05-19 13:42:38.838 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.854 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.905 17638 17638 I chatty  : uid=11051(com.fakestore) identical 3 lines
+05-19 13:42:38.922 17638 17638 I Detox   : Network is busy, with 1 in-flight calls
+05-19 13:42:38.988 17638 17718 I ReactNativeJS: { token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXIiOiJqb2huZCIsImlhdCI6MTY4NDQ4Mzk2MH0.96EKSH8K5EuTOn8VUYgQTD_1lfCADVjIrUxfJe68OC0' }
+05-19 13:42:39.060 17638 17638 E unknown:ReactModalHost: Creating new dialog from context: com.fakestore.MainActivity@87bb623@142325283
+05-19 13:42:39.077 17638 17638 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+05-19 13:42:39.077 17638 17638 D ColorViewRootUtil: mScreenHeight 2400, mScreenWidth 1080
+05-19 13:42:39.077 17638 17638 D WindowManager: Add to mViews: DecorView@b5358b1[MainActivity],pkg= com.fakestore
+05-19 13:42:39.114 17638 17638 V OplusZoomWindowDecorViewHelper: setLastReportedMergedConfiguration mZoomDisplayHeight: 2400 getDecorView.DecorView@b5358b1[MainActivity]
+05-19 13:42:39.119 17638 17718 E ReactNativeJS: 'VirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead.', '\nVirtualizedList@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:71771:36\nFlatList@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:71150:36\nRCTView\nView\nRCTScrollView\nScrollView@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:73538:36\nScrollView\nRCTView\nView\nSafeAreaView@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:82969:41\nHomeScreen@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:123797:26\nStaticContainer@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:132851:17\nEnsureSingleNavigator@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:128498:24\nSceneView@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:132735:22\nRCTView\nView\nRCTView\nView\nBackground@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:134900:21\nScreen@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136301:108\nRNSScreen\nAnimatedComponent@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:70337:38\nAnimatedComponentWrapper\nMaybeFreeze@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136653:23\nScreen@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136720:36\nMaybeScreen@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136473:24\nRNSScreenContainer\nScreenContainer@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136854:31\nMaybeScreenContainer@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136442:23\nRCTView\nView\nSafeAreaProviderCompat@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:136231:24\nBottomTabView@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:124412:30\nBottomTabNavigator@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:124271:18\nMyBottomTab\nStaticContainer@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:132851:17\nEnsureSingleNavigator@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:128498:24\nSceneView@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:132735:22\nRCTView\nView\nDebugContainer@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:138387:36\nMaybeNestedStack@http://localhost:8081/index.bundle?platform=android&dev=true&minify=false&app=com.fakestore&modulesOnly=false&runModule=true:138036:23\nRNSScreen\nAnimatedComponent@http://localhost:808
+05-19 13:42:39.143 17638 17638 E unknown:ReactModalHost: Updating existing dialog with context: com.fakestore.MainActivity@87bb623@142325283
+05-19 13:42:39.185 17638 17719 W unknown:ReactNative: Attempt to set local data for view with unknown tag: -1
+05-19 13:42:39.265 17638 17638 W com.fakestore: Accessing hidden field Landroid/widget/HorizontalScrollView;->mScroller:Landroid/widget/OverScroller; (greylist, reflection, allowed)
+05-19 13:42:39.289 17638 17638 D TestOverScroll: getScaledOverscrollDistance: b
+05-19 13:42:39.289 17638 17638 W com.fakestore: Accessing hidden field Landroid/widget/ScrollView;->mScroller:Landroid/widget/OverScroller; (greylist, reflection, allowed)
+05-19 13:42:39.307 17638 17638 D TestOverScroll: getScaledOverscrollDistance: b
+05-19 13:42:40.112 17638 17638 I Detox   : UIManagerModule is busy
+05-19 13:42:40.291 17638 17794 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.292 17638 17794 D IAtlas  : IAtlas::init this 0xb4000076fd087640
+05-19 13:42:40.293 17638 17794 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.298 17638 17794 D SoLoader: libnative-imagetranscoder.so not found on /data/data/com.fakestore/lib-main
+05-19 13:42:40.298 17638 17794 D SoLoader: libnative-imagetranscoder.so found on /data/app/~~FAAgaVvGVrSLLKrsJlOywA==/com.fakestore-3lU-0Giaqstnp8yPuwGx3Q==/lib/arm64
+05-19 13:42:40.298 17638 17794 D SoLoader: Not resolving dependencies for libnative-imagetranscoder.so
+05-19 13:42:40.301 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.302 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:40.302 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.302 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.303 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:40.303 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.375 17638 17654 W System  : A resource failed to call release. 
+05-19 13:42:40.375 17638 17654 I chatty  : uid=11051(com.fakestore) FinalizerDaemon identical 1 line
+05-19 13:42:40.375 17638 17654 W System  : A resource failed to call release. 
+05-19 13:42:40.579 17638 17793 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.580 17638 17793 D IAtlas  : IAtlas::init this 0xb4000076fd086840
+05-19 13:42:40.580 17638 17793 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.583 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.584 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:40.586 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.588 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.589 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:40.590 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.765 17638 17817 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.765 17638 17817 D IAtlas  : IAtlas::init this 0xb4000076fd0866f0
+05-19 13:42:40.766 17638 17817 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.768 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.771 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:40.771 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.777 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.777 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:40.777 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.846 17638 17816 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.847 17638 17816 D IAtlas  : IAtlas::init this 0xb4000076c84f9500
+05-19 13:42:40.847 17638 17818 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.847 17638 17816 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.847 17638 17818 D IAtlas  : IAtlas::init this 0xb4000076c84fa220
+05-19 13:42:40.848 17638 17818 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.850 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.850 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.851 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:40.851 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.853 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.854 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:40.855 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.860 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:40.860 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.861 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.862 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:40.862 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.866 17638 17775 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.866 17638 17775 D IAtlas  : IAtlas::init this 0xb400007762ca72b0
+05-19 13:42:40.867 17638 17775 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.868 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.871 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:40.871 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:40.872 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:40.873 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:40.875 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.112 17638 17794 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.112 17638 17794 D IAtlas  : IAtlas::init this 0xb4000076fd0875d0
+05-19 13:42:41.113 17638 17794 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.115 17638 17814 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.116 17638 17814 D IAtlas  : IAtlas::init this 0xb400007762ca7630
+05-19 13:42:41.116 17638 17814 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.117 17638 17814 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.118 17638 17814 D IAtlas  : IAtlas::init this 0xb400007762ca7630
+05-19 13:42:41.119 17638 17814 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.329 17638 17793 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.330 17638 17793 D IAtlas  : IAtlas::init this 0xb4000076fd086840
+05-19 13:42:41.330 17638 17793 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.334 17638 17815 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.336 17638 17815 D IAtlas  : IAtlas::init this 0xb40000776dc390d0
+05-19 13:42:41.340 17638 17815 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.342 17638 17815 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.343 17638 17815 D IAtlas  : IAtlas::init this 0xb40000776dc390d0
+05-19 13:42:41.344 17638 17815 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.400 17638 17817 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.401 17638 17817 D IAtlas  : IAtlas::init this 0xb4000076fd0866f0
+05-19 13:42:41.401 17638 17817 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.411 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.412 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:41.412 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.413 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.414 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:41.414 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.478 17638 17818 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.478 17638 17818 D IAtlas  : IAtlas::init this 0xb4000076c84fa220
+05-19 13:42:41.479 17638 17818 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.482 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.485 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:41.486 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.486 17638 17816 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.486 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.487 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:41.488 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.488 17638 17816 D IAtlas  : IAtlas::init this 0xb4000076c84f9500
+05-19 13:42:41.488 17638 17816 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.493 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.494 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:41.496 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.497 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.498 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:41.498 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.662 17638 17775 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.662 17638 17775 D IAtlas  : IAtlas::init this 0xb400007762ca72b0
+05-19 13:42:41.663 17638 17775 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.665 17638 17807 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.666 17638 17807 D IAtlas  : IAtlas::init this 0xb40000776dc39840
+05-19 13:42:41.666 17638 17807 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.667 17638 17807 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.667 17638 17807 D IAtlas  : IAtlas::init this 0xb40000776dc39840
+05-19 13:42:41.668 17638 17807 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.727 17638 17793 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.727 17638 17793 D IAtlas  : IAtlas::init this 0xb4000076fd086840
+05-19 13:42:41.728 17638 17793 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.733 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.733 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:41.734 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.735 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.736 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:41.736 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.879 17638 17794 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.880 17638 17794 D IAtlas  : IAtlas::init this 0xb4000076fd0875d0
+05-19 13:42:41.881 17638 17794 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.885 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.886 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:41.888 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:41.891 17638 17797 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:41.891 17638 17797 D IAtlas  : IAtlas::init this 0xb40000776dc38340
+05-19 13:42:41.892 17638 17797 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.032 17638 17817 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.033 17638 17817 D IAtlas  : IAtlas::init this 0xb4000076fd0866f0
+05-19 13:42:42.033 17638 17817 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.035 17638 17814 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.039 17638 17814 D IAtlas  : IAtlas::init this 0xb400007762ca7630
+05-19 13:42:42.043 17638 17814 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.044 17638 17814 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.045 17638 17814 D IAtlas  : IAtlas::init this 0xb400007762ca7630
+05-19 13:42:42.045 17638 17814 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.131 17638 17818 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.132 17638 17818 D IAtlas  : IAtlas::init this 0xb4000076c84fa220
+05-19 13:42:42.132 17638 17818 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.134 17638 17815 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.135 17638 17815 D IAtlas  : IAtlas::init this 0xb40000776dc390d0
+05-19 13:42:42.136 17638 17815 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.136 17638 17815 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.141 17638 17815 D IAtlas  : IAtlas::init this 0xb40000776dc390d0
+05-19 13:42:42.142 17638 17815 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.186 17638 17816 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.186 17638 17816 D IAtlas  : IAtlas::init this 0xb4000076c84f9500
+05-19 13:42:42.186 17638 17816 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.189 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.191 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:42.191 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.198 17638 17822 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.198 17638 17822 D IAtlas  : IAtlas::init this 0xb40000776dc3dac0
+05-19 13:42:42.199 17638 17822 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.276 17638 17775 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.276 17638 17775 D IAtlas  : IAtlas::init this 0xb400007762ca72b0
+05-19 13:42:42.277 17638 17775 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.279 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.279 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:42.279 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.280 17638 17795 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.280 17638 17795 D IAtlas  : IAtlas::init this 0xb40000776dc38180
+05-19 13:42:42.281 17638 17795 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.419 17638 17793 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.419 17638 17793 D IAtlas  : IAtlas::init this 0xb4000076fd086840
+05-19 13:42:42.420 17638 17793 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.427 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.428 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:42.428 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.429 17638 17779 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.430 17638 17779 D IAtlas  : IAtlas::init this 0xb400007762ca60c0
+05-19 13:42:42.430 17638 17779 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.581 17638 17794 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.582 17638 17794 D IAtlas  : IAtlas::init this 0xb4000076fd0875d0
+05-19 13:42:42.582 17638 17794 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.584 17638 17807 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.585 17638 17807 D IAtlas  : IAtlas::init this 0xb40000776dc39840
+05-19 13:42:42.585 17638 17807 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.586 17638 17807 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.587 17638 17807 D IAtlas  : IAtlas::init this 0xb40000776dc39840
+05-19 13:42:42.588 17638 17807 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.679 17638 17817 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.680 17638 17817 D IAtlas  : IAtlas::init this 0xb4000076fd0866f0
+05-19 13:42:42.680 17638 17817 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.682 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.683 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:42.683 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:42.684 17638 17796 D IAtlas  : IAtlas::init CallingPid 17638
+05-19 13:42:42.684 17638 17796 D IAtlas  : IAtlas::init this 0xb400007762ca6980
+05-19 13:42:42.685 17638 17796 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+05-19 13:42:43.417 17638 17710 I DetoxWSClient: Sending out action 'invokeResult' (ID #5)
+05-19 13:42:43.417 17638 17638 E ANR_LOG : >>> msg's executing time is too long
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Blocked msg = { when=-5s276ms what=0 target=android.os.Handler callback=androidx.test.espresso.core.internal.deps.guava.util.concurrent.ListenableFutureTask } , cost  = 5275 ms
+05-19 13:42:43.417 17638 17638 E ANR_LOG : >>>Current msg List is:
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Current msg <1> = { when=-1ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@10f4cf6 }
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Current msg <2> = { when=-1ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@93ae8f7 }
+05-19 13:42:43.417 17638 17710 I DetoxDispatcher: Done with action 'invoke'
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Current msg <3> = { when=-1ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@71aa364 }
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Current msg <4> = { when=-1ms what=1 target=android.os.Handler obj=androidx.test.espresso.base.IdlingResourceRegistry$IdlingState@77839cd }
+05-19 13:42:43.417 17638 17638 E ANR_LOG : Current msg <5> = { when=0 what=0 target=android.os.Handler callback=androidx.test.espresso.base.UiControllerImpl$6 }
+05-19 13:42:43.417 17638 17638 E ANR_LOG : >>>CURRENT MSG DUMP OVER<<<

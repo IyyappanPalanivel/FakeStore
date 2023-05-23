@@ -12,8 +12,8 @@ const LoginScreen = ({ navigation }) => {
   // Sample Login
   // username = johnd , password = m38rmF$
 
-  const [username, setUsername] = useState('johnd');
-  const [password, setPassword] = useState('m38rmF$');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSubmitPress = () => {
@@ -62,7 +62,6 @@ const LoginScreen = ({ navigation }) => {
         //Hide Loader
         setLoading(false);
         alert('Incorrect username or password');
-        navigation.replace('HomeBottomTab');
         console.error(error);
       });
   };
@@ -71,7 +70,7 @@ const LoginScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
 
-      <Loader loading={loading} />
+      <Loader testID='loader' loading={loading} />
 
       <View style={styles.topContainer}>
         <Image style={styles.topBubble} source={Images.bubbles} />
@@ -86,6 +85,7 @@ const LoginScreen = ({ navigation }) => {
           <Text style={styles.label}>Username</Text>
         </View>
         <TextInput
+          testID='usernameInput'
           style={styles.input}
           placeholder="Enter username"
           keyboardType='default'
@@ -99,6 +99,7 @@ const LoginScreen = ({ navigation }) => {
           <Text style={styles.label}>Password</Text>
         </View>
         <TextInput
+          testID='passwordInput'
           style={styles.input}
           placeholder="Enter Password"
           keyboardType='visible-password'
@@ -109,6 +110,7 @@ const LoginScreen = ({ navigation }) => {
         <Text style={styles.linkTxt}>Forgot password?</Text>
 
         <TouchableOpacity
+          testID='loginbtn'
           style={styles.button}
           onPress={() => handleSubmitPress()}
         >
@@ -177,7 +179,7 @@ const styles = StyleSheet.create({
   input: {
     borderBottomWidth: 1,
     borderBottomColor: COLORS.lightGray,
-    color:'black'
+    color: 'black'
   },
   iconSize: {
     height: 18,

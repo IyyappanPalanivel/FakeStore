@@ -1,0 +1,2344 @@
+13:42:22.299 detox[4174] [90mB[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all
+  data: {
+    "id": "9befbc51-10a7-216d-ec77-8c49686831bc",
+    "detoxConfig": {
+      "configurationName": "android.att.debug",
+      "apps": {
+        "default": {
+          "type": "android.apk",
+          "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+          "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug",
+          "reversePorts": [
+            8081
+          ]
+        }
+      },
+      "artifacts": {
+        "rootDir": "artifacts/android.att.debug.2023-05-19 08-12-22Z",
+        "plugins": {
+          "log": {
+            "enabled": true,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "screenshot": {
+            "enabled": true,
+            "shouldTakeAutomaticSnapshots": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "video": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "instruments": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          },
+          "uiHierarchy": {
+            "enabled": false,
+            "keepOnlyFailedTestsArtifacts": false
+          }
+        }
+      },
+      "behavior": {
+        "init": {
+          "keepLockFile": false,
+          "reinstallApp": true,
+          "exposeGlobals": true
+        },
+        "cleanup": {
+          "shutdownDevice": false
+        },
+        "launchApp": "auto"
+      },
+      "cli": {
+        "recordLogs": "all",
+        "configuration": "android.att.debug",
+        "start": true
+      },
+      "device": {
+        "type": "android.attached",
+        "device": {
+          "adbName": ".*"
+        }
+      },
+      "logger": {
+        "level": "info",
+        "overrideConsole": true,
+        "options": {
+          "showLoggerName": true,
+          "showPid": true,
+          "showLevel": false,
+          "showMetadata": false,
+          "basepath": "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/node_modules/detox/src",
+          "prefixers": {},
+          "stringifiers": {}
+        }
+      },
+      "testRunner": {
+        "retries": 0,
+        "forwardEnv": false,
+        "bail": false,
+        "jest": {
+          "setupTimeout": 120000,
+          "teardownTimeout": 30000,
+          "retryAfterCircusRetries": false,
+          "reportWorkerAssign": true
+        },
+        "args": {
+          "$0": "jest",
+          "_": [],
+          "config": "e2e/jest.config.js",
+          "--": []
+        }
+      },
+      "session": {
+        "autoStart": true,
+        "debugSynchronization": 10000
+      }
+    },
+    "detoxIPCServer": "primary-4174",
+    "testResults": [],
+    "testSessionIndex": 0,
+    "workersCount": 0
+  }
+13:42:22.304 detox[4174] [90mi[39m Server path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + ipc.config.id /tmp/detox.primary-4174
+13:42:22.306 detox[4174] [90mi[39m starting server on  /tmp/detox.primary-4174 
+13:42:22.306 detox[4174] [90mi[39m starting TLS server false
+13:42:22.306 detox[4174] [90mi[39m starting server as Unix || Windows Socket
+13:42:22.311 detox[4174] [90mi[39m Detox server listening on localhost:52532...
+13:42:22.317 detox[4174] [90mi[39m Serialized the session state at: /private/var/folders/nh/qgcf94bd36j7y52qsksxp38r0000gn/T/9befbc51-10a7-216d-ec77-8c49686831bc.detox.json
+13:42:22.318 detox[4174] [90mB[39m jest --config e2e/jest.config.js
+13:42:22.932 detox[4175] [90mi[39m Service path not specified, so defaulting to ipc.config.socketRoot + ipc.config.appspace + id 
+13:42:22.933 detox[4175] [90mi[39m requested connection to  primary-4174 /tmp/detox.primary-4174
+13:42:22.933 detox[4175] [90mi[39m Connecting client on Unix Socket : /tmp/detox.primary-4174
+13:42:22.934 detox[4174] [90mi[39m ## socket connection to server detected ##
+13:42:22.934 detox[4175] [90mi[39m retrying reset
+13:42:22.935 detox[4175] [90mi[39m dispatching event to  primary-4174 /tmp/detox.primary-4174  :  registerContext , { id: 'secondary-4175' }
+13:42:22.937 detox[4174] [90mi[39m received event of :  registerContext { id: 'secondary-4175' }
+13:42:22.937 detox[4174] [90mi[39m dispatching event to socket  :  registerContextDone { testResults: [], testSessionIndex: 0 }
+13:42:22.938 detox[4175] [90mi[39m ## received events ##
+13:42:22.938 detox[4175] [90mi[39m detected event registerContextDone { testResults: [], testSessionIndex: 0 }
+13:42:23.008 detox[4175] [90mB[39m e2e/login.test.js
+13:42:23.018 detox[4175] [90mB[39m set up environment
+13:42:23.019 detox[4175] [90mi[39m dispatching event to  primary-4174 /tmp/detox.primary-4174  :  registerWorker , { workerId: 'w1' }
+13:42:23.020 detox[4174] [90mi[39m received event of :  registerWorker { workerId: 'w1' }
+13:42:23.020 detox[4174] [90mi[39m dispatching event to socket  :  registerWorkerDone { workersCount: 1 }
+13:42:23.020 detox[4174] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-4174  :   sessionStateUpdate { workersCount: 1 }
+13:42:23.020 detox[4175] [90mi[39m ## received events ##
+13:42:23.020 detox[4175] [90mi[39m detected event registerWorkerDone { workersCount: 1 }
+13:42:23.148 detox[4175] [90mi[39m ## received events ##
+13:42:23.149 detox[4175] [90mi[39m detected event sessionStateUpdate { workersCount: 1 }
+13:42:23.153 detox[4174] [90mB[39m connection :52532<->:52533
+13:42:23.155 detox[4175] [90mi[39m opened web socket to: ws://localhost:52532
+13:42:23.157 detox[4175] [90mi[39m send message
+  data: {"type":"login","params":{"sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4","role":"tester"},"messageId":0}
+13:42:23.158 detox[4174] [90mi[39m get
+  data: {"type":"login","params":{"sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4","role":"tester"},"messageId":0}
+13:42:23.158 detox[4174] [90mi[39m created session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:23.158 detox[4174] [90mi[39m send
+  data: {
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": false
+    },
+    "messageId": 0
+  }
+13:42:23.159 detox[4174] [90mi[39m tester joined session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:23.159 detox[4175] [90mi[39m get message
+  data: {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+   
+13:42:23.197 detox[4175] [90mB[39m allocate
+  args: ({"type":"android.attached","device":{"adbName":".*"}})
+13:42:23.198 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  devices
+13:42:23.229 detox[4175] [90mi[39m List of devices attached
+b6b897f1	device
+adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.	device
+
+
+13:42:23.231 detox[4175] [90mi[39m Found a matching & free device b6b897f1
+13:42:23.232 detox[4175] [90mE[39m allocate
+13:42:23.232 detox[4175] [90mB[39m postAllocate
+  args: ({"adbName":"b6b897f1"})
+13:42:23.232 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "getprop ro.build.version.sdk"
+13:42:23.282 detox[4175] [90mi[39m 30
+
+13:42:23.283 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+13:42:23.425 detox[4175] [90mi[39m   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x0
+  mUserActivitySummary=0x1
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mUserId=0
+
+13:42:23.426 detox[4175] [90mB[39m onBootDevice
+  args: ({"deviceId":"b6b897f1","type":"device","coldBoot":false})
+13:42:23.427 detox[4175] [90mE[39m onBootDevice
+13:42:23.427 detox[4175] [90mE[39m postAllocate
+13:42:23.456 detox[4175] [90mB[39m installUtilBinaries
+  args: ()
+13:42:23.456 detox[4175] [90mE[39m installUtilBinaries
+13:42:23.456 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:23.462 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump badging "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk"
+13:42:23.490 detox[4175] [90mi[39m package: name='com.fakestore' versionCode='1' versionName='1.0' platformBuildVersionName='12' platformBuildVersionCode='31' compileSdkVersion='31' compileSdkVersionCodename='12'
+sdkVersion:'21'
+targetSdkVersion:'31'
+uses-permission: name='android.permission.SYSTEM_ALERT_WINDOW'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.WRITE_EXTERNAL_STORAGE'
+uses-permission: name='android.permission.ACCESS_FINE_LOCATION'
+uses-permission: name='android.permission.ACCESS_COARSE_LOCATION'
+uses-permission: name='android.permission.ACCESS_WIFI_STATE'
+application-label:'FakeStore'
+application-label-af:'FakeStore'
+application-label-am:'FakeStore'
+application-label-ar:'FakeStore'
+application-label-as:'FakeStore'
+application-label-az:'FakeStore'
+application-label-be:'FakeStore'
+application-label-bg:'FakeStore'
+application-label-bn:'FakeStore'
+application-label-bs:'FakeStore'
+application-label-ca:'FakeStore'
+application-label-cs:'FakeStore'
+application-label-da:'FakeStore'
+application-label-de:'FakeStore'
+application-label-el:'FakeStore'
+application-label-en-AU:'FakeStore'
+application-label-en-CA:'FakeStore'
+application-label-en-GB:'FakeStore'
+application-label-en-IN:'FakeStore'
+application-label-en-XC:'FakeStore'
+application-label-es:'FakeStore'
+application-label-es-US:'FakeStore'
+application-label-et:'FakeStore'
+application-label-eu:'FakeStore'
+application-label-fa:'FakeStore'
+application-label-fi:'FakeStore'
+application-label-fr:'FakeStore'
+application-label-fr-CA:'FakeStore'
+application-label-gl:'FakeStore'
+application-label-gu:'FakeStore'
+application-label-hi:'FakeStore'
+application-label-hr:'FakeStore'
+application-label-hu:'FakeStore'
+application-label-hy:'FakeStore'
+application-label-in:'FakeStore'
+application-label-is:'FakeStore'
+application-label-it:'FakeStore'
+application-label-iw:'FakeStore'
+application-label-ja:'FakeStore'
+application-label-ka:'FakeStore'
+application-label-kk:'FakeStore'
+application-label-km:'FakeStore'
+application-label-kn:'FakeStore'
+application-label-ko:'FakeStore'
+application-label-ky:'FakeStore'
+application-label-lo:'FakeStore'
+application-label-lt:'FakeStore'
+application-label-lv:'FakeStore'
+application-label-mk:'FakeStore'
+application-label-ml:'FakeStore'
+application-label-mn:'FakeStore'
+application-label-mr:'FakeStore'
+application-label-ms:'FakeStore'
+application-label-my:'FakeStore'
+application-label-nb:'FakeStore'
+application-label-ne:'FakeStore'
+application-label-nl:'FakeStore'
+application-label-or:'FakeStore'
+application-label-pa:'FakeStore'
+application-label-pl:'FakeStore'
+application-label-pt:'FakeStore'
+application-label-pt-BR:'FakeStore'
+application-label-pt-PT:'FakeStore'
+application-label-ro:'FakeStore'
+application-label-ru:'FakeStore'
+application-label-si:'FakeStore'
+application-label-sk:'FakeStore'
+application-label-sl:'FakeStore'
+application-label-sq:'FakeStore'
+application-label-sr:'FakeStore'
+application-label-sr-Latn:'FakeStore'
+application-label-sv:'FakeStore'
+application-label-sw:'FakeStore'
+application-label-ta:'FakeStore'
+application-label-te:'FakeStore'
+application-label-th:'FakeStore'
+application-label-tl:'FakeStore'
+application-label-tr:'FakeStore'
+application-label-uk:'FakeStore'
+application-label-ur:'FakeStore'
+application-label-uz:'FakeStore'
+application-label-vi:'FakeStore'
+application-label-zh-CN:'FakeStore'
+application-label-zh-HK:'FakeStore'
+application-label-zh-TW:'FakeStore'
+application-label-zu:'FakeStore'
+application-icon-160:'res/mipmap-mdpi-v4/ic_launcher.png'
+application-icon-240:'res/mipmap-hdpi-v4/ic_launcher.png'
+application-icon-320:'res/mipmap-xhdpi-v4/ic_launcher.png'
+application-icon-480:'res/mipmap-xxhdpi-v4/ic_launcher.png'
+application-icon-640:'res/mipmap-xxxhdpi-v4/ic_launcher.png'
+application-icon-65534:'res/mipmap-mdpi-v4/ic_launcher.png'
+application: label='FakeStore' icon='res/mipmap-mdpi-v4/ic_launcher.png'
+application-debuggable
+launchable-activity: name='com.fakestore.MainActivity'  label='FakeStore' icon=''
+uses-permission: name='android.permission.READ_EXTERNAL_STORAGE'
+uses-implied-permission: name='android.permission.READ_EXTERNAL_STORAGE' reason='requested WRITE_EXTERNAL_STORAGE'
+feature-group: label=''
+  uses-feature: name='android.hardware.camera'
+  uses-implied-feature: name='android.hardware.camera' reason='requested android.permission.CAMERA permission'
+  uses-feature: name='android.hardware.faketouch'
+  uses-implied-feature: name='android.hardware.faketouch' reason='default feature for all apps'
+  uses-feature: name='android.hardware.location'
+  uses-implied-feature: name='android.hardware.location' reason='requested android.permission.ACCESS_COARSE_LOCATION permission, and requested android.permission.ACCESS_FINE_LOCATION permission'
+  uses-feature: name='android.hardware.wifi'
+  uses-implied-feature: name='android.hardware.wifi' reason='requested android.permission.ACCESS_WIFI_STATE permission'
+main
+other-activities
+supports-screens: 'small' 'normal' 'large' 'xlarge'
+supports-any-density: 'true'
+locales: '--_--' 'af' 'am' 'ar' 'as' 'az' 'be' 'bg' 'bn' 'bs' 'ca' 'cs' 'da' 'de' 'el' 'en-AU' 'en-CA' 'en-GB' 'en-IN' 'en-XC' 'es' 'es-US' 'et' 'eu' 'fa' 'fi' 'fr' 'fr-CA' 'gl' 'gu' 'hi' 'hr' 'hu' 'hy' 'in' 'is' 'it' 'iw' 'ja' 'ka' 'kk' 'km' 'kn' 'ko' 'ky' 'lo' 'lt' 'lv' 'mk' 'ml' 'mn' 'mr' 'ms' 'my' 'nb' 'ne' 'nl' 'or' 'pa' 'pl' 'pt' 'pt-BR' 'pt-PT' 'ro' 'ru' 'si' 'sk' 'sl' 'sq' 'sr' 'sr-Latn' 'sv' 'sw' 'ta' 'te' 'th' 'tl' 'tr' 'uk' 'ur' 'uz' 'vi' 'zh-CN' 'zh-HK' 'zh-TW' 'zu'
+densities: '160' '240' '320' '480' '640' '65534'
+native-code: 'arm64-v8a' 'armeabi-v7a' 'x86' 'x86_64'
+
+13:42:23.490 detox[4175] [90mE[39m selectApp
+13:42:23.491 detox[4175] [90mB[39m uninstallApp
+  args: ()
+13:42:23.491 detox[4175] [90mB[39m onBeforeUninstallApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:23.491 detox[4175] [90mE[39m onBeforeUninstallApp
+13:42:23.491 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list packages com.fakestore"
+13:42:23.572 detox[4175] [90mi[39m package:com.fakestore.test
+package:com.fakestore
+
+13:42:23.573 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 uninstall com.fakestore
+13:42:24.081 detox[4175] [90mi[39m Success
+
+13:42:24.081 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list packages com.fakestore.test"
+13:42:24.164 detox[4175] [90mi[39m package:com.fakestore.test
+
+13:42:24.164 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 uninstall com.fakestore.test
+13:42:25.657 detox[4175] [90mi[39m Success
+
+13:42:25.657 detox[4175] [90mE[39m uninstallApp
+13:42:25.658 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:25.661 detox[4175] [90mB[39m terminateApp
+  args: ()
+13:42:25.661 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:25.662 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:25.662 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:25.764 detox[4175] [90mi[39m 
+13:42:25.764 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:25.764 detox[4175] [90mE[39m onTerminateApp
+13:42:25.765 detox[4175] [90mE[39m terminateApp
+13:42:25.765 detox[4175] [90mE[39m selectApp
+13:42:25.765 detox[4175] [90mB[39m installApp
+  args: ()
+13:42:25.766 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk" AndroidManifest.xml
+13:42:25.796 detox[4175] [90mi[39m String pool of 63 unique UTF-16 non-sorted strings, 63 entries and 0 styles using 3000 bytes:
+String #0: theme
+String #1: label
+String #2: icon
+String #3: name
+String #4: debuggable
+String #5: exported
+String #6: authorities
+String #7: grantUriPermissions
+String #8: launchMode
+String #9: configChanges
+String #10: value
+String #11: resource
+String #12: minSdkVersion
+String #13: versionCode
+String #14: versionName
+String #15: windowSoftInputMode
+String #16: targetSdkVersion
+String #17: allowBackup
+String #18: usesCleartextTraffic
+String #19: networkSecurityConfig
+String #20: roundIcon
+String #21: compileSdkVersion
+String #22: compileSdkVersionCodename
+String #23: appComponentFactory
+String #24: 1.0
+String #25: 12
+String #26: action
+String #27: activity
+String #28: android
+String #29: android.intent.action.MAIN
+String #30: android.intent.category.LAUNCHER
+String #31: android.permission.ACCESS_COARSE_LOCATION
+String #32: android.permission.ACCESS_FINE_LOCATION
+String #33: android.permission.ACCESS_WIFI_STATE
+String #34: android.permission.CAMERA
+String #35: android.permission.INTERNET
+String #36: android.permission.SYSTEM_ALERT_WINDOW
+String #37: android.permission.WRITE_EXTERNAL_STORAGE
+String #38: android.support.FILE_PROVIDER_PATHS
+String #39: androidx.core.app.CoreComponentFactory
+String #40: androidx.emoji2.text.EmojiCompatInitializer
+String #41: androidx.lifecycle.ProcessLifecycleInitializer
+String #42: androidx.startup
+String #43: androidx.startup.InitializationProvider
+String #44: application
+String #45: category
+String #46: com.facebook.react.devsupport.DevSettingsActivity
+String #47: com.fakestore
+String #48: com.fakestore.MainActivity
+String #49: com.fakestore.MainApplication
+String #50: com.fakestore.androidx-startup
+String #51: com.fakestore.imagepickerprovider
+String #52: com.imagepicker.ImagePickerProvider
+String #53: http://schemas.android.com/apk/res/android
+String #54: intent-filter
+String #55: manifest
+String #56: meta-data
+String #57: package
+String #58: platformBuildVersionCode
+String #59: platformBuildVersionName
+String #60: provider
+String #61: uses-permission
+String #62: uses-sdk
+
+13:42:25.796 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" AndroidManifest.xml
+13:42:25.825 detox[4175] [90mi[39m String pool of 42 unique UTF-16 non-sorted strings, 42 entries and 0 styles using 2060 bytes:
+String #0: theme
+String #1: label
+String #2: name
+String #3: debuggable
+String #4: exported
+String #5: priority
+String #6: targetPackage
+String #7: handleProfiling
+String #8: functionalTest
+String #9: minSdkVersion
+String #10: targetSdkVersion
+String #11: compileSdkVersion
+String #12: compileSdkVersionCodename
+String #13: 12
+String #14: Tests for com.fakestore
+String #15: activity
+String #16: android
+String #17: android.intent.category.LAUNCHER
+String #18: android.permission.REORDER_TASKS
+String #19: android.test.runner
+String #20: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+String #21: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+String #22: androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+String #23: androidx.test.orchestrator
+String #24: androidx.test.runner.AndroidJUnitRunner
+String #25: androidx.test.services
+String #26: application
+String #27: category
+String #28: com.fakestore
+String #29: com.fakestore.test
+String #30: com.google.android.apps.common.testing.services
+String #31: http://schemas.android.com/apk/res/android
+String #32: instrumentation
+String #33: intent-filter
+String #34: manifest
+String #35: package
+String #36: platformBuildVersionCode
+String #37: platformBuildVersionName
+String #38: queries
+String #39: uses-library
+String #40: uses-permission
+String #41: uses-sdk
+
+13:42:25.832 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk
+13:42:29.647 detox[4175] [90mi[39m Performing Streamed Install
+Success
+
+13:42:29.653 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk exited with code #0
+13:42:29.671 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+13:42:32.875 detox[4175] [90mi[39m Performing Streamed Install
+Success
+
+13:42:32.877 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk exited with code #0
+13:42:32.878 detox[4175] [90mB[39m reverseTcpPort
+  args: (8081)
+13:42:32.878 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse tcp:8081 tcp:8081
+13:42:32.919 detox[4175] [90mi[39m 
+13:42:32.919 detox[4175] [90mE[39m reverseTcpPort
+13:42:32.919 detox[4175] [90mE[39m installApp
+13:42:32.920 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:32.920 detox[4175] [90mB[39m terminateApp
+  args: ()
+13:42:32.920 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:32.920 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:32.920 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:33.054 detox[4175] [90mi[39m 
+13:42:33.054 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:33.054 detox[4175] [90mE[39m onTerminateApp
+13:42:33.054 detox[4175] [90mE[39m terminateApp
+13:42:33.054 detox[4175] [90mE[39m selectApp
+13:42:33.055 detox[4175] [90mE[39m set up environment
+13:42:33.233 detox[4175] [90mi[39m login.test.js is assigned to AttachedDevice:b6b897f1
+13:42:33.234 detox[4175] [90mB[39m run the tests
+13:42:33.234 detox[4175] [90mB[39m onRunDescribeStart
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+13:42:33.235 detox[4175] [90mE[39m onRunDescribeStart
+13:42:33.236 detox[4175] [90mB[39m LoginScreen
+13:42:33.236 detox[4175] [90mB[39m onRunDescribeStart
+  args: ({"name":"LoginScreen"})
+13:42:33.236 detox[4175] [90mE[39m onRunDescribeStart
+13:42:33.236 detox[4175] [90mB[39m beforeAll
+13:42:33.240 detox[4175] [90mB[39m launchApp
+  args: ()
+13:42:33.241 detox[4175] [90mB[39m terminateApp
+  args: ("com.fakestore")
+13:42:33.241 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:33.241 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:33.241 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:33.360 detox[4175] [90mi[39m 
+13:42:33.360 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:33.360 detox[4175] [90mE[39m onTerminateApp
+13:42:33.360 detox[4175] [90mE[39m terminateApp
+13:42:33.361 detox[4175] [90mB[39m onBeforeLaunchApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:52532","detoxSessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"}})
+13:42:33.361 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:42:33.483 detox[4175] [90mi[39m 05-19 13:42:31.000
+
+13:42:33.484 detox[4175] [90mE[39m onBeforeLaunchApp
+13:42:33.484 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse tcp:52532 tcp:52532
+13:42:33.524 detox[4175] [90mi[39m 52532
+
+13:42:33.525 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list instrumentation"
+13:42:33.604 detox[4175] [90mi[39m instrumentation:com.fakestore.test/androidx.test.runner.AndroidJUnitRunner (target=com.fakestore)
+
+13:42:33.613 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+13:42:34.116 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "ps | grep \"com\.fakestore$\""
+13:42:34.295 detox[4175] [90mi[39m u0_a1051      17638    951 5846160 129888 0                   0 R com.fakestore
+
+13:42:34.296 detox[4175] [90mB[39m onLaunchApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:52532","detoxSessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"},"pid":17638})
+13:42:34.297 detox[4175] [90mi[39m starting ADBLogcatRecording
+13:42:34.311 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:31.000\" --pid=17638 -f /sdcard/134223189_0.log"
+13:42:34.312 detox[4175] [90mE[39m onLaunchApp
+13:42:34.615 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell du /sdcard/134223189_0.log
+13:42:34.702 detox[4175] [90mi[39m 16	/sdcard/134223189_0.log
+
+13:42:35.369 detox[4175] [90mi[39m INSTRUMENTATION_STATUS: class=com.fakestore.DetoxTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.fakestore.DetoxTest:
+INSTRUMENTATION_STATUS: test=runDetoxTests
+INSTRUMENTATION_STATUS_CODE: 1
+
+13:42:35.881 detox[4174] [90mB[39m connection :52532<->:52600
+13:42:35.886 detox[4174] [90mi[39m get
+  data: {"messageId":0,"type":"login","params":{"role":"app","sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"}}
+13:42:35.887 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 0,
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": true
+    }
+  }
+13:42:35.887 detox[4174] [90mi[39m app joined session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:35.888 detox[4174] [90mi[39m send
+  data: {
+    "type": "appConnected"
+  }
+13:42:35.889 detox[4175] [90mi[39m get message
+  data: {"type":"appConnected"}
+   
+13:42:35.894 detox[4175] [90mi[39m send message
+  data: {"type":"isReady","params":{},"messageId":-1000}
+13:42:35.895 detox[4174] [90mi[39m get
+  data: {"type":"isReady","params":{},"messageId":-1000}
+13:42:35.895 detox[4174] [90mi[39m send
+  data: {
+    "type": "isReady",
+    "params": {},
+    "messageId": -1000
+  }
+13:42:37.034 detox[4174] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+13:42:37.034 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+13:42:37.034 detox[4175] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+13:42:37.035 detox[4175] [90mB[39m onAppReady
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","pid":17638})
+13:42:37.035 detox[4175] [90mE[39m onAppReady
+13:42:37.035 detox[4175] [90mE[39m launchApp
+13:42:37.035 detox[4175] [90mE[39m beforeAll
+13:42:37.036 detox[4175] [90mB[39m Should display error messages for missing username and password
+13:42:37.036 detox[4175] [90mi[39m LoginScreen: Should display error messages for missing username and password
+13:42:37.037 detox[4175] [90mB[39m onTestStart
+  args: ({"title":"Should display error messages for missing username and password","fullName":"LoginScreen Should display error messages for missing username and password","status":"running","invocations":1})
+13:42:37.038 detox[4175] [90mi[39m stopping ADBLogcatRecording
+13:42:37.038 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:42:37.073 detox[4174] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+13:42:37.073 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+13:42:37.074 detox[4175] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+13:42:37.101 detox[4175] [90mi[39m 05-19 13:42:35.000
+
+13:42:37.101 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell logcat -T "05-19 13:42:31.000" --pid=17638 -f /sdcard/134223189_0.log
+13:42:37.103 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:31.000\" --pid=17638 -f /sdcard/134223189_0.log" terminated with SIGINT
+13:42:37.103 detox[4175] [90mi[39m starting ADBLogcatRecording
+13:42:37.111 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:35.000\" --pid=17638 -f /sdcard/134223189_1.log"
+13:42:37.111 detox[4175] [90mE[39m onTestStart
+13:42:37.112 detox[4175] [90mB[39m beforeEach
+13:42:37.112 detox[4175] [90mE[39m beforeEach
+13:42:37.112 detox[4175] [90mB[39m test_fn
+13:42:37.114 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":1}
+13:42:37.115 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":1}
+13:42:37.115 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "waitForAssertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Fake Store"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        },
+        {
+          "type": "Double",
+          "value": 3
+        }
+      ]
+    },
+    "messageId": 1
+  }
+13:42:37.116 detox[4175] [90mB[39m undefined with timeout (3000 ms)
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "waitForAssertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Fake Store"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      },
+      {
+        "type": "Double",
+        "value": 3
+      }
+    ]
+  }
+13:42:37.414 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell du /sdcard/134223189_1.log
+13:42:37.416 detox[4174] [90mi[39m get
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+13:42:37.416 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 1,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:37.435 detox[4175] [90mi[39m get message
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+   
+13:42:37.436 detox[4175] [90mE[39m undefined with timeout (3000 ms)
+13:42:37.439 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":2}
+13:42:37.439 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":2}
+13:42:37.439 detox[4175] [90mB[39m undefined with timeout (3000 ms)
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "waitForAssertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Find your Gadget"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      },
+      {
+        "type": "Double",
+        "value": 3
+      }
+    ]
+  }
+13:42:37.440 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "waitForAssertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Find your Gadget"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        },
+        {
+          "type": "Double",
+          "value": 3
+        }
+      ]
+    },
+    "messageId": 2
+  }
+13:42:37.508 detox[4175] [90mi[39m 8	/sdcard/134223189_1.log
+
+13:42:39.147 detox[4174] [90mi[39m get
+  data: {"messageId":2,"type":"invokeResult","params":{"result":null}}
+13:42:39.147 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 2,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:39.149 detox[4175] [90mi[39m get message
+  data: {"messageId":2,"type":"invokeResult","params":{"result":null}}
+   
+13:42:39.149 detox[4175] [90mE[39m undefined with timeout (3000 ms)
+13:42:39.155 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Get Started"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":3}
+13:42:39.156 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Get Started"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":3}
+13:42:39.156 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.EspressoDetox"
+      },
+      "method": "perform",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Get Started"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxViewActions"
+            },
+            "method": "click",
+            "args": []
+          }
+        }
+      ]
+    },
+    "messageId": 3
+  }
+13:42:39.156 detox[4175] [90mB[39m tap
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.EspressoDetox"
+    },
+    "method": "perform",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Get Started"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxViewActions"
+          },
+          "method": "click",
+          "args": []
+        }
+      }
+    ]
+  }
+13:42:39.797 detox[4174] [90mi[39m get
+  data: {"messageId":3,"type":"invokeResult","params":{"result":null}}
+13:42:39.797 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 3,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:39.798 detox[4175] [90mi[39m get message
+  data: {"messageId":3,"type":"invokeResult","params":{"result":null}}
+   
+13:42:39.799 detox[4175] [90mE[39m tap
+13:42:39.803 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Welcome Back"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":4}
+13:42:39.804 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Welcome Back"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":4}
+13:42:39.804 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "assertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Welcome Back"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "messageId": 4
+  }
+13:42:39.807 detox[4175] [90mB[39m expect element to be visible
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "assertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Welcome Back"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      }
+    ]
+  }
+13:42:39.838 detox[4174] [90mi[39m get
+  data: {"messageId":4,"type":"invokeResult","params":{"result":null}}
+13:42:39.838 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 4,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:39.839 detox[4175] [90mi[39m get message
+  data: {"messageId":4,"type":"invokeResult","params":{"result":null}}
+   
+13:42:39.839 detox[4175] [90mE[39m expect element to be visible
+13:42:39.842 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["loginbtn"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":5}
+13:42:39.843 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["loginbtn"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":5}
+13:42:39.843 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.EspressoDetox"
+      },
+      "method": "perform",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForTestId",
+                  "args": [
+                    "loginbtn"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxViewActions"
+            },
+            "method": "click",
+            "args": []
+          }
+        }
+      ]
+    },
+    "messageId": 5
+  }
+13:42:39.843 detox[4175] [90mB[39m tap
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.EspressoDetox"
+    },
+    "method": "perform",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForTestId",
+                "args": [
+                  "loginbtn"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxViewActions"
+          },
+          "method": "click",
+          "args": []
+        }
+      }
+    ]
+  }
+13:42:45.132 detox[4174] [90mi[39m get
+  data: {"messageId":5,"type":"invokeResult","params":{"result":null}}
+13:42:45.133 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 5,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:45.134 detox[4175] [90mi[39m get message
+  data: {"messageId":5,"type":"invokeResult","params":{"result":null}}
+   
+13:42:45.135 detox[4175] [90mE[39m tap
+13:42:45.136 detox[4175] [90mE[39m test_fn
+13:42:45.138 detox[4175] [90mB[39m onTestDone
+  args: ({"title":"Should display error messages for missing username and password","fullName":"LoginScreen Should display error messages for missing username and password","status":"passed","invocations":1})
+13:42:45.139 detox[4175] [90mi[39m stopping ADBLogcatRecording
+13:42:45.140 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:42:45.218 detox[4175] [90mi[39m 05-19 13:42:43.000
+
+13:42:45.218 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell logcat -T "05-19 13:42:35.000" --pid=17638 -f /sdcard/134223189_1.log
+13:42:45.220 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:35.000\" --pid=17638 -f /sdcard/134223189_1.log" terminated with SIGINT
+13:42:45.224 detox[4175] [90mE[39m onTestDone
+13:42:45.224 detox[4175] [90mE[39m Should display error messages for missing username and password
+13:42:45.225 detox[4175] [90mi[39m LoginScreen: Should display error messages for missing username and password [OK]
+13:42:45.228 detox[4175] [90mB[39m onRunDescribeFinish
+  args: ({"name":"LoginScreen"})
+13:42:45.229 detox[4175] [90mE[39m onRunDescribeFinish
+13:42:45.229 detox[4175] [90mE[39m LoginScreen
+13:42:45.229 detox[4175] [90mB[39m onRunDescribeFinish
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+13:42:45.229 detox[4175] [90mE[39m onRunDescribeFinish
+13:42:45.229 detox[4175] [90mE[39m run the tests
+13:42:45.231 detox[4175] [90mB[39m tear down environment
+13:42:45.231 detox[4175] [90mB[39m onBeforeCleanup
+  args: ()
+13:42:45.233 detox[4175] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 08-12-22Z/✓ LoginScreen Should display error messages for missing username and password/device.log
+13:42:45.233 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 pull "/sdcard/134223189_1.log" "artifacts/android.att.debug.2023-05-19 08-12-22Z/✓ LoginScreen Should display error messages for missing username and password/device.log"
+13:42:45.274 detox[4175] [90mi[39m /sdcard/134223189_1.log: 1 file pulled, 0 skipped. 11.1 MB/s (47642 bytes in 0.004s)
+
+13:42:45.274 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "rm  \"/sdcard/134223189_1.log\""
+13:42:45.338 detox[4175] [90mi[39m 
+13:42:45.338 detox[4175] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 08-12-22Z/b6b897f1 2023-05-19 08-12-45Z.startup.log
+13:42:45.338 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 pull "/sdcard/134223189_0.log" "artifacts/android.att.debug.2023-05-19 08-12-22Z/b6b897f1 2023-05-19 08-12-45Z.startup.log"
+13:42:45.382 detox[4175] [90mi[39m /sdcard/134223189_0.log: 1 file pulled, 0 skipped. 9.5 MB/s (36423 bytes in 0.004s)
+
+13:42:45.382 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "rm  \"/sdcard/134223189_0.log\""
+13:42:45.438 detox[4175] [90mi[39m 
+13:42:45.440 detox[4175] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 08-12-22Z/detox_pid_4175.json.log { append: true }
+13:42:45.441 detox[4175] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 08-12-22Z/detox_pid_4175.log { append: true }
+13:42:45.441 detox[4175] [90mE[39m onBeforeCleanup
+13:42:45.443 detox[4174] [90mi[39m get
+  data: {"type":"cleanup","params":{"stopRunner":true},"messageId":-49642}
+13:42:45.443 detox[4174] [90mi[39m send
+  data: {
+    "type": "cleanup",
+    "params": {
+      "stopRunner": true
+    },
+    "messageId": -49642
+  }
+13:42:45.443 detox[4175] [90mi[39m send message
+  data: {"type":"cleanup","params":{"stopRunner":true},"messageId":-49642}
+13:42:45.450 detox[4174] [90mi[39m get
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+13:42:45.450 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -49642,
+    "type": "cleanupDone",
+    "params": {}
+  }
+13:42:45.450 detox[4175] [90mi[39m get message
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+   
+13:42:45.454 detox[4174] [90mi[39m tester exited session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:45.454 detox[4174] [90mi[39m send
+  data: {
+    "type": "testerDisconnected",
+    "messageId": -1
+  }
+13:42:45.455 detox[4174] [90mE[39m connection :52532<->:52533
+13:42:45.456 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+13:42:45.458 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner terminated with SIGINT
+13:42:45.458 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse --remove tcp:52532
+13:42:45.465 detox[4174] [90mi[39m app exited session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:45.465 detox[4174] [90mE[39m connection :52532<->:52600
+13:42:45.466 detox[4175] [90mB[39m free
+  args: ({"adbName":"b6b897f1"}, {"shutdown":false})
+13:42:45.468 detox[4175] [90mE[39m free
+13:42:45.468 detox[4175] [90mE[39m tear down environment
+13:42:45.469 detox[4175] [90mE[39m e2e/login.test.js
+13:42:45.482 detox[4175] [90mB[39m e2e/starter.test.js
+13:42:45.487 detox[4175] [90mB[39m set up environment
+13:42:45.487 detox[4175] [90mi[39m dispatching event to  primary-4174 /tmp/detox.primary-4174  :  registerWorker , { workerId: 'w1' }
+13:42:45.488 detox[4174] [90mi[39m received event of :  registerWorker { workerId: 'w1' }
+13:42:45.488 detox[4174] [90mi[39m dispatching event to socket  :  registerWorkerDone { workersCount: 1 }
+13:42:45.488 detox[4175] [90mi[39m ## received events ##
+13:42:45.488 detox[4175] [90mi[39m detected event registerWorkerDone { workersCount: 1 }
+13:42:45.494 detox[4174] [90mB[39m connection :52532<->:52632
+13:42:45.495 detox[4175] [90mi[39m opened web socket to: ws://localhost:52532
+13:42:45.496 detox[4174] [90mi[39m get
+  data: {"type":"login","params":{"sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4","role":"tester"},"messageId":0}
+13:42:45.496 detox[4175] [90mi[39m send message
+  data: {"type":"login","params":{"sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4","role":"tester"},"messageId":0}
+13:42:45.497 detox[4174] [90mi[39m created session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:45.497 detox[4174] [90mi[39m send
+  data: {
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": false
+    },
+    "messageId": 0
+  }
+13:42:45.497 detox[4174] [90mi[39m tester joined session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:45.497 detox[4175] [90mi[39m 
+13:42:45.497 detox[4175] [90mi[39m get message
+  data: {"type":"loginSuccess","params":{"testerConnected":true,"appConnected":false},"messageId":0}
+   
+13:42:45.499 detox[4175] [90mB[39m allocate
+  args: ({"type":"android.attached","device":{"adbName":".*"}})
+13:42:45.499 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb"  devices
+13:42:45.529 detox[4175] [90mi[39m List of devices attached
+b6b897f1	device
+adb-b6b897f1-BhBLcd._adb-tls-connect._tcp.	device
+
+
+13:42:45.530 detox[4175] [90mi[39m Found a matching & free device b6b897f1
+13:42:45.531 detox[4175] [90mE[39m allocate
+13:42:45.531 detox[4175] [90mB[39m postAllocate
+  args: ({"adbName":"b6b897f1"})
+13:42:45.531 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "dumpsys power | grep \"^[ ]*m[UW].*=\""
+13:42:45.763 detox[4175] [90mi[39m   mWakefulness=Awake
+  mWakefulnessChanging=false
+  mWakeLockSummary=0x1
+  mUserActivitySummary=0x1
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mUserId=0
+
+13:42:45.764 detox[4175] [90mB[39m onBootDevice
+  args: ({"deviceId":"b6b897f1","type":"device","coldBoot":false})
+13:42:45.764 detox[4175] [90mE[39m onBootDevice
+13:42:45.764 detox[4175] [90mE[39m postAllocate
+13:42:45.769 detox[4175] [90mB[39m installUtilBinaries
+  args: ()
+13:42:45.769 detox[4175] [90mE[39m installUtilBinaries
+13:42:45.770 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:45.770 detox[4175] [90mE[39m selectApp
+13:42:45.773 detox[4175] [90mB[39m uninstallApp
+  args: ()
+13:42:45.773 detox[4175] [90mB[39m onBeforeUninstallApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:45.773 detox[4175] [90mE[39m onBeforeUninstallApp
+13:42:45.773 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list packages com.fakestore"
+13:42:45.893 detox[4175] [90mi[39m package:com.fakestore.test
+package:com.fakestore
+
+13:42:45.894 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 uninstall com.fakestore
+13:42:46.499 detox[4175] [90mi[39m Success
+
+13:42:46.499 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list packages com.fakestore.test"
+13:42:46.595 detox[4175] [90mi[39m package:com.fakestore.test
+
+13:42:46.595 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 uninstall com.fakestore.test
+13:42:48.098 detox[4175] [90mi[39m Success
+
+13:42:48.098 detox[4175] [90mE[39m uninstallApp
+13:42:48.099 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:48.099 detox[4175] [90mB[39m terminateApp
+  args: ()
+13:42:48.100 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:48.100 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:48.100 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:48.256 detox[4175] [90mi[39m 
+13:42:48.256 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:48.257 detox[4175] [90mE[39m onTerminateApp
+13:42:48.257 detox[4175] [90mE[39m terminateApp
+13:42:48.257 detox[4175] [90mE[39m selectApp
+13:42:48.257 detox[4175] [90mB[39m installApp
+  args: ()
+13:42:48.259 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk" AndroidManifest.xml
+13:42:48.299 detox[4175] [90mi[39m String pool of 63 unique UTF-16 non-sorted strings, 63 entries and 0 styles using 3000 bytes:
+String #0: theme
+String #1: label
+String #2: icon
+String #3: name
+String #4: debuggable
+String #5: exported
+String #6: authorities
+String #7: grantUriPermissions
+String #8: launchMode
+String #9: configChanges
+String #10: value
+String #11: resource
+String #12: minSdkVersion
+String #13: versionCode
+String #14: versionName
+String #15: windowSoftInputMode
+String #16: targetSdkVersion
+String #17: allowBackup
+String #18: usesCleartextTraffic
+String #19: networkSecurityConfig
+String #20: roundIcon
+String #21: compileSdkVersion
+String #22: compileSdkVersionCodename
+String #23: appComponentFactory
+String #24: 1.0
+String #25: 12
+String #26: action
+String #27: activity
+String #28: android
+String #29: android.intent.action.MAIN
+String #30: android.intent.category.LAUNCHER
+String #31: android.permission.ACCESS_COARSE_LOCATION
+String #32: android.permission.ACCESS_FINE_LOCATION
+String #33: android.permission.ACCESS_WIFI_STATE
+String #34: android.permission.CAMERA
+String #35: android.permission.INTERNET
+String #36: android.permission.SYSTEM_ALERT_WINDOW
+String #37: android.permission.WRITE_EXTERNAL_STORAGE
+String #38: android.support.FILE_PROVIDER_PATHS
+String #39: androidx.core.app.CoreComponentFactory
+String #40: androidx.emoji2.text.EmojiCompatInitializer
+String #41: androidx.lifecycle.ProcessLifecycleInitializer
+String #42: androidx.startup
+String #43: androidx.startup.InitializationProvider
+String #44: application
+String #45: category
+String #46: com.facebook.react.devsupport.DevSettingsActivity
+String #47: com.fakestore
+String #48: com.fakestore.MainActivity
+String #49: com.fakestore.MainApplication
+String #50: com.fakestore.androidx-startup
+String #51: com.fakestore.imagepickerprovider
+String #52: com.imagepicker.ImagePickerProvider
+String #53: http://schemas.android.com/apk/res/android
+String #54: intent-filter
+String #55: manifest
+String #56: meta-data
+String #57: package
+String #58: platformBuildVersionCode
+String #59: platformBuildVersionName
+String #60: provider
+String #61: uses-permission
+String #62: uses-sdk
+
+13:42:48.300 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/build-tools/33.0.0/aapt" dump xmlstrings "/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk" AndroidManifest.xml
+13:42:48.327 detox[4175] [90mi[39m String pool of 42 unique UTF-16 non-sorted strings, 42 entries and 0 styles using 2060 bytes:
+String #0: theme
+String #1: label
+String #2: name
+String #3: debuggable
+String #4: exported
+String #5: priority
+String #6: targetPackage
+String #7: handleProfiling
+String #8: functionalTest
+String #9: minSdkVersion
+String #10: targetSdkVersion
+String #11: compileSdkVersion
+String #12: compileSdkVersionCodename
+String #13: 12
+String #14: Tests for com.fakestore
+String #15: activity
+String #16: android
+String #17: android.intent.category.LAUNCHER
+String #18: android.permission.REORDER_TASKS
+String #19: android.test.runner
+String #20: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity
+String #21: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity
+String #22: androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity
+String #23: androidx.test.orchestrator
+String #24: androidx.test.runner.AndroidJUnitRunner
+String #25: androidx.test.services
+String #26: application
+String #27: category
+String #28: com.fakestore
+String #29: com.fakestore.test
+String #30: com.google.android.apps.common.testing.services
+String #31: http://schemas.android.com/apk/res/android
+String #32: instrumentation
+String #33: intent-filter
+String #34: manifest
+String #35: package
+String #36: platformBuildVersionCode
+String #37: platformBuildVersionName
+String #38: queries
+String #39: uses-library
+String #40: uses-permission
+String #41: uses-sdk
+
+13:42:48.335 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk
+13:42:52.214 detox[4175] [90mi[39m Performing Streamed Install
+Success
+
+13:42:52.218 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/debug/app-debug.apk exited with code #0
+13:42:52.236 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+13:42:55.411 detox[4175] [90mi[39m Performing Streamed Install
+Success
+
+13:42:55.418 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 install -r -g -t /Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/android/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk exited with code #0
+13:42:55.420 detox[4175] [90mB[39m reverseTcpPort
+  args: (8081)
+13:42:55.420 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse tcp:8081 tcp:8081
+13:42:55.480 detox[4175] [90mi[39m 
+13:42:55.480 detox[4175] [90mE[39m reverseTcpPort
+13:42:55.480 detox[4175] [90mE[39m installApp
+13:42:55.480 detox[4175] [90mB[39m selectApp
+  args: ("default")
+13:42:55.481 detox[4175] [90mB[39m terminateApp
+  args: ()
+13:42:55.481 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:55.481 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:55.481 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:55.752 detox[4175] [90mi[39m 
+13:42:55.753 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:55.753 detox[4175] [90mE[39m onTerminateApp
+13:42:55.754 detox[4175] [90mE[39m terminateApp
+13:42:55.754 detox[4175] [90mE[39m selectApp
+13:42:55.754 detox[4175] [90mE[39m set up environment
+13:42:55.823 detox[4175] [90mi[39m starter.test.js is assigned to AttachedDevice:b6b897f1
+13:42:55.824 detox[4175] [90mB[39m run the tests
+13:42:55.824 detox[4175] [90mB[39m onRunDescribeStart
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+13:42:55.824 detox[4175] [90mE[39m onRunDescribeStart
+13:42:55.824 detox[4175] [90mB[39m Example
+13:42:55.824 detox[4175] [90mB[39m onRunDescribeStart
+  args: ({"name":"Example"})
+13:42:55.824 detox[4175] [90mE[39m onRunDescribeStart
+13:42:55.825 detox[4175] [90mB[39m beforeAll
+13:42:55.827 detox[4175] [90mB[39m launchApp
+  args: ()
+13:42:55.827 detox[4175] [90mB[39m terminateApp
+  args: ("com.fakestore")
+13:42:55.827 detox[4175] [90mB[39m onBeforeTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:55.828 detox[4175] [90mE[39m onBeforeTerminateApp
+13:42:55.828 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "am force-stop com.fakestore"
+13:42:55.938 detox[4175] [90mi[39m 
+13:42:55.938 detox[4175] [90mB[39m onTerminateApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore"})
+13:42:55.938 detox[4175] [90mE[39m onTerminateApp
+13:42:55.938 detox[4175] [90mE[39m terminateApp
+13:42:55.938 detox[4175] [90mB[39m onBeforeLaunchApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:52532","detoxSessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"}})
+13:42:55.939 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:42:56.033 detox[4175] [90mi[39m 05-19 13:42:54.000
+
+13:42:56.033 detox[4175] [90mE[39m onBeforeLaunchApp
+13:42:56.033 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse tcp:52532 tcp:52532
+13:42:56.070 detox[4175] [90mi[39m 52532
+
+13:42:56.070 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "pm list instrumentation"
+13:42:56.185 detox[4175] [90mi[39m instrumentation:com.fakestore.test/androidx.test.runner.AndroidJUnitRunner (target=com.fakestore)
+
+13:42:56.196 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+13:42:56.699 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "ps | grep \"com\.fakestore$\""
+13:42:56.883 detox[4175] [90mi[39m u0_a1053      18652    951 5872552 134668 0                   0 R com.fakestore
+
+13:42:56.884 detox[4175] [90mB[39m onLaunchApp
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","launchArgs":{"detoxServer":"ws://localhost:52532","detoxSessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"},"pid":18652})
+13:42:56.884 detox[4175] [90mi[39m starting ADBLogcatRecording
+13:42:56.900 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:54.000\" --pid=18652 -f /sdcard/134223189_2.log"
+13:42:56.901 detox[4175] [90mE[39m onLaunchApp
+13:42:57.202 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell du /sdcard/134223189_2.log
+13:42:57.282 detox[4175] [90mi[39m 16	/sdcard/134223189_2.log
+
+13:42:57.751 detox[4175] [90mi[39m INSTRUMENTATION_STATUS: class=com.fakestore.DetoxTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.fakestore.DetoxTest:
+INSTRUMENTATION_STATUS: test=runDetoxTests
+INSTRUMENTATION_STATUS_CODE: 1
+
+13:42:58.277 detox[4174] [90mB[39m connection :52532<->:52696
+13:42:58.281 detox[4174] [90mi[39m get
+  data: {"messageId":0,"type":"login","params":{"role":"app","sessionId":"cf99dd57-1f4c-794f-546b-f83735c1c1c4"}}
+13:42:58.282 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 0,
+    "type": "loginSuccess",
+    "params": {
+      "testerConnected": true,
+      "appConnected": true
+    }
+  }
+13:42:58.282 detox[4174] [90mi[39m app joined session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:42:58.282 detox[4174] [90mi[39m send
+  data: {
+    "type": "appConnected"
+  }
+13:42:58.283 detox[4175] [90mi[39m get message
+  data: {"type":"appConnected"}
+   
+13:42:58.286 detox[4174] [90mi[39m get
+  data: {"type":"isReady","params":{},"messageId":-1000}
+13:42:58.286 detox[4174] [90mi[39m send
+  data: {
+    "type": "isReady",
+    "params": {},
+    "messageId": -1000
+  }
+13:42:58.286 detox[4175] [90mi[39m send message
+  data: {"type":"isReady","params":{},"messageId":-1000}
+13:42:59.387 detox[4174] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+13:42:59.387 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+13:42:59.389 detox[4175] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+13:42:59.390 detox[4175] [90mB[39m onAppReady
+  args: ({"deviceId":"b6b897f1","bundleId":"com.fakestore","pid":18652})
+13:42:59.391 detox[4175] [90mE[39m onAppReady
+13:42:59.391 detox[4175] [90mE[39m launchApp
+13:42:59.392 detox[4175] [90mE[39m beforeAll
+13:42:59.393 detox[4175] [90mB[39m Should have splash screen and Check Flow of Login screen
+13:42:59.393 detox[4175] [90mi[39m Example: Should have splash screen and Check Flow of Login screen
+13:42:59.396 detox[4175] [90mB[39m onTestStart
+  args: ({"title":"Should have splash screen and Check Flow of Login screen","fullName":"Example Should have splash screen and Check Flow of Login screen","status":"running","invocations":1})
+13:42:59.396 detox[4175] [90mi[39m stopping ADBLogcatRecording
+13:42:59.397 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:42:59.426 detox[4174] [90mi[39m get
+  data: {"messageId":-1000,"type":"ready","params":{}}
+13:42:59.426 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -1000,
+    "type": "ready",
+    "params": {}
+  }
+13:42:59.427 detox[4175] [90mi[39m get message
+  data: {"messageId":-1000,"type":"ready","params":{}}
+   
+13:42:59.474 detox[4175] [90mi[39m 05-19 13:42:57.000
+
+13:42:59.476 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell logcat -T "05-19 13:42:54.000" --pid=18652 -f /sdcard/134223189_2.log
+13:42:59.478 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:54.000\" --pid=18652 -f /sdcard/134223189_2.log" terminated with SIGINT
+13:42:59.478 detox[4175] [90mi[39m starting ADBLogcatRecording
+13:42:59.488 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:57.000\" --pid=18652 -f /sdcard/134223189_3.log"
+13:42:59.488 detox[4175] [90mE[39m onTestStart
+13:42:59.488 detox[4175] [90mB[39m beforeEach
+13:42:59.488 detox[4175] [90mE[39m beforeEach
+13:42:59.488 detox[4175] [90mB[39m test_fn
+13:42:59.490 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":1}
+13:42:59.490 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "waitForAssertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Fake Store"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        },
+        {
+          "type": "Double",
+          "value": 3
+        }
+      ]
+    },
+    "messageId": 1
+  }
+13:42:59.490 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Fake Store"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":1}
+13:42:59.492 detox[4175] [90mB[39m undefined with timeout (3000 ms)
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "waitForAssertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Fake Store"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      },
+      {
+        "type": "Double",
+        "value": 3
+      }
+    ]
+  }
+13:42:59.748 detox[4174] [90mi[39m get
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+13:42:59.748 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 1,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:42:59.749 detox[4175] [90mi[39m get message
+  data: {"messageId":1,"type":"invokeResult","params":{"result":null}}
+   
+13:42:59.750 detox[4175] [90mE[39m undefined with timeout (3000 ms)
+13:42:59.751 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":2}
+13:42:59.752 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"waitForAssertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Find your Gadget"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}},{"type":"Double","value":3}]},"messageId":2}
+13:42:59.752 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "waitForAssertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Find your Gadget"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        },
+        {
+          "type": "Double",
+          "value": 3
+        }
+      ]
+    },
+    "messageId": 2
+  }
+13:42:59.752 detox[4175] [90mB[39m undefined with timeout (3000 ms)
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "waitForAssertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Find your Gadget"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      },
+      {
+        "type": "Double",
+        "value": 3
+      }
+    ]
+  }
+13:42:59.790 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell du /sdcard/134223189_3.log
+13:42:59.870 detox[4175] [90mi[39m 8	/sdcard/134223189_3.log
+
+13:43:01.707 detox[4174] [90mi[39m get
+  data: {"messageId":2,"type":"invokeResult","params":{"result":null}}
+13:43:01.707 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 2,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:43:01.708 detox[4175] [90mi[39m get message
+  data: {"messageId":2,"type":"invokeResult","params":{"result":null}}
+   
+13:43:01.709 detox[4175] [90mE[39m undefined with timeout (3000 ms)
+13:43:01.711 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Get Started"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":3}
+13:43:01.712 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Get Started"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]},"messageId":3}
+13:43:01.712 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.EspressoDetox"
+      },
+      "method": "perform",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Get Started"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxViewActions"
+            },
+            "method": "click",
+            "args": []
+          }
+        }
+      ]
+    },
+    "messageId": 3
+  }
+13:43:01.712 detox[4175] [90mB[39m tap
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.EspressoDetox"
+    },
+    "method": "perform",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Get Started"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxViewActions"
+          },
+          "method": "click",
+          "args": []
+        }
+      }
+    ]
+  }
+13:43:02.676 detox[4174] [90mi[39m get
+  data: {"messageId":3,"type":"invokeResult","params":{"result":null}}
+13:43:02.677 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 3,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:43:02.678 detox[4175] [90mi[39m get message
+  data: {"messageId":3,"type":"invokeResult","params":{"result":null}}
+   
+13:43:02.678 detox[4175] [90mE[39m tap
+13:43:02.681 detox[4174] [90mi[39m get
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Welcome Back"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":4}
+13:43:02.681 detox[4175] [90mi[39m send message
+  data: {"type":"invoke","params":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxAssertion"},"method":"assertMatcher","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForText","args":["Welcome Back"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForSufficientlyVisible","args":[{"type":"Integer","value":75}]}}]},"messageId":4}
+13:43:02.682 detox[4174] [90mi[39m send
+  data: {
+    "type": "invoke",
+    "params": {
+      "target": {
+        "type": "Class",
+        "value": "com.wix.detox.espresso.DetoxAssertion"
+      },
+      "method": "assertMatcher",
+      "args": [
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "androidx.test.espresso.Espresso"
+            },
+            "method": "onView",
+            "args": [
+              {
+                "type": "Invocation",
+                "value": {
+                  "target": {
+                    "type": "Class",
+                    "value": "com.wix.detox.espresso.DetoxMatcher"
+                  },
+                  "method": "matcherForText",
+                  "args": [
+                    "Welcome Back"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "Invocation",
+          "value": {
+            "target": {
+              "type": "Class",
+              "value": "com.wix.detox.espresso.DetoxMatcher"
+            },
+            "method": "matcherForSufficientlyVisible",
+            "args": [
+              {
+                "type": "Integer",
+                "value": 75
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "messageId": 4
+  }
+13:43:02.682 detox[4175] [90mB[39m expect element to be visible
+  data: {
+    "target": {
+      "type": "Class",
+      "value": "com.wix.detox.espresso.DetoxAssertion"
+    },
+    "method": "assertMatcher",
+    "args": [
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "androidx.test.espresso.Espresso"
+          },
+          "method": "onView",
+          "args": [
+            {
+              "type": "Invocation",
+              "value": {
+                "target": {
+                  "type": "Class",
+                  "value": "com.wix.detox.espresso.DetoxMatcher"
+                },
+                "method": "matcherForText",
+                "args": [
+                  "Welcome Back"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "Invocation",
+        "value": {
+          "target": {
+            "type": "Class",
+            "value": "com.wix.detox.espresso.DetoxMatcher"
+          },
+          "method": "matcherForSufficientlyVisible",
+          "args": [
+            {
+              "type": "Integer",
+              "value": 75
+            }
+          ]
+        }
+      }
+    ]
+  }
+13:43:02.696 detox[4174] [90mi[39m get
+  data: {"messageId":4,"type":"invokeResult","params":{"result":null}}
+13:43:02.696 detox[4174] [90mi[39m send
+  data: {
+    "messageId": 4,
+    "type": "invokeResult",
+    "params": {
+      "result": null
+    }
+  }
+13:43:02.697 detox[4175] [90mi[39m get message
+  data: {"messageId":4,"type":"invokeResult","params":{"result":null}}
+   
+13:43:02.697 detox[4175] [90mE[39m expect element to be visible
+13:43:02.698 detox[4175] [90mE[39m test_fn
+13:43:02.698 detox[4175] [90mB[39m onTestDone
+  args: ({"title":"Should have splash screen and Check Flow of Login screen","fullName":"Example Should have splash screen and Check Flow of Login screen","status":"passed","invocations":1})
+13:43:02.699 detox[4175] [90mi[39m stopping ADBLogcatRecording
+13:43:02.699 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "date +\"%m-%d %T.000\""
+13:43:02.779 detox[4175] [90mi[39m 05-19 13:43:01.000
+
+13:43:02.781 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell logcat -T "05-19 13:42:57.000" --pid=18652 -f /sdcard/134223189_3.log
+13:43:02.783 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell "logcat -T \"05-19 13:42:57.000\" --pid=18652 -f /sdcard/134223189_3.log" terminated with SIGINT
+13:43:02.785 detox[4175] [90mE[39m onTestDone
+13:43:02.785 detox[4175] [90mE[39m Should have splash screen and Check Flow of Login screen
+13:43:02.785 detox[4175] [90mi[39m Example: Should have splash screen and Check Flow of Login screen [OK]
+13:43:02.786 detox[4175] [90mB[39m onRunDescribeFinish
+  args: ({"name":"Example"})
+13:43:02.786 detox[4175] [90mE[39m onRunDescribeFinish
+13:43:02.786 detox[4175] [90mE[39m Example
+13:43:02.787 detox[4175] [90mB[39m onRunDescribeFinish
+  args: ({"name":"ROOT_DESCRIBE_BLOCK"})
+13:43:02.787 detox[4175] [90mE[39m onRunDescribeFinish
+13:43:02.787 detox[4175] [90mE[39m run the tests
+13:43:02.787 detox[4175] [90mB[39m tear down environment
+13:43:02.788 detox[4175] [90mB[39m onBeforeCleanup
+  args: ()
+13:43:02.788 detox[4175] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 08-12-22Z/✓ Example Should have splash screen and Check Flow of Login screen/device.log
+13:43:02.788 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 pull "/sdcard/134223189_3.log" "artifacts/android.att.debug.2023-05-19 08-12-22Z/✓ Example Should have splash screen and Check Flow of Login screen/device.log"
+13:43:02.834 detox[4175] [90mi[39m /sdcard/134223189_3.log: 1 file pulled, 0 skipped. 4.2 MB/s (18110 bytes in 0.004s)
+
+13:43:02.834 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "rm  \"/sdcard/134223189_3.log\""
+13:43:02.901 detox[4175] [90mi[39m 
+13:43:02.903 detox[4175] [90mi[39m saving ADBLogcatRecording to: artifacts/android.att.debug.2023-05-19 08-12-22Z/b6b897f1 2023-05-19 08-13-02Z.startup.log
+13:43:02.903 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 pull "/sdcard/134223189_2.log" "artifacts/android.att.debug.2023-05-19 08-12-22Z/b6b897f1 2023-05-19 08-13-02Z.startup.log"
+13:43:02.942 detox[4175] [90mi[39m /sdcard/134223189_2.log: 1 file pulled, 0 skipped. 7.6 MB/s (36357 bytes in 0.005s)
+
+13:43:02.942 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 shell "rm  \"/sdcard/134223189_2.log\""
+13:43:03.003 detox[4175] [90mi[39m 
+13:43:03.005 detox[4175] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 08-12-22Z/detox_pid_4175.json.log { append: true }
+13:43:03.005 detox[4175] [90mi[39m saving FileArtifact to: artifacts/android.att.debug.2023-05-19 08-12-22Z/detox_pid_4175.log { append: true }
+13:43:03.005 detox[4175] [90mE[39m onBeforeCleanup
+13:43:03.006 detox[4174] [90mi[39m get
+  data: {"type":"cleanup","params":{"stopRunner":true},"messageId":-49642}
+13:43:03.006 detox[4174] [90mi[39m send
+  data: {
+    "type": "cleanup",
+    "params": {
+      "stopRunner": true
+    },
+    "messageId": -49642
+  }
+13:43:03.006 detox[4175] [90mi[39m send message
+  data: {"type":"cleanup","params":{"stopRunner":true},"messageId":-49642}
+13:43:03.013 detox[4174] [90mi[39m get
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+13:43:03.013 detox[4174] [90mi[39m send
+  data: {
+    "messageId": -49642,
+    "type": "cleanupDone",
+    "params": {}
+  }
+13:43:03.013 detox[4175] [90mi[39m get message
+  data: {"messageId":-49642,"type":"cleanupDone","params":{}}
+   
+13:43:03.014 detox[4174] [90mi[39m tester exited session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:43:03.015 detox[4174] [90mi[39m send
+  data: {
+    "type": "testerDisconnected",
+    "messageId": -1
+  }
+13:43:03.015 detox[4174] [90mE[39m connection :52532<->:52632
+13:43:03.016 detox[4175] [90mi[39m sending SIGINT to: /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner
+13:43:03.018 detox[4175] [90mi[39m /Users/priyaranganathan/Library/Android/sdk/platform-tools/adb -s b6b897f1 shell am instrument -w -r -e detoxServer ws://localhost:52532 -e detoxSessionId cf99dd57-1f4c-794f-546b-f83735c1c1c4 -e debug false com.fakestore.test/androidx.test.runner.AndroidJUnitRunner terminated with SIGINT
+13:43:03.018 detox[4175] [90mi[39m "/Users/priyaranganathan/Library/Android/sdk/platform-tools/adb" -s b6b897f1 reverse --remove tcp:52532
+13:43:03.026 detox[4175] [90mB[39m free
+  args: ({"adbName":"b6b897f1"}, {"shutdown":false})
+13:43:03.028 detox[4175] [90mE[39m free
+13:43:03.028 detox[4175] [90mE[39m tear down environment
+13:43:03.028 detox[4175] [90mE[39m e2e/starter.test.js
+13:43:03.033 detox[4175] [90mi[39m dispatching event to  primary-4174 /tmp/detox.primary-4174  :  reportTestResults , {
+  testResults: [
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/login.test.js',
+      testExecError: undefined,
+      isPermanentFailure: false
+    },
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      testExecError: undefined,
+      isPermanentFailure: false
+    }
+  ]
+}
+13:43:03.034 detox[4174] [90mi[39m received event of :  reportTestResults {
+  testResults: [
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/login.test.js',
+      isPermanentFailure: false
+    },
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+13:43:03.034 detox[4174] [90mi[39m dispatching event to socket  :  reportTestResultsDone {
+  testResults: [
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/login.test.js',
+      isPermanentFailure: false
+    },
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+13:43:03.035 detox[4174] [90mi[39m broadcasting event to all known sockets listening to  /tmp/detox.primary-4174  :   sessionStateUpdate {
+  testResults: [
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/login.test.js',
+      isPermanentFailure: false
+    },
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+13:43:03.035 detox[4175] [90mi[39m ## received events ##
+13:43:03.035 detox[4175] [90mi[39m detected event reportTestResultsDone {
+  testResults: [
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/login.test.js',
+      isPermanentFailure: false
+    },
+    {
+      success: true,
+      testFilePath: '/Users/priyaranganathan/Documents/React_Native_Projects/FakeStore/e2e/starter.test.js',
+      isPermanentFailure: false
+    }
+  ]
+}
+13:43:03.038 detox[4174] [90mi[39m socket disconnected secondary-4175
+13:43:03.038 detox[4175] [90mi[39m connection closed primary-4174 /tmp/detox.primary-4174 0 tries remaining of 0
+13:43:03.038 detox[4175] [90mi[39m secondary-4175 exceeded connection rety amount of  or stopRetrying flag set.
+13:43:03.055 detox[4175] [90mi[39m 
+13:43:03.107 detox[4174] [90mE[39m jest --config e2e/jest.config.js
+13:43:03.108 detox[4174] [90mi[39m Detox server has been closed gracefully
+13:43:03.109 detox[4174] [90mi[39m app exited session cf99dd57-1f4c-794f-546b-f83735c1c1c4
+13:43:03.109 detox[4174] [90mE[39m connection :52532<->:52696
+13:43:03.110 detox[4174] [90mE[39m node_modules/.bin/detox test --configuration android.att.debug --record-logs all
