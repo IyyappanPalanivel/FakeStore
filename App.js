@@ -9,6 +9,7 @@ import EditProfileScreen from './src/screens/EditProfileScreen';
 import { Provider } from 'react-redux';
 import { Store } from './src/redux/store';
 import SplashScreen from './src/screens/SplashScreen';
+import WebViewScreen from './src/screens/WebViewScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -49,7 +50,12 @@ const App = () => {
             component={EditProfileScreen}
             options={{ headerShown: false }}
           />
-
+          {/* WebView Graphs Screen */}
+          <Stack.Screen
+            name="WebView"
+            component={WebViewScreen}
+            options={{ headerShown: false }}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

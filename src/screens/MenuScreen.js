@@ -36,6 +36,13 @@ const MenuScreen = ({ navigation }) => {
         <Text style={{color:COLORS.white,marginLeft:20,fontSize:17}}>Image Options</Text>
       </TouchableOpacity>
 
+      <TouchableOpacity style={styles.menuItemContainer}
+        onPress={() => navigation.navigate('WebView')}
+      >
+        <MaterialIcons style={styles.menuIcon} name="image" color={COLORS.white} size={24} />
+        <Text style={{color:COLORS.white,marginLeft:20,fontSize:17}}>WebView</Text>
+      </TouchableOpacity>
+
     </View>
   );
 };
