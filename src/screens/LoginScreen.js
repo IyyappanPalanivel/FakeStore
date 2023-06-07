@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native';
 import { API_CONSTANTS, STRINGS } from '../utils/Constant';
 import Icons from '../utils/Icons';
@@ -6,6 +6,8 @@ import Images from '../utils/Images';
 import { COLORS, SIZES } from '../utils/Theme';
 import Loader from '../components/Loader';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import DeviceNumber from 'react-native-device-number';
+import SmsRetrieverModule from 'react-native-sms-retriever';
 
 const LoginScreen = ({ navigation }) => {
 
@@ -66,6 +68,19 @@ const LoginScreen = ({ navigation }) => {
       });
   };
 
+  useEffect(() => {
+    //_onPhoneNumberPressed();
+  },[])
+
+  // Get the phone number (first gif)
+ const _onPhoneNumberPressed = async () => {
+  try {
+    const phoneNumber = await SmsRetrieverModule.requestPhoneNumber();
+    console.log('Mobile number',phoneNumber);
+  } catch (error) {
+    console.log(JSON.stringify(error));
+  }
+ };
 
   return (
     <View style={styles.container}>

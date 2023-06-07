@@ -12,10 +12,9 @@ const Loader = (props) => {
       onRequestClose={() => {
         console.log('close modal');
       }}>
-      <View style={styles.modalBackground}>
+      <View testID={testID} style={styles.modalBackground}>
         <View style={styles.activityIndicatorWrapper}>
           <ActivityIndicator
-            testID={testID}
             animating={true}
             color="#000000"
             size="large"

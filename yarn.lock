@@ -5809,6 +5809,11 @@ react-native-codegen@^0.69.1:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
+react-native-device-number@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/react-native-device-number/-/react-native-device-number-1.0.7.tgz#eda77af411d15941ae1b9f7e02d17766ba6b9a84"
+  integrity sha512-G1V1DulmaTVvnwdhvZDB8XqbjVyu7S6GuU22HhFUfJ6rSryhgS6u+Aj9M5qEMlpyFb5nEk6ADIPcp6eFH0csVg==
+
 react-native-get-location@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npmjs.org/react-native-get-location/-/react-native-get-location-2.2.1.tgz"
@@ -5836,6 +5841,11 @@ react-native-screens@^3.14.0:
   dependencies:
     react-freeze "^1.0.0"
     warn-once "^0.1.0"
+
+react-native-sms-retriever@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-sms-retriever/-/react-native-sms-retriever-1.1.1.tgz#e87225836b394560c63db4c106552a0b9247d9b3"
+  integrity sha512-WRwiITfssx59+TB1iEMmjB7w4OTkatR34js5+4a4pP2jMXJ4aLdXK0hOtHxl8ciS8aIejdd49Sz8AXonlvtdRw==
 
 react-native-vector-icons@^9.2.0:
   version "9.2.0"

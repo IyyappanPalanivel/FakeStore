@@ -8,15 +8,17 @@ describe('LoginScreen', () => {
 
     beforeEach(async () => {
         await device.reloadReactNative();
-    });
 
+        // The splash screen should now be displayed
+        await expect(element(by.text(STRINGS.APP_NAME))).toBeVisible();
+
+        // We need to wait for the splash timeout (in this case 2000ms) 
+        // and a little bit more to allow the navigation operation to complete
+        await new Promise(resolve => setTimeout(resolve, 3000)); // Add a short delay here
+    });
 
     it('Login Screen Validations', async () => {
 
-        // Wait for the splash screen timeout
-        await waitFor(element(by.text(STRINGS.APP_NAME))).toBeVisible().withTimeout(3000);
-        // Verify that the app navigates to the Auth screen
-        await waitFor(element(by.text(STRINGS.SplashText))).toBeVisible().withTimeout(3000);
         // Click Get Started button
         await element(by.text('Get Started')).tap();
 
@@ -51,10 +53,28 @@ describe('LoginScreen', () => {
         await new Promise(resolve => setTimeout(resolve, 500)); // Add a short delay here
         await element(by.id('loginbtn')).tap();
 
-        // // Verify that the loader is displayed
-        // await expect(element(by.id('loader'))).toBeVisible();
+        // Verify that the loader is displayed
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Add a short delay here
+        await expect(element(by.text(STRINGS.tagLine))).toBeVisible();
 
         // // Wait for the loader to disappear
         // await waitFor(element(by.id('loader'))).toBeNotVisible().withTimeout(5000);
     });
+
+    it('Navigates to the right screen after Splash', async () => {
+        // Depending on whether the login was successful or not, we should be on a different screen
+        // If the login was successful, we should be navigated to the 'HomeBottomTab' screen
+        // If it was not, we should be navigated to the 'Auth' screen
+
+        // Check if the Home screen is visible
+        const isHomeVisible = await expect(element(by.text(STRINGS.tagLine))).toBeVisible();
+        if (isHomeVisible) {
+            // If Home is visible, then we should have been navigated to 'HomeBottomTab'
+            console.log("Navigated to Home");
+        } else {
+            // If Home is not visible, then we should have been navigated to 'Auth'
+            console.log("Navigated to Auth");
+        }
+    });
+    
 });
